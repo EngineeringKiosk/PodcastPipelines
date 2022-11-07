@@ -6,7 +6,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const secondsToAdd = 54
 const newIntroText = "Intro"
 
 function generateTimestamps(introDuration, introText, timestampText) {
@@ -17,7 +16,7 @@ function generateTimestamps(introDuration, introText, timestampText) {
     // get rid of the () around the time
     const timeString = matches[1].replace("(", "").replace(")", "")
     // add the secondsToAdd
-    const newTime = new Date(Date.parse("2020-01-01 " + timeString) + 1000 * secondsToAdd)
+    const newTime = new Date(Date.parse("2020-01-01 " + timeString) + 1000 * introDuration)
     // generate the new calculated time string
     const newTimeString = newTime.toTimeString().substring(0, 8)
     return [newTimeString, matches[2]]
