@@ -1,5 +1,6 @@
-const readline = require('readline');
+const readline = require('readline')
 const fs = require('fs')
+const path = require('path')
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -36,6 +37,22 @@ function writeFile(filepath, content) {
   file.close()
 }
 
+function guessChapterFileName(dirpath) {
+  const files = fs.readdirSync(dirpath, { withFileTypes: true })
+    //filter for mp3 extension and files only
+    .filter(f => !f.isDirectory() && path.extname(f.name) == ".mp3")
+  if (files.length) {
+    const newestFile = files.map(f => ({ name: f.name, ctime: fs.statSync(f.name).ctime }))
+      .sort((a, b) => b.ctime - a.ctime)[0].name
+    const basename = path.basename(newestFile, '.mp3')
+    return basename + ".chapters.txt"
+  }
+  return null
+}
+
+console.log()
+
+
 rl.question('How long is the intro?', function (introDuration) {
   console.log("Paste skip navigation/timestamps and send an end file (CTRL-D):")
   const lines = []
@@ -44,11 +61,11 @@ rl.question('How long is the intro?', function (introDuration) {
   }).on("close", () => {
     const timestamps = generateTimestamps(parseInt(introDuration), newIntroText, lines.join("\n"))
 
-    const filename = "./mp3_file.chapters.txt"
+    const filename = guessChapterFileName(".") || "filename.chapters.txt"
     writeFile(filename, timestamps.map(x => x[0] + x[1]).join('\n'))
 
-    console.log("New timestamps written to " + filename)
     console.log("\n\n---- For Shownotes (updated) ----")
     console.log(timestamps.map(x => `(${x[0]})${x[1]}`).join('\n'))
+    console.log("\n\n---- New timestamps written to " + filename)
   })
 })
