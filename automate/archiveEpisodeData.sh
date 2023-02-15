@@ -15,8 +15,9 @@ do
         # check if the files in the directory weren't modified in the last 14 days
         # if so skip them
         if [ $(find $file -mtime -14) ]; then
-            echo "skipping $file as it was modified in the last 14 days"
-            continue
+            echo "skipping $dir as files were modified in the last 14 days"
+            # skip the rest of the loop
+            continue 2
         fi
         echo "compacting $file"
         if [ -f $file.tar.xz ]; then
