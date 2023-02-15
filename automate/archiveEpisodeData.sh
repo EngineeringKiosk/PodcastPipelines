@@ -19,14 +19,15 @@ do
             continue
         fi
         echo "compacting $file"
-        if [ -f $file.tar.gz ]; then
+        if [ -f $file.tar.xz ]; then
             echo "archive already exists"
             continue
         fi
-        tar -czf $file.tar.gz $file
+        # compact the file to tar.xz
+        tar -cJf $file.tar.xz $file
         echo "done"
         # check if tar was created and has a size of more than 10MB and delte the original
-        if [ -f $file.tar.gz ] && [ $(stat -c%s "$file.tar.gz") -gt 10000000 ]; then
+        if [ -f $file.tar.xz ] && [ $(stat -c%s "$file.tar.xz") -gt 10000000 ]; then
             echo "deleting $file"
             rm $file
         fi
