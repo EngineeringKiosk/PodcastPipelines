@@ -22,7 +22,7 @@ do
         # skip file if it doesn't exist
         # check if the files in the directory weren't modified in the last 14 days
         # if so skip them
-        if [ ! -f "$file" ] || [ $(find "$file" -mtime -14 -print) ]; then
+        if [ ! -f "$file" ] || [ "$(find "$file" -mtime -14 -print)" ]; then
             echo "skipping $file as file were modified in the last 14 days"
             # skip this file
             continue
@@ -36,7 +36,7 @@ do
         tar -cJf "$file.tar.xz" "$file"
         echo "done"
         # check if tar was created and has a size of more than 100MB and delte the original
-        if [ -f "$file.tar.xz" ] && [ $(stat -c%s "$file.tar.xz") -gt 100000000 ]; then
+        if [ -f "$file.tar.xz" ] && [ "$(stat -c%s "$file.tar.xz")" -gt 100000000 ]; then
             echo "deleting $file"
             rm "$file"
         fi
