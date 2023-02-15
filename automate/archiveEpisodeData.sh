@@ -6,7 +6,7 @@ archive_dir="./cloud/archive"
 # go into the dir and list all files
 for dir in ep*
 do
-    cd $dir
+    cd "$dir"
     # for all files ending with .aup tar them in a new archive and delete the original
     # check if the archive doesn exist already
     # do onlye compact and archive older ones and do not touch the last two weeks
@@ -20,17 +20,17 @@ do
             continue 2
         fi
         echo "compacting $file"
-        if [ -f $file.tar.xz ]; then
+        if [ -f "$file.tar.xz" ]; then
             echo "archive already exists"
             continue
         fi
         # compact the file to tar.xz
-        tar -cJf $file.tar.xz $file
+        tar -cJf "$file.tar.xz" "$file"
         echo "done"
         # check if tar was created and has a size of more than 10MB and delte the original
-        if [ -f $file.tar.xz ] && [ $(stat -c%s "$file.tar.xz") -gt 10000000 ]; then
+        if [ -f "$file.tar.xz" ] && [ $(stat -c%s "$file.tar.xz") -gt 10000000 ]; then
             echo "deleting $file"
-            rm $file
+            rm "$file"
         fi
     done
     cd ..
