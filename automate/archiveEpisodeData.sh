@@ -33,7 +33,7 @@ do
             continue
         fi
         # compact the file to tar.xz
-        tar -cJf "$file.tar.xz" "$file"
+        tar -I 'xz -9 -T0' -cJf "$file.tar.xz" "$file"
         echo "done"
         # check if tar was created and has a size of more than 100MB and delte the original
         if [ -f "$file.tar.xz" ] && [ "$(stat -c%s "$file.tar.xz")" -gt 100000000 ]; then
