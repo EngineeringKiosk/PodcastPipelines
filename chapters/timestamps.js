@@ -54,6 +54,7 @@ console.log()
 
 
 rl.question('How long is the intro?', function (introDuration) {
+  console.log("Intro duration: " + introDuration + " seconds")
   console.log("Paste skip navigation/timestamps and send an end file (CTRL-D):")
   const lines = []
   rl.on('line', line => {
