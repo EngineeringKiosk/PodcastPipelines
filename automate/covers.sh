@@ -17,15 +17,14 @@ do
         echo "skipping $file as it doesn't exist"
         continue
     fi
-    # get the episode number
-    episode_number=$(echo "$file" | sed -e 's/.*ep\([0-9]*\)_cover.png/\1/')
-    echo "episode number: $episode_number"
     # check if the small cover exists
-    if [ -f "$dir/ep${episode_number}_cover_small.png" ]; then
+    small_cover="${file%_cover.png}_cover_small.png"
+    echo "checking $small_cover"
+    if [ -f "$small_cover" ]; then
         echo "skipping $file as small cover already exists"
         continue
     fi
     # resize the cover to 1500x1500
     echo "resizing $file to 1500x1500"
-    convert "$file" -resize 1500x1500 "$dir/ep${episode_number}_cover_small.png"
+    convert "$file" -resize 1500x1500 "$small_cover"
 done
