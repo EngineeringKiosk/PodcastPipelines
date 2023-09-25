@@ -44,6 +44,8 @@ function injectAd(adStartTime, adEndTime, adText, timestamps) {
     timestamps = timestamps.map(x => [x[0] + (x[0] > adStartTime ? adEndTime - adStartTime : 0), x[1]])
     // insert the ad and push all other timestamps back
     timestamps.splice(adStartIndex, 0, [adStartTime, " " + adText])
+    // copy the topic before the ad to the end to specify the ongoing topic again
+    timestamps.splice(adStartIndex + 1, 0, [adEndTime, timestamps[adStartIndex - 1][1]])
   }
   return timestamps
 }
