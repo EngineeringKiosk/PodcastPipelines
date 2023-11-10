@@ -1,0 +1,65 @@
+{
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Power Analysis (Open Source Tools, Webseiten)\n- Sample Size Calculator\n- Engineering-Kiosk-Webseite\n- Shownotes\n- Oskar, die Katze\n- Statistik von Kopf bis Fuß (Buch)\n- Spotify"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Die Links von Philipp werden in den Shownotes verlinkt.\nEs wird erwähnt, dass man Philipp kontaktieren kann, wenn man Fragen zur Power-Analysis hat oder ähnliches.\nEin Bild von Oskar wird in den Shownotes verlinkt."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "prompt": "you will be provided a transcript of a podcast episode.\nthe transcript is in german.\nfind all sentences where an external source is mentioned or cited, such as websites, books, URLs, tools.\nUsually, but not only, when \"shownotes\" it mentioned, it is a reference to an external source.\nlist all sections where hosts mentioned something in a list. output in german",
+  "results": [
+    {
+      "id": "chatcmpl-8JRuqZahkVxV9omCdfnu3sQ58FiYM",
+      "object": "chat.completion",
+      "created": 1699646232,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "- Power Analysis (Open Source Tools, Webseiten)\n- Sample Size Calculator\n- Engineering-Kiosk-Webseite\n- Shownotes\n- Oskar, die Katze\n- Statistik von Kopf bis Fuß (Buch)\n- Spotify"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2506,
+        "completion_tokens": 53,
+        "total_tokens": 2559
+      }
+    },
+    {
+      "id": "chatcmpl-8JRuqNuLClC4Y2SImLR7tHMJtGkSG",
+      "object": "chat.completion",
+      "created": 1699646232,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Die Links von Philipp werden in den Shownotes verlinkt.\nEs wird erwähnt, dass man Philipp kontaktieren kann, wenn man Fragen zur Power-Analysis hat oder ähnliches.\nEin Bild von Oskar wird in den Shownotes verlinkt."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 259,
+        "completion_tokens": 56,
+        "total_tokens": 315
+      }
+    }
+  ]
+}

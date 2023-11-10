@@ -6,7 +6,11 @@ help: ## Outputs the help
 
 .PHONY: run
 run: ## Starts the development server
-	npm run dev
+	set -a && source ./.env && set +a && npm run dev -- $(filter-out $@,$(MAKECMDGOALS))
+
+.PHONY: build
+build: ## Builds the project
+	npm run build
 
 .PHONY: init
 init: ## Installs dependencies
