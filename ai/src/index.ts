@@ -2,12 +2,14 @@ import OpenAI from 'openai'
 import winston from 'winston'
 import { smartParseFile } from './fileReaders'
 import prompts from './prompts'
-import { splitTextIntoChunks } from './tokenizer'
+import { splitTextIntoChunks, splitUtterancesIntoChunks } from './tokenizer'
 import fs from 'fs'
-import { processPromt } from './openai-wrapper'
+import { processPromptText, processPromptUtterances } from './openai-wrapper'
+import { Utterance, checkUtterancesFormat } from './types'
 
 const LOGLEVEL = process.env.LOGLEVEL || 'info'
 const API_LOGGING_PATH = './request_logs/'
+const maxChunks = 10
 
 if (API_LOGGING_PATH && !fs.existsSync(API_LOGGING_PATH)) {
     fs.mkdirSync(API_LOGGING_PATH)
@@ -32,120 +34,69 @@ if (process.argv.length < 3) {
 const filePath = process.argv[2]
 
 const content = smartParseFile(filePath)
-const prompt = prompts.shownotes
 
-const chunks = splitTextIntoChunks(content, 2000)
-logger.debug(`Split content into ${chunks.length} chunks`)
+// check if field text is present and is a string
+// then use it as text
+const text =
+    content.text && typeof content.text === 'string' ? content.text : false
+
+if (!text) {
+    logger.error('No text field found in input file')
+    process.exit(1)
+}
+
+// extract utterances from content
+const utterances = content.utterances as Utterance[]
+// make sure utterances are in the correct format
+checkUtterancesFormat(utterances)
 
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY as string,
 })
 
-const main = async () => {
-    logger.debug(`Starting processing of ${chunks.length} chunks`)
-    const results = await processPromt(prompt, chunks, openai)
+const runPrompts = async (promptFun: () => Promise<any>) => {
+    logger.debug(`Starting processing`)
+    const results = await promptFun()
 
     if (API_LOGGING_PATH) {
         const apiLogPath = `${API_LOGGING_PATH}${Date.now()}.json`
         logger.info(`Writing API log to ${apiLogPath}`)
         fs.writeFileSync(apiLogPath, JSON.stringify(results))
     }
+    // check if choices is an aray and has at least one element
+    if (
+        !results.choices ||
+        !Array.isArray(results.choices) ||
+        results.choices.length < 1
+    ) {
+        logger.error('No choices found in API response')
+    } else {
+        results.choices.forEach((choice: { message: { content: string } }) => {
+            logger.info(choice.message.content)
+        })
+    }
 }
 
-main()
+// const prompt = prompts.shownotes
+// const chunks = splitTextIntoChunks(text, 2000)
+// logger.debug(`Split content into ${chunks.length} chunks`)
 
-// interface Utterance {
-//     text: string
-//     speaker: string
-//     // Add other properties as needed
+// if (chunks.length > maxChunks) {
+//     logger.info(`Limiting chunks to ${maxChunks} due to manually set limit`)
+//     chunks.splice(maxChunks)
 // }
 
-// interface Content {
-//     utterances: Utterance[]
-//     // Add other properties as needed
-// }
+// runPrompts(async () => processPromptText(prompt, chunks, openai))
 
-// const filepath: string | null = process.argv[2] || null
+const prompt = prompts.chapters
+const utterancesChunks = splitUtterancesIntoChunks(utterances, 2000)
+logger.debug(`Split content into ${utterancesChunks.length} chunks`)
 
-// if (!filepath) {
-//     console.log(`Usage: node ${__filename} <filepath>`)
-//     process.exit(1)
-// }
+if (utterancesChunks.length > maxChunks) {
+    logger.info(`Limiting chunks to ${maxChunks} due to manually set limit`)
+    utterancesChunks.splice(maxChunks)
+}
 
-// const content: Content = JSON.parse(fs.readFileSync(filepath, 'utf8'))
-// const utterances: Utterance[] = content.utterances
-
-// const getUtterancesIndex = (
-//     utterances: Utterance[],
-//     tokenCounterMax: number
-// ): number => {
-//     let tokenCounter = 0
-//     let utterancesIndex = 0
-//     while (
-//         tokenCounter < tokenCounterMax &&
-//         utterancesIndex < utterances.length
-//     ) {
-//         tokenCounter += guessNumberOfTokens(utterances[utterancesIndex].text)
-//         if (tokenCounter > tokenCounterMax) {
-//             break
-//         } else {
-//             utterancesIndex++
-//         }
-//     }
-//     return utterancesIndex
-// }
-
-// interface Message {
-//     name: string
-//     role: string
-//     content: string
-// }
-
-// const convertUtterancesToMessages = (utterances: Utterance[]): Message[] => {
-//     return utterances.map((u) => {
-//         return { name: `Speaker${u.speaker}`, role: 'user', content: u.text }
-//     })
-// }
-
-// const fetchChoices = async (messages: Message[]) => {
-//     const completion = await openai.chat.completions.create({
-//         messages,
-//         model: 'gpt-3.5-turbo',
-//         max_tokens: 500,
-//     })
-
-//     return completion
-// }
-
-// // split utterances into chunks of 2000 tokens
-// const utterancesChunks: Utterance[][] = []
-// let currentChunk: Utterance[] = utterances
-
-// while (currentChunk.length > 0) {
-//     const utterancesIndex = getUtterancesIndex(currentChunk, 2000)
-//     utterancesChunks.push(currentChunk.slice(0, utterancesIndex))
-//     currentChunk = currentChunk.slice(utterancesIndex)
-// }
-
-// async function main() {
-//     const choices = []
-
-//     for (const chunk of utterancesChunks) {
-//         const messages = [
-//             {
-//                 role: 'system',
-//                 content: `You will be provided a part of a transcript of a podcast episode. Your task is to write a short summary of this part of the episode.
-
-//   - The input test is in German, the summary should be in German as well.
-//   - The summary should contain as many details as possible.
-//     `,
-//             },
-//             ...convertUtterancesToMessages(chunk),
-//         ]
-//         choices.push(await fetchChoices(messages))
-//     }
-
-//     console.log(JSON.stringify(choices))
-// }
-
-//main();
+runPrompts(async () =>
+    processPromptUtterances(prompt, utterancesChunks, openai)
+)
