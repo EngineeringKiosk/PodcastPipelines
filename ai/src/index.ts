@@ -10,6 +10,7 @@ import { Utterance, checkUtterancesFormat } from './types'
 const LOGLEVEL = process.env.LOGLEVEL || 'info'
 const API_LOGGING_PATH = './request_logs/'
 const maxChunks = 10
+const maxChunkLength = 2000
 
 if (API_LOGGING_PATH && !fs.existsSync(API_LOGGING_PATH)) {
     fs.mkdirSync(API_LOGGING_PATH)
@@ -54,49 +55,116 @@ const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY as string,
 })
 
-const runPrompts = async (promptFun: () => Promise<any>) => {
+const generateChunks = (text: string | Utterance[]) => {
+    let chunks: any[] = []
+    if (typeof text === 'string') {
+        chunks = splitTextIntoChunks(text, maxChunkLength)
+    } else {
+        chunks = splitUtterancesIntoChunks(text, maxChunkLength)
+    }
+    if (chunks.length > maxChunks) {
+        logger.info(`Limiting chunks to ${maxChunks} due to manually set limit`)
+        chunks.splice(maxChunks)
+    }
+    return chunks
+}
+
+const getResultChoicesText = (result: any) => {
+    return result.choices
+        .map(
+            (choice: { message: { content: string } }) => choice.message.content
+        )
+        .join('\n')
+}
+
+const runPrompts = async (
+    promts: string | string[],
+    text: string | Utterance[]
+) => {
     logger.debug(`Starting processing`)
-    const results = await promptFun()
+
+    if (typeof promts === 'string') {
+        promts = [promts]
+    }
+
+    // clone promts to a stack to process them one by one
+    // and use result as input for next prompt
+    const promptStack = [...promts]
+    const results: any[] = []
+
+    // process prompts one by one
+    while (promptStack.length > 0) {
+        const prompt = promptStack.shift()
+        if (!prompt) {
+            logger.error('Prompt stack is empty')
+            break
+        }
+
+        logger.debug(`Processing prompt: ${prompt}`)
+
+        const lastResult =
+            results.length > 0
+                ? getResultChoicesText(results[results.length - 1])
+                : text
+        const chunks = generateChunks(lastResult)
+
+        results.push(
+            Array.isArray(text) && results.length === 0
+                ? await processPromptUtterances(prompt, chunks, openai)
+                : await processPromptText(prompt, chunks, openai)
+        )
+
+        // if no more prompts are left but we still have more than one chunk (so run more than one api call)
+        // run the last prompt again
+        // we can assume it is a reduction query (for now) if there is more than one prompt specified
+        if (
+            promptStack.length === 0 &&
+            chunks.length > 1 &&
+            promts.length > 1
+        ) {
+            logger.debug(
+                `Running last prompt again as it seems to be a reduction query`
+            )
+            promptStack.push(prompt)
+            logger.debug(
+                `Rerunning prompt: ${prompt} as we still have ${chunks.length} chunks`
+            )
+        }
+    }
 
     if (API_LOGGING_PATH) {
         const apiLogPath = `${API_LOGGING_PATH}${Date.now()}.json`
         logger.info(`Writing API log to ${apiLogPath}`)
         fs.writeFileSync(apiLogPath, JSON.stringify(results))
     }
-    // check if choices is an aray and has at least one element
+
+    const lastResult = results[results.length - 1]
     if (
-        !results.choices ||
-        !Array.isArray(results.choices) ||
-        results.choices.length < 1
+        !lastResult.choices ||
+        !Array.isArray(lastResult.choices) ||
+        lastResult.choices.length < 1
     ) {
         logger.error('No choices found in API response')
     } else {
-        results.choices.forEach((choice: { message: { content: string } }) => {
-            logger.info(choice.message.content)
-        })
+        lastResult.choices.forEach(
+            (choice: { message: { content: string } }) => {
+                logger.info(choice.message.content)
+            }
+        )
     }
 }
 
-// const prompt = prompts.shownotes
-// const chunks = splitTextIntoChunks(text, 2000)
-// logger.debug(`Split content into ${chunks.length} chunks`)
+runPrompts(prompts.quotes, text)
 
-// if (chunks.length > maxChunks) {
+// const prompt = prompts.chapters
+// const utterancesChunks = splitUtterancesIntoChunks(utterances, 2000)
+// logger.debug(`Split content into ${utterancesChunks.length} chunks`)
+
+// if (utterancesChunks.length > maxChunks) {
 //     logger.info(`Limiting chunks to ${maxChunks} due to manually set limit`)
-//     chunks.splice(maxChunks)
+//     utterancesChunks.splice(maxChunks)
 // }
 
-// runPrompts(async () => processPromptText(prompt, chunks, openai))
-
-const prompt = prompts.chapters
-const utterancesChunks = splitUtterancesIntoChunks(utterances, 2000)
-logger.debug(`Split content into ${utterancesChunks.length} chunks`)
-
-if (utterancesChunks.length > maxChunks) {
-    logger.info(`Limiting chunks to ${maxChunks} due to manually set limit`)
-    utterancesChunks.splice(maxChunks)
-}
-
-runPrompts(async () =>
-    processPromptUtterances(prompt, utterancesChunks, openai)
-)
+// runPrompts(async () =>
+//     processPromptUtterances(prompt, utterancesChunks, openai)
+// )

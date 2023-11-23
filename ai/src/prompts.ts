@@ -1,7 +1,20 @@
 const prompts = {
-    quotes: `You will be provided a part of a transcript of a podcast episode.
-The transcript is in german.
-Your task is to find quotable sections that are short and will be used in shorts on instagram or youtube. The section should be funny or provocative.`,
+    quotes: [
+        `You will be provided a part of a transcript of a podcast episode.
+Your task is to find quotable sections that are short and can be used in shorts on instagram or youtube.
+The sections should adhere to one or more of the following properties:
+- funny
+- provocative
+- exlainatory
+- surprising
+- controversial
+- emotional
+- shocking
+- new
+Output the list of sections in german.`,
+        `You will be provided a list of quotes.
+Your task is to provide a list of the 10 most interesting quotes in German.`,
+    ],
     chapters: `You will be provided a part of a transcript of a podcast episode.
 Your task is to split the transcript into chapters based on the topics discussed.
 Every chapter should be formulated in less than 10 words.

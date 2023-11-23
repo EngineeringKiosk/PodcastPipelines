@@ -40,7 +40,7 @@ const splitTextIntoChunks = (text: string, maxTokens: number): string[] => {
             chunks.push(currentChunk)
             currentChunk = ''
         }
-        currentChunk += '. ' + sentence
+        currentChunk += ' ' + sentence
     }
     chunks.push(currentChunk)
     return chunks

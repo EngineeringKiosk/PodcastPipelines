@@ -8,7 +8,7 @@ const fetchChoices = (
 ): Promise<ChatCompletion> => {
     return openai.chat.completions.create({
         messages,
-        model: 'gpt-3.5-turbo',
+        model: 'gpt-3.5-turbo-1106',
         max_tokens: 500,
     })
 }
@@ -41,8 +41,22 @@ const processPrompt = async (
         return fetchChoices(messages, openai)
     })
     // wait for all promises to resolve and combine choices in the result
-    const results = await Promise.all(requests)
-    const choices = results.map((r) => r.choices).flat()
+    const results = await Promise.allSettled(requests)
+    // log errors if there are any
+    results.forEach((r) => {
+        if (r.status === 'rejected') {
+            console.log(r.reason)
+        }
+    })
+    // return only the choices of the fulfilled promises
+    const choices = results
+        .map((r) => {
+            if (r.status === 'fulfilled') {
+                return r.value.choices
+            }
+            return []
+        })
+        .flat()
     return {
         prompt,
         choices,
