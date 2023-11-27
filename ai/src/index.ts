@@ -10,7 +10,7 @@ import { Utterance, checkUtterancesFormat } from './types'
 const LOGLEVEL = process.env.LOGLEVEL || 'info'
 const API_LOGGING_PATH = './request_logs/'
 const maxChunks = 10
-const maxChunkLength = 2000
+const maxChunkLength = 20000
 
 if (API_LOGGING_PATH && !fs.existsSync(API_LOGGING_PATH)) {
     fs.mkdirSync(API_LOGGING_PATH)

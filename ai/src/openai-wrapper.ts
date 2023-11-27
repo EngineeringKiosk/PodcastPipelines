@@ -8,7 +8,7 @@ const fetchChoices = (
 ): Promise<ChatCompletion> => {
     return openai.chat.completions.create({
         messages,
-        model: 'gpt-3.5-turbo-1106',
+        model: 'gpt-4-1106-preview',
         max_tokens: 500,
     })
 }
