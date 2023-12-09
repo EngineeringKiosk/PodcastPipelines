@@ -1,0 +1,268 @@
+{
+  "prompt": "You will be provided a part of a transcript of a podcast episode.\nFinde alle Abschnitte im Podcast-Transkript, in denen externe Quellen oder Entitäten, wie Websites, Bücher, URLs, Personen oder Tools,\nerwähnt oder zitiert werden. Achte besonders auf Hinweise wie \"Shownotes\",\ndie oft auf externe Quellen hinweisen. Gib die gefundenen Abschnitte im Transkript auf Deutsch aus.",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\"Lieber Matthias, wir beide, Wolfgang und ich, sind schon eng verwoben mit dir.. Zum einen haben wir mal zusammen gearbeitet, zum anderen hatten wir beide zumindest, du und ich, diverse Hackathon-Nächte mit Club Marte, Wodka und Helene Fischer um vier Uhr morgens..\"\n- Erwähnung von Wolfgang\n\n\"Du hast dich vor kurzem selbstständig gemacht und bist Gründer einer Rust-Consulting-Firma namens Corode..\"\n- Erwähnung von Corode\n\n\"mit Repositories wie zum Beispiel Idiomatic Rust mit 5.000 Stars, einer Markdown-Datei, die sogar Geld verdient, mit einer Liste von Static Analysis über 30 Programmiersprachen mit 12.000 Stars..\"\n- Erwähnung von Idiomatic Rust\n\n\"Du hast einen Fast Async and Stream Based Link Checker in Rust geschrieben, womit man unter anderem tote Links von Static Websites parsen kann und der auch von Amazon für die Amazon Web Service Dokumentation genutzt wird, also Hut ab..\"\n- Erwähnung des Link Checkers und Amazon\n\n\"Du erzählst öfters mal recht lustige Storys auf Meetups und wir dürfen uns bald auf einen eigenen Podcast von dir namens Rust in Production freuen..\"\n- Erwähnung des Podcasts Rust in Production\n\n\"Also, wer dieses grüne Mosaik liebt, der kann mal Codeprints googeln.. Da kannst du deinen GitHub-Profil angeben und dann kannst du das als Bild zugesendet bekommen..\"\n- Erwähnung von Codeprints\n\n\"Und ohne Wolfgang kannst du anscheinend auch nicht weil inzwischen baut ihr auch ein weiteres Produkt zusammen namens Open Podcast, um podcast analytische Daten zusammenzufassen von verschiedenen Providern..\"\n- Erwähnung von Open Podcast\n\n\"Was ist Bfansch?. Ja Bfansch eine sehr esoterische Programmiersprache also wenn du lolcode schon esoterisch findest.. Dann ist B-Funch nochmal eine härtere Nummer..\"\n- Erwähnung von B-Funch\n\n\"Und Rust ist eine Möglichkeit, Speicher auf andere Art zu verwalten, indem der Compiler zur Compile-Zeit erkennt, ob Speicher beispielsweise von mehreren Stellen mutable, also ver"
+      },
+      "finish_reason": "length"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- \"Fighting with the Borrow Checker\" ist ein Meme, das sich auf den Borrow Checker bezieht, der Teil des Rust-Compilers ist und die Regeln für Ownership und Borrowing überprüft.\n- In anderen Programmiersprachen wie C++ gibt es ähnliche Regeln, aber sie werden nicht vom Compiler durchgesetzt.\n- Rust hat einen Referenz-Compiler namens Rust C, der von Mozilla entwickelt wurde.\n- Es gibt auch einen WebAssembly-basierten Compiler namens CraneLift, der schneller in der Kompilierungszeit ist, aber etwas langsamer in der Ausführungszeit.\n- Lisp ist eine ältere Programmiersprache, die auch in der Flugzeug- und Zugsoftware verwendet wird. Sie kümmert sich auch um fehlende Fälle in Switch Case Statements.\n- Rust ist eine Multi-Paradigma-Programmiersprache und kann sowohl imperativ als auch funktional programmiert werden.\n- Mozilla hat Rust entwickelt, um die Komplexität des Firefox-Browsers besser beherrschen zu können. Es wurden Teile von Firefox in Rust neu geschrieben.\n- Firefox selbst ist jedoch nicht vollständig in Rust geschrieben, sondern unterstützt beide Sprachen.\n- Servo war ein experimenteller Browser von Mozilla, der Konzepte ausprobiert hat und ebenfalls in Rust entwickelt wurde.\n- Rust eignet sich nicht für Scripting und Prototyping, sondern eher für Anwendungen, die nah am Metall arbeiten und hohe Leistung und Stabilität erfordern.\n- Amazon verwendet Rust für Firecracker, eine Micro-VM, um VMs auf Cloud-Maschinen effizienter auszuführen.\n- Dropbox hat Teile ihrer Data Layer in Rust neu geschrieben, um Daten effizient zu verwalten und Kosten zu senken."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "In dem Transkript werden mehrere externe Quellen oder Entitäten erwähnt. Hier sind einige Beispiele:\n\n1. Kafka: Kafka ist eine Software, die in Java geschrieben ist und in diesem Abschnitt erwähnt wird.\n\n2. Rust-Compiler: Der Rust-Compiler wird als Beispiel für einen intelligenten Compiler erwähnt, der Fehler im Voraus anzeigt.\n\n3. \"Die Lernkurve ist schon so eine Sache\": Hier wird auf die Schwierigkeiten beim Erlernen von Rust hingewiesen.\n\n4. \"Ownership-Modell\": Das Ownership-Modell ist ein Konzept in Rust, das beschreibt, wie der Besitz von Speicher verwaltet wird.\n\n5. C++: C++ wird als Vergleich zur Erlernung von Rust erwähnt.\n\n6. Python und JavaScript: Python und JavaScript werden als Beispiele für Sprachen genannt, deren Entwickler weniger Probleme mit dem Ownership-Modell in Rust haben.\n\n7. Copy Trait: Der Copy Trait wird als beispielhaftes Trait in Rust genannt.\n\n8. CPU: Die CPU wird erwähnt, um den Kontrast zwischen dem langsameren Heap-Speicher und dem schnelleren Stack-Speicher zu verdeutlichen.\n\n9. Betriebssystem: Das Betriebssystem wird genannt, weil es den Heap-Speicher verwaltet.\n\n10. \"Datei\": Eine Datei wird als Beispiel für einen komplexeren Datentyp erwähnt. Es wird darauf hingewiesen, dass der Besitz einer Datei in Rust übertragen werden kann.\n\n11. \"Fernbedienung\": Die Metapher der Fernbedienung wird verwendet, um das Konzept des \"Besitzes\" in Rust zu veranschaulichen.\n\nDiese Liste ist nicht abschließend, aber sie gibt einen Einblick in einige der externen Quellen und Entitäten, die im Transkript erwähnt werden."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Es werden keine externen Quellen oder Entitäten im Transkript erwähnt."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Es gibt keine Erwähnung von externen Quellen oder Entitäten im Transkript."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Die im Transkript erwähnten externen Quellen oder Entitäten sind:\n- \"LLVM, die Low-Level Virtual Machine von Apple\"\n- \"Crater\" (ein Tool)\n- \"crates.io\" (eine Website)\n- \"AWS\" (sponsert die Infrastruktur)\n- \"Amazon\"\n- \"Dropbox\"\n- \"Go\" (eine Programmiersprache)\n- \"Package-Management\"\n- \"Soft-Breaking-Change\""
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Beitrag zum Thema \"Async\"\n- Erwähnung der Library \"Tokio\"\n- Erwähnung der Library \"Request\"\n- Erwähnung von \"Node.js\"\n- Vergleich zu \"PHP mit Symphony und Laravel\"\n- Erwähnung der Programmiersprache \"Go\"\n- Erwähnung von \"Stack-Overflow-Surveys\"\n- Erwähnung von \"Rust-Surveys\"\n- Kritik an den Compiletimes in Rust\n- Erklärung zur Länge der Compiletimes bei größeren Applikationen\n- Erwähnung der Library \"Serdy\"\n- Vergleich zu den Compiletimes von Android und Swift\n- Verbesserung der Compiletimes im Laufe der Entwicklung\n- Vergleich zum Rust-Compiler gegenüber Go\n- Erwähnung des neuen Apple M1-Prozessors und dessen Auswirkung auf die Compiletimes\n- Erklärung der schnelleren Geschwindigkeit von Rust gegenüber Go durch die Verlagerung einiger Aufgaben in die Laufzeit (Runtime)"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Im Transkript werden mehrere externe Ressourcen erwähnt:\n\n- \"Idomatic Rust Repository\" (Ressourcensammlung)\n- \"Design-Patterns-Buch\" (eigentlich eine Webseite)\n- \"Why Rust in Production?\" (Blogartikel)\n- \"Zero to Production in Rust\" (Buch oder Ressource von Luca Palmieri für das Lernen von Rust im Web-Bereich)\n\nZudem wird auf den YouTube-Kanal des Gesprächspartners verwiesen und erwähnt, dass die Links zu allen genannten Ressourcen in den Shownotes zu finden sind."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Hier ist der gefundene Abschnitt:\n\n- [..] ich würde gerne noch die Frage stellen, wenn du eine, eine Ressource zum Lernen empfehlen würdest.. Können wir jetzt machen.. Den Y-Rust-Artikel natürlich.. Der Y-Rust-Artikel ist nicht zum Lernen.. Ich hätte schon noch eine.. Wirklich nur.. Ich hätte schon noch eine.. Also jetzt die Frage, willst du erst Y-Rust oder erst meine Frage und dann Ende?. Ja, ich mache jetzt den Vibe Rust Edition.. Da geht es darum, warum man Rust verwendet, oder?. Ja, ja, aber eine Ressource können wir.. Den Leuten schon mal .... Ja, das machen wir danach.. Das fragt der Andi dann.. Da geht es um Rust in Produktion für Firmen, ja?. Also nicht für den Hobbybereich und so weiter, also ganz speziell.."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "results": [
+    {
+      "id": "chatcmpl-8MM7PMNk2rZnJGNETuuIgAjtWUqpU",
+      "object": "chat.completion",
+      "created": 1700338931,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "\"Lieber Matthias, wir beide, Wolfgang und ich, sind schon eng verwoben mit dir.. Zum einen haben wir mal zusammen gearbeitet, zum anderen hatten wir beide zumindest, du und ich, diverse Hackathon-Nächte mit Club Marte, Wodka und Helene Fischer um vier Uhr morgens..\"\n- Erwähnung von Wolfgang\n\n\"Du hast dich vor kurzem selbstständig gemacht und bist Gründer einer Rust-Consulting-Firma namens Corode..\"\n- Erwähnung von Corode\n\n\"mit Repositories wie zum Beispiel Idiomatic Rust mit 5.000 Stars, einer Markdown-Datei, die sogar Geld verdient, mit einer Liste von Static Analysis über 30 Programmiersprachen mit 12.000 Stars..\"\n- Erwähnung von Idiomatic Rust\n\n\"Du hast einen Fast Async and Stream Based Link Checker in Rust geschrieben, womit man unter anderem tote Links von Static Websites parsen kann und der auch von Amazon für die Amazon Web Service Dokumentation genutzt wird, also Hut ab..\"\n- Erwähnung des Link Checkers und Amazon\n\n\"Du erzählst öfters mal recht lustige Storys auf Meetups und wir dürfen uns bald auf einen eigenen Podcast von dir namens Rust in Production freuen..\"\n- Erwähnung des Podcasts Rust in Production\n\n\"Also, wer dieses grüne Mosaik liebt, der kann mal Codeprints googeln.. Da kannst du deinen GitHub-Profil angeben und dann kannst du das als Bild zugesendet bekommen..\"\n- Erwähnung von Codeprints\n\n\"Und ohne Wolfgang kannst du anscheinend auch nicht weil inzwischen baut ihr auch ein weiteres Produkt zusammen namens Open Podcast, um podcast analytische Daten zusammenzufassen von verschiedenen Providern..\"\n- Erwähnung von Open Podcast\n\n\"Was ist Bfansch?. Ja Bfansch eine sehr esoterische Programmiersprache also wenn du lolcode schon esoterisch findest.. Dann ist B-Funch nochmal eine härtere Nummer..\"\n- Erwähnung von B-Funch\n\n\"Und Rust ist eine Möglichkeit, Speicher auf andere Art zu verwalten, indem der Compiler zur Compile-Zeit erkennt, ob Speicher beispielsweise von mehreren Stellen mutable, also ver"
+          },
+          "finish_reason": "length"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2435,
+        "completion_tokens": 500,
+        "total_tokens": 2935
+      }
+    },
+    {
+      "id": "chatcmpl-8MM7OvHtze63bchwBBsPCShirNsHj",
+      "object": "chat.completion",
+      "created": 1700338930,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "- \"Fighting with the Borrow Checker\" ist ein Meme, das sich auf den Borrow Checker bezieht, der Teil des Rust-Compilers ist und die Regeln für Ownership und Borrowing überprüft.\n- In anderen Programmiersprachen wie C++ gibt es ähnliche Regeln, aber sie werden nicht vom Compiler durchgesetzt.\n- Rust hat einen Referenz-Compiler namens Rust C, der von Mozilla entwickelt wurde.\n- Es gibt auch einen WebAssembly-basierten Compiler namens CraneLift, der schneller in der Kompilierungszeit ist, aber etwas langsamer in der Ausführungszeit.\n- Lisp ist eine ältere Programmiersprache, die auch in der Flugzeug- und Zugsoftware verwendet wird. Sie kümmert sich auch um fehlende Fälle in Switch Case Statements.\n- Rust ist eine Multi-Paradigma-Programmiersprache und kann sowohl imperativ als auch funktional programmiert werden.\n- Mozilla hat Rust entwickelt, um die Komplexität des Firefox-Browsers besser beherrschen zu können. Es wurden Teile von Firefox in Rust neu geschrieben.\n- Firefox selbst ist jedoch nicht vollständig in Rust geschrieben, sondern unterstützt beide Sprachen.\n- Servo war ein experimenteller Browser von Mozilla, der Konzepte ausprobiert hat und ebenfalls in Rust entwickelt wurde.\n- Rust eignet sich nicht für Scripting und Prototyping, sondern eher für Anwendungen, die nah am Metall arbeiten und hohe Leistung und Stabilität erfordern.\n- Amazon verwendet Rust für Firecracker, eine Micro-VM, um VMs auf Cloud-Maschinen effizienter auszuführen.\n- Dropbox hat Teile ihrer Data Layer in Rust neu geschrieben, um Daten effizient zu verwalten und Kosten zu senken."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2441,
+        "completion_tokens": 394,
+        "total_tokens": 2835
+      }
+    },
+    {
+      "id": "chatcmpl-8MM7QueSPh1ojNzrUfS25OIhARKn2",
+      "object": "chat.completion",
+      "created": 1700338932,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "In dem Transkript werden mehrere externe Quellen oder Entitäten erwähnt. Hier sind einige Beispiele:\n\n1. Kafka: Kafka ist eine Software, die in Java geschrieben ist und in diesem Abschnitt erwähnt wird.\n\n2. Rust-Compiler: Der Rust-Compiler wird als Beispiel für einen intelligenten Compiler erwähnt, der Fehler im Voraus anzeigt.\n\n3. \"Die Lernkurve ist schon so eine Sache\": Hier wird auf die Schwierigkeiten beim Erlernen von Rust hingewiesen.\n\n4. \"Ownership-Modell\": Das Ownership-Modell ist ein Konzept in Rust, das beschreibt, wie der Besitz von Speicher verwaltet wird.\n\n5. C++: C++ wird als Vergleich zur Erlernung von Rust erwähnt.\n\n6. Python und JavaScript: Python und JavaScript werden als Beispiele für Sprachen genannt, deren Entwickler weniger Probleme mit dem Ownership-Modell in Rust haben.\n\n7. Copy Trait: Der Copy Trait wird als beispielhaftes Trait in Rust genannt.\n\n8. CPU: Die CPU wird erwähnt, um den Kontrast zwischen dem langsameren Heap-Speicher und dem schnelleren Stack-Speicher zu verdeutlichen.\n\n9. Betriebssystem: Das Betriebssystem wird genannt, weil es den Heap-Speicher verwaltet.\n\n10. \"Datei\": Eine Datei wird als Beispiel für einen komplexeren Datentyp erwähnt. Es wird darauf hingewiesen, dass der Besitz einer Datei in Rust übertragen werden kann.\n\n11. \"Fernbedienung\": Die Metapher der Fernbedienung wird verwendet, um das Konzept des \"Besitzes\" in Rust zu veranschaulichen.\n\nDiese Liste ist nicht abschließend, aber sie gibt einen Einblick in einige der externen Quellen und Entitäten, die im Transkript erwähnt werden."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2425,
+        "completion_tokens": 421,
+        "total_tokens": 2846
+      }
+    },
+    {
+      "id": "chatcmpl-8MM7OksV8C0OC3AznHltnCHyKaEDt",
+      "object": "chat.completion",
+      "created": 1700338930,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Es werden keine externen Quellen oder Entitäten im Transkript erwähnt."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2352,
+        "completion_tokens": 20,
+        "total_tokens": 2372
+      }
+    },
+    {
+      "id": "chatcmpl-8MM7UZ2HmMvvflWNpDkZp6hKcJ0kg",
+      "object": "chat.completion",
+      "created": 1700338936,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Es gibt keine Erwähnung von externen Quellen oder Entitäten im Transkript."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2437,
+        "completion_tokens": 22,
+        "total_tokens": 2459
+      }
+    },
+    {
+      "id": "chatcmpl-8MM7OXaKjzk6Ln3qhzR0xlDPWSEBe",
+      "object": "chat.completion",
+      "created": 1700338930,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Die im Transkript erwähnten externen Quellen oder Entitäten sind:\n- \"LLVM, die Low-Level Virtual Machine von Apple\"\n- \"Crater\" (ein Tool)\n- \"crates.io\" (eine Website)\n- \"AWS\" (sponsert die Infrastruktur)\n- \"Amazon\"\n- \"Dropbox\"\n- \"Go\" (eine Programmiersprache)\n- \"Package-Management\"\n- \"Soft-Breaking-Change\""
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2384,
+        "completion_tokens": 102,
+        "total_tokens": 2486
+      }
+    },
+    {
+      "id": "chatcmpl-8MM7OwVDKTP9Z5flzbMQTffEVJ2s7",
+      "object": "chat.completion",
+      "created": 1700338930,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "- Beitrag zum Thema \"Async\"\n- Erwähnung der Library \"Tokio\"\n- Erwähnung der Library \"Request\"\n- Erwähnung von \"Node.js\"\n- Vergleich zu \"PHP mit Symphony und Laravel\"\n- Erwähnung der Programmiersprache \"Go\"\n- Erwähnung von \"Stack-Overflow-Surveys\"\n- Erwähnung von \"Rust-Surveys\"\n- Kritik an den Compiletimes in Rust\n- Erklärung zur Länge der Compiletimes bei größeren Applikationen\n- Erwähnung der Library \"Serdy\"\n- Vergleich zu den Compiletimes von Android und Swift\n- Verbesserung der Compiletimes im Laufe der Entwicklung\n- Vergleich zum Rust-Compiler gegenüber Go\n- Erwähnung des neuen Apple M1-Prozessors und dessen Auswirkung auf die Compiletimes\n- Erklärung der schnelleren Geschwindigkeit von Rust gegenüber Go durch die Verlagerung einiger Aufgaben in die Laufzeit (Runtime)"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2403,
+        "completion_tokens": 225,
+        "total_tokens": 2628
+      }
+    },
+    {
+      "id": "chatcmpl-8MM7SsBMrZKmjQt4L2O731Y2axzzE",
+      "object": "chat.completion",
+      "created": 1700338934,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Im Transkript werden mehrere externe Ressourcen erwähnt:\n\n- \"Idomatic Rust Repository\" (Ressourcensammlung)\n- \"Design-Patterns-Buch\" (eigentlich eine Webseite)\n- \"Why Rust in Production?\" (Blogartikel)\n- \"Zero to Production in Rust\" (Buch oder Ressource von Luca Palmieri für das Lernen von Rust im Web-Bereich)\n\nZudem wird auf den YouTube-Kanal des Gesprächspartners verwiesen und erwähnt, dass die Links zu allen genannten Ressourcen in den Shownotes zu finden sind."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2482,
+        "completion_tokens": 137,
+        "total_tokens": 2619
+      }
+    },
+    {
+      "id": "chatcmpl-8MM7QR88mUzzEv39tQhFXTfqD6D91",
+      "object": "chat.completion",
+      "created": 1700338932,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Hier ist der gefundene Abschnitt:\n\n- [..] ich würde gerne noch die Frage stellen, wenn du eine, eine Ressource zum Lernen empfehlen würdest.. Können wir jetzt machen.. Den Y-Rust-Artikel natürlich.. Der Y-Rust-Artikel ist nicht zum Lernen.. Ich hätte schon noch eine.. Wirklich nur.. Ich hätte schon noch eine.. Also jetzt die Frage, willst du erst Y-Rust oder erst meine Frage und dann Ende?. Ja, ich mache jetzt den Vibe Rust Edition.. Da geht es darum, warum man Rust verwendet, oder?. Ja, ja, aber eine Ressource können wir.. Den Leuten schon mal .... Ja, das machen wir danach.. Das fragt der Andi dann.. Da geht es um Rust in Produktion für Firmen, ja?. Also nicht für den Hobbybereich und so weiter, also ganz speziell.."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 774,
+        "completion_tokens": 194,
+        "total_tokens": 968
+      }
+    }
+  ]
+}

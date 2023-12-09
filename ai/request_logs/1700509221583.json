@@ -1,0 +1,39 @@
+{
+  "prompt": "You will be provided a part of a transcript of a podcast episode.\nYour task is to find quotable sections that are short and can be used in shorts on instagram or youtube.\nThe sections should be funny or provocative.\nOutput the list of sections in german.",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- \"Ich bin extra aus Innsbruck nach Düsseldorf gekommen oder nach Duisburg und sitze jetzt in Düsseldorf, ein paar Häuserblocks weiter quasi von Duisburg mit unserem heutigen Gast aus Bayern und darum habe ich auch ein sehr gutes Maxl Helles vor mir.. Das gute Maxl.. Genau, weil du als Original-Bayer, der auch in Düsseldorf, also internationaler geht es ja fast nicht mehr, oder interdeutscher, egal, ich will mich da gar nicht verzetteln, besser geht es gar nicht mehr.\"\n- \"Ein bierernstes Thema.. Bierernstes Thema, okay..\"\n- \"Über was Rostiges.. Genau, über Rust.. Was ist Rust?. Rust ist eine systemnahe Programmiersprache von Mozilla..\"\n- \"Ich kenne ja Matthias schon jahrelang, fast besser als den Andi.. Matthias begleitet mich ja tagtäglich eigentlich..\"\n- \"Lieber Matthias, wir beide, Wolfgang und ich, sind schon eng verwoben mit dir..\"\n- \"Zum einen haben wir mal zusammen gearbeitet, zum anderen hatten wir beide zumindest, du und ich, diverse Hackathon-Nächte mit Club Marte, Wodka und Helene Fischer um vier Uhr morgens..\"\n- \"Und ohne Wolfgang kannst du anscheinend auch nicht weil inzwischen baut ihr auch ein weiteres Produkt zusammen namens Open Podcast\"\n- \"Was ist Bfansch?. Ja Bfansch eine sehr esoterische Programmiersprache also wenn du lolcode schon esoterisch findest.. Dann ist B-Funch nochmal eine härtere Nummer.\"\n- \"Rust ist eine art und weise programme zu schreiben wie man sie eigentlich vorher noch nicht hatte und zwar in einer art und weise dass man fehler vermeidet die in typischen programmiersprachen wie c++ und c einfach prävalent sind..\"\n- \"Rust ist eine Möglichkeit, Speicher auf andere Art zu verwalten, indem der Compiler zur Compile-Zeit erkennt, ob Speicher beispielsweise von mehreren Stellen mutable, also veränderlich, beschrieben wird oder genutzt wird.. Und das wird dann verhindert..\"\n- \"Geschwindigkeit ist für viele ein Einstiegsfaktor,"
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "chatcmpl-8N4OuT55aOuxWTzYm4iPcvIiIXi68",
+        "object": "chat.completion",
+        "created": 1700509152,
+        "model": "gpt-3.5-turbo-0613",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "- \"Ich bin extra aus Innsbruck nach Düsseldorf gekommen oder nach Duisburg und sitze jetzt in Düsseldorf, ein paar Häuserblocks weiter quasi von Duisburg mit unserem heutigen Gast aus Bayern und darum habe ich auch ein sehr gutes Maxl Helles vor mir.. Das gute Maxl.. Genau, weil du als Original-Bayer, der auch in Düsseldorf, also internationaler geht es ja fast nicht mehr, oder interdeutscher, egal, ich will mich da gar nicht verzetteln, besser geht es gar nicht mehr.\"\n- \"Ein bierernstes Thema.. Bierernstes Thema, okay..\"\n- \"Über was Rostiges.. Genau, über Rust.. Was ist Rust?. Rust ist eine systemnahe Programmiersprache von Mozilla..\"\n- \"Ich kenne ja Matthias schon jahrelang, fast besser als den Andi.. Matthias begleitet mich ja tagtäglich eigentlich..\"\n- \"Lieber Matthias, wir beide, Wolfgang und ich, sind schon eng verwoben mit dir..\"\n- \"Zum einen haben wir mal zusammen gearbeitet, zum anderen hatten wir beide zumindest, du und ich, diverse Hackathon-Nächte mit Club Marte, Wodka und Helene Fischer um vier Uhr morgens..\"\n- \"Und ohne Wolfgang kannst du anscheinend auch nicht weil inzwischen baut ihr auch ein weiteres Produkt zusammen namens Open Podcast\"\n- \"Was ist Bfansch?. Ja Bfansch eine sehr esoterische Programmiersprache also wenn du lolcode schon esoterisch findest.. Dann ist B-Funch nochmal eine härtere Nummer.\"\n- \"Rust ist eine art und weise programme zu schreiben wie man sie eigentlich vorher noch nicht hatte und zwar in einer art und weise dass man fehler vermeidet die in typischen programmiersprachen wie c++ und c einfach prävalent sind..\"\n- \"Rust ist eine Möglichkeit, Speicher auf andere Art zu verwalten, indem der Compiler zur Compile-Zeit erkennt, ob Speicher beispielsweise von mehreren Stellen mutable, also veränderlich, beschrieben wird oder genutzt wird.. Und das wird dann verhindert..\"\n- \"Geschwindigkeit ist für viele ein Einstiegsfaktor,"
+            },
+            "finish_reason": "length"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2388,
+          "completion_tokens": 500,
+          "total_tokens": 2888
+        }
+      }
+    }
+  ]
+}

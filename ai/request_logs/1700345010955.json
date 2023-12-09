@@ -1,0 +1,36 @@
+{
+  "prompt": "You will be provided a part of a transcript of a podcast episode. Every utterance is defined as start, end, and text in this format: \"(hh:mm:ss - hh:mm:ss) Text\".\nYour task is to split the transcript into chapters which represent the discussed topics.\nList the topic heading and when it starts.\nThe output should be in German.",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "(0:9:6 - 0:9:40) Genau, der Compiler von Rust gilt als sehr intelligent und führt eine statische Analyse des Codes durch. Das bedeutet, dass er bereits während der Kompilierung potenzielle Fehler aufdeckt und Warnungen oder Fehlermeldungen ausgibt. Dadurch werden viele Probleme bereits frühzeitig erkannt und verhindert, dass sie zur Laufzeit auftreten. Der Compiler von Rust erzwingt auch bestimmte Sicherheitsmaßnahmen, wie zum Beispiel das Handling von Null-Pointern oder das Vermeiden von Data Races, was zu robusterem und sichererem Code führt. Das ist definitiv ein großer Vorteil von Rust."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "results": [
+    {
+      "id": "chatcmpl-8MNhAevgpFtMRLs0D9EQyTyrBONr4",
+      "object": "chat.completion",
+      "created": 1700344992,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "(0:9:6 - 0:9:40) Genau, der Compiler von Rust gilt als sehr intelligent und führt eine statische Analyse des Codes durch. Das bedeutet, dass er bereits während der Kompilierung potenzielle Fehler aufdeckt und Warnungen oder Fehlermeldungen ausgibt. Dadurch werden viele Probleme bereits frühzeitig erkannt und verhindert, dass sie zur Laufzeit auftreten. Der Compiler von Rust erzwingt auch bestimmte Sicherheitsmaßnahmen, wie zum Beispiel das Handling von Null-Pointern oder das Vermeiden von Data Races, was zu robusterem und sichererem Code führt. Das ist definitiv ein großer Vorteil von Rust."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 3049,
+        "completion_tokens": 160,
+        "total_tokens": 3209
+      }
+    }
+  ]
+}
