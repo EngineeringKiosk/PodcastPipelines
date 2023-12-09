@@ -1,0 +1,112 @@
+[
+  {
+    "prompt": "You will be provided a part of a transcript of a podcast episode.\nYour task is to find quotable sections that are short and can be used in shorts on instagram or youtube.\nThe sections should adhere to one or more of the following properties:\n- funny\n- provocative\n- exlainatory\n- surprising\n- controversial\n- emotional\n- shocking\n- new\nOutput the list of sections in german.",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "- \"Ein bierernstes Thema.\"\n- \"Du brennst für Open Source, so ähnlich wie ich, bist aber deutlich erfolgreicher.\"\n- \"Und weil das noch nicht genug ist, hast du auch noch mal ein Projekt gestartet, womit man seine GitHub-History als Poster printen kann.\"\n- \"Was heißt, du hattest eines an der Wand? Du hast es nicht mehr an der Wand.\"\n- \"Es hängt leider nicht mehr.\"\n- \"Und dann auch der Versuch einen Server in lolcode zu schreiben.\"\n- \"Aber ja macht mir tatsächlich Spaß esoterische Programmiersprachen auszuprobieren.\"\n- \"Rust ist eine Art und Weise Programme zu schreiben wie man sie eigentlich vorher noch nicht hatte.\"\n- \"Das große Überthema bei Rust, dass man versucht zu vermeiden, Speicher falsch zu verwalten.\"\n- \"Rust ist eine Möglichkeit, Speicher auf andere Art zu verwalten, indem der Compiler zur Compile-Zeit erkennt, ob Speicher beispielsweise von mehreren Stellen mutable, also veränderlich, beschrieben wird oder genutzt wird. Und das wird dann verhindert.\"\n- \"Geschwindigkeit ist für viele ein Einstiegsfaktor.\"\n- \"Man kann robusteren Code schreiben, der zur Laufzeit vielleicht nicht sehr viele Überraschungen bereithält.\"\n- \"Wenn's baut, dann läuft's auch.\""
+        },
+        "finish_reason": "stop"
+      },
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "-\"Also das, was du jetzt gerade so erwähnt, andere Sprachen liefern das ja auch mit.\"\n-\"Rust ist nicht funktional, nur dass wir da, ist imperativ.\"\n-\"Man kann in Rust mehrere Paradigmen programmieren.\"\n-\"Ich arbeite gerne objektorientiert im Großen und funktional im Kleinen in Rust.\"\n-\"Aber in Firefox, also Firefox selbst ist es nicht Rust?\"\n-\"Wenn es schnell gehen muss. Ganz, ganz genau.\"\n-\"Klassisch benutzt man Rust dann, wenn man, ich sage jetzt mal, irgendwo zwischen dem Hardware- und Software-Interface agiert.\"\n-\"Alles was relativ nah am Metall ist, beispielsweise ein Betriebssystem, ein Dateisystem, vielleicht ein Webserver oder ein Proxy, alles was so Richtung High-Performance geht, ist natürlich ein spannendes Thema.\"\n-\"Amazon beispielsweise verwendet Rust für Firecracker. Das ist eine kleine Micro-VM. Und da geht es eben darum, dass man sehr viele kleine, fünf Megabyte große VMs auf großen Cloud-Maschinen laufen lassen kann.\"\n-\"Ein anderes Thema Dropbox, die haben ihre Data Layer neu geschrieben. Alles was in Dropbox gespeichert ist, läuft erstmal durch Rust-Code und dann werden diese ganzen Metadaten und das Storage und so weiter, das wird alles dort gemacht in Rust und dann werden die Daten in Cold Storage abgelegt.\"\n-\"Also auch da ist man relativ nah an der Hardware, an der Infrastruktur, irgendwo im Internet, im Netzwerk unterwegs und da ist Rust natürlich spannend.\""
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "results": [
+      {
+        "status": "fulfilled",
+        "value": {
+          "id": "chatcmpl-8OCChU0Ru40IVUNaAwpLZ8a67LeDx",
+          "object": "chat.completion",
+          "created": 1700777475,
+          "model": "gpt-3.5-turbo-0613",
+          "choices": [
+            {
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "- \"Ein bierernstes Thema.\"\n- \"Du brennst für Open Source, so ähnlich wie ich, bist aber deutlich erfolgreicher.\"\n- \"Und weil das noch nicht genug ist, hast du auch noch mal ein Projekt gestartet, womit man seine GitHub-History als Poster printen kann.\"\n- \"Was heißt, du hattest eines an der Wand? Du hast es nicht mehr an der Wand.\"\n- \"Es hängt leider nicht mehr.\"\n- \"Und dann auch der Versuch einen Server in lolcode zu schreiben.\"\n- \"Aber ja macht mir tatsächlich Spaß esoterische Programmiersprachen auszuprobieren.\"\n- \"Rust ist eine Art und Weise Programme zu schreiben wie man sie eigentlich vorher noch nicht hatte.\"\n- \"Das große Überthema bei Rust, dass man versucht zu vermeiden, Speicher falsch zu verwalten.\"\n- \"Rust ist eine Möglichkeit, Speicher auf andere Art zu verwalten, indem der Compiler zur Compile-Zeit erkennt, ob Speicher beispielsweise von mehreren Stellen mutable, also veränderlich, beschrieben wird oder genutzt wird. Und das wird dann verhindert.\"\n- \"Geschwindigkeit ist für viele ein Einstiegsfaktor.\"\n- \"Man kann robusteren Code schreiben, der zur Laufzeit vielleicht nicht sehr viele Überraschungen bereithält.\"\n- \"Wenn's baut, dann läuft's auch.\""
+              },
+              "finish_reason": "stop"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 2418,
+            "completion_tokens": 324,
+            "total_tokens": 2742
+          }
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "id": "chatcmpl-8OCCha35KCEzFbybTeVk3B0su85vP",
+          "object": "chat.completion",
+          "created": 1700777475,
+          "model": "gpt-3.5-turbo-0613",
+          "choices": [
+            {
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "-\"Also das, was du jetzt gerade so erwähnt, andere Sprachen liefern das ja auch mit.\"\n-\"Rust ist nicht funktional, nur dass wir da, ist imperativ.\"\n-\"Man kann in Rust mehrere Paradigmen programmieren.\"\n-\"Ich arbeite gerne objektorientiert im Großen und funktional im Kleinen in Rust.\"\n-\"Aber in Firefox, also Firefox selbst ist es nicht Rust?\"\n-\"Wenn es schnell gehen muss. Ganz, ganz genau.\"\n-\"Klassisch benutzt man Rust dann, wenn man, ich sage jetzt mal, irgendwo zwischen dem Hardware- und Software-Interface agiert.\"\n-\"Alles was relativ nah am Metall ist, beispielsweise ein Betriebssystem, ein Dateisystem, vielleicht ein Webserver oder ein Proxy, alles was so Richtung High-Performance geht, ist natürlich ein spannendes Thema.\"\n-\"Amazon beispielsweise verwendet Rust für Firecracker. Das ist eine kleine Micro-VM. Und da geht es eben darum, dass man sehr viele kleine, fünf Megabyte große VMs auf großen Cloud-Maschinen laufen lassen kann.\"\n-\"Ein anderes Thema Dropbox, die haben ihre Data Layer neu geschrieben. Alles was in Dropbox gespeichert ist, läuft erstmal durch Rust-Code und dann werden diese ganzen Metadaten und das Storage und so weiter, das wird alles dort gemacht in Rust und dann werden die Daten in Cold Storage abgelegt.\"\n-\"Also auch da ist man relativ nah an der Hardware, an der Infrastruktur, irgendwo im Internet, im Netzwerk unterwegs und da ist Rust natürlich spannend.\""
+              },
+              "finish_reason": "stop"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 2424,
+            "completion_tokens": 352,
+            "total_tokens": 2776
+          }
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You will be provided a list of quotes in a podcast episode.\nYour task is to select the 5 most most interesting quotes.\nProvide a list of the quotes in the language they were provided in.",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "- \"Ein bierernstes Thema.\" (A serious topic.)\n- \"Du brennst für Open Source, so ähnlich wie ich, bist aber deutlich erfolgreicher.\" (You're passionate about Open Source, similar to me, but you're much more successful.)\n- \"Und weil das noch nicht genug ist, hast du auch noch mal ein Projekt gestartet, womit man seine GitHub-History als Poster printen kann.\" (And as if that wasn't enough, you also started a project where you can print your GitHub history as a poster.)\n- \"Was heißt, du hattest eines an der Wand? Du hast es nicht mehr an der Wand.\" (What do you mean, you had one on the wall? You don't have it on the wall anymore.)\n- \"Es hängt leider nicht mehr.\" (Unfortunately, it's not hanging anymore.)\n- \"Und dann auch der Versuch einen Server in lolcode zu schreiben.\" (And then there was also the attempt to write a server in lolcode.)\n- \"Aber ja macht mir tatsächlich Spaß esoterische Programmiersprachen auszuprobieren.\" (But yes, I actually enjoy trying out esoteric programming languages.)\n- \"Rust ist eine Art und Weise Programme zu schreiben wie man sie eigentlich vorher noch nicht hatte.\" (Rust is a way of writing programs that we didn't really have before.)\n- \"Das große Überthema bei Rust, dass man versucht zu vermeiden, Speicher falsch zu verwalten.\" (The big theme in Rust is that it tries to avoid managing memory incorrectly.)\n- \"Rust ist eine Möglichkeit, Speicher auf andere Art zu verwalten, indem der Compiler zur Compile-Zeit erkennt, ob Speicher beispielsweise von mehreren Stellen mutable, also veränderlich, beschrieben wird oder genutzt wird. Und das wird dann verhindert.\" (Rust is a way to manage memory differently, where the compiler detects at compile time whether memory, for example, is being written to or used in a mutable way from multiple places. And that is prevented.)\n- \"Geschwindigkeit ist für viele ein Einstiegsfaktor.\" (Speed is an entry factor for many.)\n- \"Man kann robusteren Code schreiben, der zur Laufzeit vielleicht nicht sehr viele Üb"
+        },
+        "finish_reason": "length"
+      }
+    ],
+    "results": [
+      {
+        "status": "fulfilled",
+        "value": {
+          "id": "chatcmpl-8OCDWAMlNY3oCCvgsn3bc2YcobzgC",
+          "object": "chat.completion",
+          "created": 1700777526,
+          "model": "gpt-3.5-turbo-0613",
+          "choices": [
+            {
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "- \"Ein bierernstes Thema.\" (A serious topic.)\n- \"Du brennst für Open Source, so ähnlich wie ich, bist aber deutlich erfolgreicher.\" (You're passionate about Open Source, similar to me, but you're much more successful.)\n- \"Und weil das noch nicht genug ist, hast du auch noch mal ein Projekt gestartet, womit man seine GitHub-History als Poster printen kann.\" (And as if that wasn't enough, you also started a project where you can print your GitHub history as a poster.)\n- \"Was heißt, du hattest eines an der Wand? Du hast es nicht mehr an der Wand.\" (What do you mean, you had one on the wall? You don't have it on the wall anymore.)\n- \"Es hängt leider nicht mehr.\" (Unfortunately, it's not hanging anymore.)\n- \"Und dann auch der Versuch einen Server in lolcode zu schreiben.\" (And then there was also the attempt to write a server in lolcode.)\n- \"Aber ja macht mir tatsächlich Spaß esoterische Programmiersprachen auszuprobieren.\" (But yes, I actually enjoy trying out esoteric programming languages.)\n- \"Rust ist eine Art und Weise Programme zu schreiben wie man sie eigentlich vorher noch nicht hatte.\" (Rust is a way of writing programs that we didn't really have before.)\n- \"Das große Überthema bei Rust, dass man versucht zu vermeiden, Speicher falsch zu verwalten.\" (The big theme in Rust is that it tries to avoid managing memory incorrectly.)\n- \"Rust ist eine Möglichkeit, Speicher auf andere Art zu verwalten, indem der Compiler zur Compile-Zeit erkennt, ob Speicher beispielsweise von mehreren Stellen mutable, also veränderlich, beschrieben wird oder genutzt wird. Und das wird dann verhindert.\" (Rust is a way to manage memory differently, where the compiler detects at compile time whether memory, for example, is being written to or used in a mutable way from multiple places. And that is prevented.)\n- \"Geschwindigkeit ist für viele ein Einstiegsfaktor.\" (Speed is an entry factor for many.)\n- \"Man kann robusteren Code schreiben, der zur Laufzeit vielleicht nicht sehr viele Üb"
+              },
+              "finish_reason": "length"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 730,
+            "completion_tokens": 500,
+            "total_tokens": 1230
+          }
+        }
+      }
+    ]
+  }
+]

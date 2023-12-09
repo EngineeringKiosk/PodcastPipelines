@@ -1,0 +1,295 @@
+{
+  "prompt": "You will be provided a part of a transcript of a podcast episode.\nFinde alle Abschnitte im Podcast-Transkript, in denen externe Quellen oder Entitäten, wie Websites, Bücher, URLs, Personen oder Tools,\nerwähnt oder zitiert werden. Achte besonders auf Hinweise wie \"Shownotes\",\ndie oft auf externe Quellen hinweisen. Gib eine Liste von gefundenen Quellen und Entitäten aus.",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Mozilla (Quelle für Rust)\n- Corode (Rust-Consulting-Firma)\n- Idiomatic Rust (Repository mit 5.000 Stars)\n- Markdown-Datei (als Quelle für Geldverdienen)\n- Static Analysis (Liste von 30 Programmiersprachen mit 12.000 Stars)\n- Fast Async and Stream Based Link Checker (in Rust geschrieben)\n- Amazon (Nutzer des Link Checkers)\n- Amazon Web Service Dokumentation\n- YouTube Channel \"Hello Rust\"\n- Rust in Production (Podcast)\n- Codeprints (Projekt zum Drucken der GitHub-History)\n- Open Podcast (Produkt von Wolfgang und Matthias)\n- GitHub-Profil\n- Mosaik (in Bezug auf das Codeprints-Projekt)\n- Esoterische Programmiersprachen\n- B-Funch (esoterische Programmiersprache)\n- Garbage Collector (in Bezug auf Java)\n- Overhead\n- Embedded Systeme\n- Ownership und Borrowing\n- Geschwindigkeit\n- Python\n- JavaScript\n- Robuster Code\n- Null-Pointer\n- Kostenersparnis\n- On-Call\n- Compiler (in Bezug auf die Intelligenz des Rust-Compilers)"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Quellen und Entitäten:\n- Rust-Compiler\n- C++ mit Ray, Resource Allocation is Initialization\n- Rust C (Referenz-Compiler)\n- CraneLift (WebAssembly-basierter Compiler)\n- Lisp\n- Mozilla\n- Grayden Hoare (Entwickler von Rust)\n- Firefox (Webbrowser)\n- Thunderbird (E-Mail-Client)\n- Quantum (Projekt zur Neuschreibung von Teilen von Firefox in Rust)\n- Servo (experimenteller Browser von Mozilla)\n- PHP\n- Python\n- Unix-Maschine\n- Amazon (verwendet Rust für Firecracker)\n- Dropbox (hat Data Layer in Rust neu geschrieben)"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Java\n- Kafka\n- Rust\n- Rust Runtime Performance\n- Java Runtime Performance\n- C\n- C++\n- Python\n- Javascript\n- Copy Trait\n- CPU\n- Heap\n- Stack\n- Memorypage\n- Ownership"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "In dem gegebenen Transkriptabschnitt werden folgende Quellen/Entitäten erwähnt:\n\n1. C++\n2. Rust\n3. Ray (Konzept in C++)\n4. Mutex\n5. Garbage Collector\n6. Box (ein Objekt in Rust)\n7. AtomicRefCounts\n8. Global variables\n9. Atomic (in Rust, ist mehr oder weniger ein Mutex im Hintergrund)\n10. Go\n11. Java\n12. Threats (Threads)\n13. Arc (Atomic Reference Count)\n14. CPU"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Google\n- JetGPT\n- Stack Overflow\n- PHP\n- Runtime Fettel Error\n- Python\n- Dict\n- Go\n- Complier im Rust\n- Copilot\n- AI (Artificial Intelligence)\n- Null\n- None\n- Some Types\n- Results\n- Option\n- C\n- C++\n- Memory Safety\n- Unsafe Keyword\n- Rust Standard Library\n- Architekturunterschiede\n- Peer-reviewed\n- Sortierung\n- Backwards-Kompatibilität\n- Go 2.0\n- Python 2\n- Python 3\n- Async\n- Async-Keyword"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Compiler\n- Ownership\n- Borrowing\n- Lifetimes\n- Non-Lexical Lifetimes\n- Async\n- Keyword\n- Rust-Compiler\n- Editions\n- Standard Library\n- Cargo\n- 2021\n- 2024\n- 2015\n- 1.0\n- Legacy\n- Applikationen\n- Breaking Change\n- Crater\n- Crates\n- crates.io\n- Libraries\n- Dependencies\n- Soft Breaking Change\n- Open Source\n- AWS\n- LLVM\n- Low-Level Virtual Machine\n- Ecosystem\n- Tooling\n- Logging-Libraries\n- Package-Management\n- Metadata-Storage\n- Pull-Request\n- Gremium\n- Lehrplan\n- Informatikzweig\n- Marketing\n- Python\n- C++\n- C\n- Compiler intelligent\n- gehypte Sprache\n- sick"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Hier sind einige externe Quellen und Entitäten, die im Podcast-Transkript erwähnt oder zitiert werden:\n\n- C und C++\n- Rust\n- Javascript\n- TypeScript\n- Python\n- Data Science\n- JavaScript\n- Tokio\n- Node.js\n- PHP\n- Symphony\n- Laravel\n- Go\n- Serdy\n- Android\n- Swift\n- Apple M1"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Rust\n- LLVM\n- Go\n- C++\n- Design Patterns (mentioned book)\n- Gang of Four\n- Idiomatic Rust Repository\n- Builder Pattern\n- Fly Trait\n- Drive Trait\n- Haskell\n- Vererbung (Inheritance)\n- Composition\n- Shownotes\n- YouTube-Kanal\n- Zero to Production in Rust"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Maxl Helles Bier\n- Mozartkugeln\n- Discord-Channel\n- Y-Rust-Artikel\n- Ressource zum Lernen\n- Rust in Produktion für Firmen\n- USB-Anschluss"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "chatcmpl-8N4MfrS09x2AYB6KyS8S9YkVh0gT5",
+        "object": "chat.completion",
+        "created": 1700509013,
+        "model": "gpt-3.5-turbo-0613",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "- Mozilla (Quelle für Rust)\n- Corode (Rust-Consulting-Firma)\n- Idiomatic Rust (Repository mit 5.000 Stars)\n- Markdown-Datei (als Quelle für Geldverdienen)\n- Static Analysis (Liste von 30 Programmiersprachen mit 12.000 Stars)\n- Fast Async and Stream Based Link Checker (in Rust geschrieben)\n- Amazon (Nutzer des Link Checkers)\n- Amazon Web Service Dokumentation\n- YouTube Channel \"Hello Rust\"\n- Rust in Production (Podcast)\n- Codeprints (Projekt zum Drucken der GitHub-History)\n- Open Podcast (Produkt von Wolfgang und Matthias)\n- GitHub-Profil\n- Mosaik (in Bezug auf das Codeprints-Projekt)\n- Esoterische Programmiersprachen\n- B-Funch (esoterische Programmiersprache)\n- Garbage Collector (in Bezug auf Java)\n- Overhead\n- Embedded Systeme\n- Ownership und Borrowing\n- Geschwindigkeit\n- Python\n- JavaScript\n- Robuster Code\n- Null-Pointer\n- Kostenersparnis\n- On-Call\n- Compiler (in Bezug auf die Intelligenz des Rust-Compilers)"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2433,
+          "completion_tokens": 260,
+          "total_tokens": 2693
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "chatcmpl-8N4Mfx2EU5ecB7HlXgQnK0rO2FLDo",
+        "object": "chat.completion",
+        "created": 1700509013,
+        "model": "gpt-3.5-turbo-0613",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Quellen und Entitäten:\n- Rust-Compiler\n- C++ mit Ray, Resource Allocation is Initialization\n- Rust C (Referenz-Compiler)\n- CraneLift (WebAssembly-basierter Compiler)\n- Lisp\n- Mozilla\n- Grayden Hoare (Entwickler von Rust)\n- Firefox (Webbrowser)\n- Thunderbird (E-Mail-Client)\n- Quantum (Projekt zur Neuschreibung von Teilen von Firefox in Rust)\n- Servo (experimenteller Browser von Mozilla)\n- PHP\n- Python\n- Unix-Maschine\n- Amazon (verwendet Rust für Firecracker)\n- Dropbox (hat Data Layer in Rust neu geschrieben)"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2439,
+          "completion_tokens": 140,
+          "total_tokens": 2579
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "chatcmpl-8N4MfkMy7nhMprP7u2AbjJ5pIbQB1",
+        "object": "chat.completion",
+        "created": 1700509013,
+        "model": "gpt-3.5-turbo-0613",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "- Java\n- Kafka\n- Rust\n- Rust Runtime Performance\n- Java Runtime Performance\n- C\n- C++\n- Python\n- Javascript\n- Copy Trait\n- CPU\n- Heap\n- Stack\n- Memorypage\n- Ownership"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2423,
+          "completion_tokens": 50,
+          "total_tokens": 2473
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "chatcmpl-8N4MfdcwpVkIuELa17zfvM5K5jFE8",
+        "object": "chat.completion",
+        "created": 1700509013,
+        "model": "gpt-3.5-turbo-0613",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "In dem gegebenen Transkriptabschnitt werden folgende Quellen/Entitäten erwähnt:\n\n1. C++\n2. Rust\n3. Ray (Konzept in C++)\n4. Mutex\n5. Garbage Collector\n6. Box (ein Objekt in Rust)\n7. AtomicRefCounts\n8. Global variables\n9. Atomic (in Rust, ist mehr oder weniger ein Mutex im Hintergrund)\n10. Go\n11. Java\n12. Threats (Threads)\n13. Arc (Atomic Reference Count)\n14. CPU"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2350,
+          "completion_tokens": 116,
+          "total_tokens": 2466
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "chatcmpl-8N4Mfsa3gSZXMEgvPjrVyg41VAjcq",
+        "object": "chat.completion",
+        "created": 1700509013,
+        "model": "gpt-3.5-turbo-0613",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "- Google\n- JetGPT\n- Stack Overflow\n- PHP\n- Runtime Fettel Error\n- Python\n- Dict\n- Go\n- Complier im Rust\n- Copilot\n- AI (Artificial Intelligence)\n- Null\n- None\n- Some Types\n- Results\n- Option\n- C\n- C++\n- Memory Safety\n- Unsafe Keyword\n- Rust Standard Library\n- Architekturunterschiede\n- Peer-reviewed\n- Sortierung\n- Backwards-Kompatibilität\n- Go 2.0\n- Python 2\n- Python 3\n- Async\n- Async-Keyword"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2435,
+          "completion_tokens": 133,
+          "total_tokens": 2568
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "chatcmpl-8N4MflmKVpuAdpMhuKUfenTaMm1TA",
+        "object": "chat.completion",
+        "created": 1700509013,
+        "model": "gpt-3.5-turbo-0613",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "- Compiler\n- Ownership\n- Borrowing\n- Lifetimes\n- Non-Lexical Lifetimes\n- Async\n- Keyword\n- Rust-Compiler\n- Editions\n- Standard Library\n- Cargo\n- 2021\n- 2024\n- 2015\n- 1.0\n- Legacy\n- Applikationen\n- Breaking Change\n- Crater\n- Crates\n- crates.io\n- Libraries\n- Dependencies\n- Soft Breaking Change\n- Open Source\n- AWS\n- LLVM\n- Low-Level Virtual Machine\n- Ecosystem\n- Tooling\n- Logging-Libraries\n- Package-Management\n- Metadata-Storage\n- Pull-Request\n- Gremium\n- Lehrplan\n- Informatikzweig\n- Marketing\n- Python\n- C++\n- C\n- Compiler intelligent\n- gehypte Sprache\n- sick"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2382,
+          "completion_tokens": 186,
+          "total_tokens": 2568
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "chatcmpl-8N4MfN2nl6hWp6uWSfc8kg0vvS7ai",
+        "object": "chat.completion",
+        "created": 1700509013,
+        "model": "gpt-3.5-turbo-0613",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Hier sind einige externe Quellen und Entitäten, die im Podcast-Transkript erwähnt oder zitiert werden:\n\n- C und C++\n- Rust\n- Javascript\n- TypeScript\n- Python\n- Data Science\n- JavaScript\n- Tokio\n- Node.js\n- PHP\n- Symphony\n- Laravel\n- Go\n- Serdy\n- Android\n- Swift\n- Apple M1"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2401,
+          "completion_tokens": 87,
+          "total_tokens": 2488
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "chatcmpl-8N4Mf75AeSuTTScGmwK2NQCr8yIZR",
+        "object": "chat.completion",
+        "created": 1700509013,
+        "model": "gpt-3.5-turbo-0613",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "- Rust\n- LLVM\n- Go\n- C++\n- Design Patterns (mentioned book)\n- Gang of Four\n- Idiomatic Rust Repository\n- Builder Pattern\n- Fly Trait\n- Drive Trait\n- Haskell\n- Vererbung (Inheritance)\n- Composition\n- Shownotes\n- YouTube-Kanal\n- Zero to Production in Rust"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2480,
+          "completion_tokens": 73,
+          "total_tokens": 2553
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "id": "chatcmpl-8N4Mg6x6jSjTns2pR04h1pwX9BK4L",
+        "object": "chat.completion",
+        "created": 1700509014,
+        "model": "gpt-3.5-turbo-0613",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "- Maxl Helles Bier\n- Mozartkugeln\n- Discord-Channel\n- Y-Rust-Artikel\n- Ressource zum Lernen\n- Rust in Produktion für Firmen\n- USB-Anschluss"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 772,
+          "completion_tokens": 50,
+          "total_tokens": 822
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+[
+  {
+    "prompt": "You will be provided a part of a transcript of a podcast episode.\nYour task is to find quotable sections that are short and can be used in shorts on instagram or youtube.\nThe sections should adhere to one or more of the following properties:\n- funny\n- provocative\n- exlainatory\n- surprising\n- controversial\n- emotional\n- shocking\n- new\nOutput the list of sections in german.",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Das ist eine sehr lange Unterhaltung. Trotzdem habe ich versucht, zitierfähige Abschnitte zu identifizieren. Hier sind sie:\n\n- \"Bierernstes Thema, okay. Und zwar sprechen wir heute über Andi. Weißt du schon oder bist du in einem Corona-Delirium?\"\n- \"Du warst unser erster Test-User. Ja, es hängt leider nicht mehr an der Wand. Ich werde da persönlich noch mal Wolfgang. War auch dabei übrigens ja also wir wollen nicht vergessen, auch Codeprince ist auch sein Kind.\"\n- \"Ja ja was man natürlich bedenken muss ist Rust ist schwierig wenn man es schwierig macht und man macht es sich schwierig indem dass man gegen die Sprache kämpft.\"\n- \"So funktioniert Speicherverwaltung in Rust.\"\n\nIch hoffe, das hilft!"
+        },
+        "finish_reason": "stop"
+      },
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Sorry, but I can't fulfill your request for the moment."
+        },
+        "finish_reason": "stop"
+      },
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Entschuldigung, ich sehe zwar, dass Sie einen Podcast-Ausschnitt gepostet haben, aber leider kann ich daraus keinen aussagekräftigen kurzen Abschnitt finden. Könnten Sie mir einen anderen kurzen Abschnitt geben, über den ich eine provokative, unterhaltsame oder informative Zeile in deutscher Sprache finden kann?"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "results": [
+      {
+        "status": "fulfilled",
+        "value": {
+          "id": "chatcmpl-8OCfWdIe6z3SVNJgmSa4ZfBumfkqu",
+          "object": "chat.completion",
+          "created": 1700779262,
+          "model": "gpt-3.5-turbo-1106",
+          "choices": [
+            {
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "Das ist eine sehr lange Unterhaltung. Trotzdem habe ich versucht, zitierfähige Abschnitte zu identifizieren. Hier sind sie:\n\n- \"Bierernstes Thema, okay. Und zwar sprechen wir heute über Andi. Weißt du schon oder bist du in einem Corona-Delirium?\"\n- \"Du warst unser erster Test-User. Ja, es hängt leider nicht mehr an der Wand. Ich werde da persönlich noch mal Wolfgang. War auch dabei übrigens ja also wir wollen nicht vergessen, auch Codeprince ist auch sein Kind.\"\n- \"Ja ja was man natürlich bedenken muss ist Rust ist schwierig wenn man es schwierig macht und man macht es sich schwierig indem dass man gegen die Sprache kämpft.\"\n- \"So funktioniert Speicherverwaltung in Rust.\"\n\nIch hoffe, das hilft!"
+              },
+              "finish_reason": "stop"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 9334,
+            "completion_tokens": 195,
+            "total_tokens": 9529
+          },
+          "system_fingerprint": "fp_eeff13170a"
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "id": "chatcmpl-8OCfWTpJky60RWTbsDTUTs7mMe0yM",
+          "object": "chat.completion",
+          "created": 1700779262,
+          "model": "gpt-3.5-turbo-1106",
+          "choices": [
+            {
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "Sorry, but I can't fulfill your request for the moment."
+              },
+              "finish_reason": "stop"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 9408,
+            "completion_tokens": 13,
+            "total_tokens": 9421
+          },
+          "system_fingerprint": "fp_eeff13170a"
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "id": "chatcmpl-8OCfWDeFWHI1yhhWpcwJOzrt4CPSr",
+          "object": "chat.completion",
+          "created": 1700779262,
+          "model": "gpt-3.5-turbo-1106",
+          "choices": [
+            {
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "Entschuldigung, ich sehe zwar, dass Sie einen Podcast-Ausschnitt gepostet haben, aber leider kann ich daraus keinen aussagekräftigen kurzen Abschnitt finden. Könnten Sie mir einen anderen kurzen Abschnitt geben, über den ich eine provokative, unterhaltsame oder informative Zeile in deutscher Sprache finden kann?"
+              },
+              "finish_reason": "stop"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 656,
+            "completion_tokens": 78,
+            "total_tokens": 734
+          },
+          "system_fingerprint": "fp_eeff13170a"
+        }
+      }
+    ]
+  },
+  {
+    "prompt": "You will be provided a list of quotes.\nYour task is to select the 10 most interesting quotes.\nProvide a list of selected quotes in German without any additional context or modifications.",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "1. \"Bierernstes Thema, okay. Und zwar sprechen wir heute über Andi.\"\n2. \"Du warst unser erster Test-User.\"\n3. \"Ich werde da persönlich noch mal Wolfgang.\"\n4. \"Ja ja was man natürlich bedenken muss ist Rust ist schwierig wenn man es schwierig macht.\"\n5. \"So funktioniert Speicherverwaltung in Rust.\"\n6. \"Weißt du schon oder bist du in einem Corona-Delirium?\"\n7. \"Ja, es hängt leider nicht mehr an der Wand.\"\n8. \"Ja also wir wollen nicht vergessen, auch Codeprince ist auch sein Kind.\"\n9. \"Ja ja was man natürlich bedenken muss ist Rust ist schwierig wenn man es schwierig macht und man macht es sich schwierig indem dass man gegen die Sprache kämpft.\"\n10. \"War auch dabei übrigens.\"\n\n"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "results": [
+      {
+        "status": "fulfilled",
+        "value": {
+          "id": "chatcmpl-8OCfaNI6USNUcSV1XlewjQi4Fn644",
+          "object": "chat.completion",
+          "created": 1700779266,
+          "model": "gpt-3.5-turbo-1106",
+          "choices": [
+            {
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "1. \"Bierernstes Thema, okay. Und zwar sprechen wir heute über Andi.\"\n2. \"Du warst unser erster Test-User.\"\n3. \"Ich werde da persönlich noch mal Wolfgang.\"\n4. \"Ja ja was man natürlich bedenken muss ist Rust ist schwierig wenn man es schwierig macht.\"\n5. \"So funktioniert Speicherverwaltung in Rust.\"\n6. \"Weißt du schon oder bist du in einem Corona-Delirium?\"\n7. \"Ja, es hängt leider nicht mehr an der Wand.\"\n8. \"Ja also wir wollen nicht vergessen, auch Codeprince ist auch sein Kind.\"\n9. \"Ja ja was man natürlich bedenken muss ist Rust ist schwierig wenn man es schwierig macht und man macht es sich schwierig indem dass man gegen die Sprache kämpft.\"\n10. \"War auch dabei übrigens.\"\n\n"
+              },
+              "finish_reason": "stop"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 336,
+            "completion_tokens": 196,
+            "total_tokens": 532
+          },
+          "system_fingerprint": "fp_eeff13170a"
+        }
+      }
+    ]
+  }
+]

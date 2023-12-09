@@ -1,0 +1,268 @@
+{
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- \"Das habe ich ja eben noch mal reinkopiert\"\n- \"Das sind meine Notizen, die ich mir gemacht habe\"\n- \"Ich hab's in das Dokument ja auch reinkopiert\"\n- \"Ich habe überlegt, ob ich ein Intro habe\"\n- \"Die Konferenzen-Seuche quasi\"\n- \"Die erste In-Persona-Aufnahme\"\n- \"Liebe Philipp, du hast einen Doktor in angewandter Mathematik von der RWTH Aachen\"\n- \"Du hast 2015 mal ein Slide Deck, eine Präsentation mit dem Titel Street Fighting Mars gemacht\""
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Das war damals das Thema.. Okay, cool.. Da reißt du ja bei Andi die Türen ein, weil er ist ja ein Fan vom dreckigen Programmieren und alles schnell machen.. Sagte der, der ein eigenes Meetup-Anmeldesystem vor kurzem geschrieben hat und dann die typische Frage bekommen hat, hey, wieso registrieren sich eigentlich alle immer Bot-User hier?. Kann ich jetzt selbst meine Bot-Detection bauen?. Jeder normale Entwickler würde sagen, lieber Wolfgang, baue einfach mal einen Capture ein.. Nee, ich habe gelesen, man baut ein Hidden-Secret-Input-Feld ein und Bots füllen eh immer alle Felder aus und deswegen baue ich jetzt meine eigene Bot-Detection.. Ja, das war ein super Tipp von Frank hier aus unserer Community übrigens, den ich in Düsseldorf getroffen habe.. Also danke dafür.. Das funktioniert nämlich wirklich.. Die Bots sind jetzt ausgeschlossen vorerst.. \n- Aber was da eigentlich dann wirklich passiert und warum man das macht, da hat man entweder wenig Einblick oder man arbeitet halt weniger damit.. Da hat man dann irgendwelche Data Scientists oder Data Leute, die das aufsetzen.. Und da wollen wir mal ein bisschen Licht in das Ganze reinbringen, wie das denn so funktioniert grundsätzlich und warum man das überhaupt macht.. Und da bist du ja absoluter Spezialist.. Und ich kann mich nur erinnern an unsere Trivago-Zeit, wo man irgendwie hunderte Tests parallel am Laufen gehabt hat und irgendwo ist die Magic im Hintergrund passiert und dann ist irgendwo eine Zahl rausgeputzelt und man hat gewusst, die Änderung war gut.. Der rote Button war besser als der blaue Button.. Und man hat dann gewusst, wie man weitermacht.. Aber wenn man so ein Setup angeht, so ein Experiment, wo startet man denn da?. Wenn ich jetzt irgendwie auch mein kleines Produkt oder so am Start habe und ich möchte jetzt irgendwas ausprobieren, wo fange ich denn da überhaupt an grundsätzlich?"
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "In diesem Abschnitt des Transkripts wird keine externe Quelle oder Entität erwähnt oder zitiert."
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Okay, das ist blöd, sich da auf so einen Standardwert zu verlassen, sondern man sollte immer, wenn man so einen Test designt, sich darüber unterhalten, okay, was für Unwahrscheinlichkeiten, was für Wahrscheinlichkeiten bin ich bereit in Kauf zu nehmen.. Und dann gibt es einfache Webseiten, wenn man mathematisch Bock hat, kann man es auch selber versuchen zu implementieren.. Gibt es eine Formel, die tippe ich ein und dann kommt raus, aha, ich brauche x User in der Testgruppe und x User in der Kontrollgruppe.. Und dann kann man, das ist deine ursprüngliche Frage, dann kann man die ursprüngliche Frage beantworten, wie lange muss so ein Test denn laufen?.\n- Das heißt, das musst du im Vorhinein dann auch alles mitdesignen und festlegen und sicherstellen, dass du das eben auch trackst auf der Support-Seite, dass die Kundennummern mit aufgenommen werden und, und, und, dass das also wirklich im Vorhinein alles schon gesammelt wird, die Daten..\n- Das ist ein Teil, den die, es gibt ja viele Plattformen, Experimentation-Plattforms, die dieses technische Problem lösen.. Und das ist ein Aspekt, den die eigentlich alle haben, den man meistens, glaube ich, Feature-Flagging nennt.. dass man eben genau diese Zuordnung macht..\n- Also wird wahrscheinlich eh immer der Fall sein, aber dass du das halt alles irgendwo aufzeichnest und das ja teilweise gar kein technisches Problem ist, sondern ein Prozessproblem oder ja, dass der Prozess halt so designed ist, damit du, dass du alle Daten auch wirklich mit aufzeichnest und danach verarbeiten kannst..\n- So kann ich keinen einprozentigen Effekt messen, weil je kleiner die Nutzerbasis, desto volatiler sind ja die Metriken E.. Das heißt, ich kann dann nicht mehr das Signal vom Rauschen unterscheiden..\n- Aber du hast gerade vom statistischen Rauschen gesprochen.. Und du hattest auch schon mal den Wert p50 vorher erwähnt.. Kannst du uns mal ganz kurz einen Mathe-Crash"
+      },
+      "finish_reason": "length"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Hier sind die Abschnitte im Transkript, in denen externe Quellen erwähnt oder zitiert werden:\n\n1. \"Und wie wahrscheinlich ist es, dass ich diesen Unterschied, den ich sehe zwischen Test- und Kontrollgruppe, dass der zurückzuführen ist auf die Varianz?\"\n2. \"Und daher auch umso größer die Gruppen, umso kleiner ist dann die Varianz, dass sich das dann ausgleicht.\"\n3. \"Der p-Wert, der, glaube ich, schon sehr vielen Mathematikern und Statistikern Albträume bereitet hat...\"\n4. \"Das ist der berühmte p-Wert, der, glaube ich, schon sehr vielen Mathematikern und Statistikern Albträume bereitet hat, weil ihn wirklich absolut jeder falsch versteht.\"\n5. \"Also der p-Wert\"\n6. \"Das gilt natürlich nicht nur für Audiosignal, sondern auch für Leser und als Leser auch als Tiefpunkt, ein bisschen..\"\n7. \"Und jetzt sehe ich ja auch durch das Rauschen, wenn ich mir das jetzt angucke, ich nutze jetzt irgendwas, wie oft die Kopfschmerzen haben, ich habe jetzt eine Metrik.\"\n8. \"Das nennt man statistisch die Nullhypothese.\"\n9. \"Dann sehe ich ja immer einen Unterschied zwischen Test- und Kontrollgruppe.\"\n10. \"Mal haben die einen zwei Prozent mehr Kopfschmerzen, die anderen drei Prozent weniger Kopfschmerzen.\"\n11. \"Und der p-Wert, die statistische Signifikanz, sagt, nehmen wir mal an, das ist ein Placebo.\"\n12. \"Wir wissen ja per Definition, dass die Kunden was anderes sehen.\"\n13. \"Das heißt, wir missbrauchen eine statistische, ein statistisches Modell, eine statistische Berechnung, die für diesen Fall total erschmarrn ist.\"\n14. \"Also es gibt auch keine sinnvolle Alternative, oder schon?\"\n15. \"Das ist dann, was man Bayesian Statistics nennt.\"\n16. \"Bayesian Statistics, habt ihr vielleicht schon mal gehört?\"\n17. \"Man kann der einfachen Antwort dann trauen, wenn man eben die statistischen Methoden auch so"
+      },
+      "finish_reason": "length"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- \"da stand dann Conversion Rate Impact plus 30 Prozent\"\n- \"der Ron Kohavi\", \"Vice President bei Microsoft, war Dire-, war Director bei Amazon, war bei Airbnb\"\n- \"Andrew Gelman\", \"Professor in Columbia\"\n- \"Marketing-Slogans von den Plattformen\"\n- \"das Experimentieren\"\n- \"Tesla und baue den Cybertruck\"\n- \"die NASA hat gerade einen Software-Patch auf irgendeinen Satelliten geschickt\"\n- \"die Studien für die Corona-Medikamente\""
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- \"Wenn wir über Experimentieren sprechen und über Testing, dann hört man von zumindest von den sehr großen Firmen ja auch oft, dass sie nicht nur ein A-B-Test fahren, sondern vielleicht einen A-B-C-Test fahren oder zwei A-B-Tests auf der Plattform fahren.\"\n- \"Das ist jetzt allerdings wirklich ein Fall, den man in meinen Augen nur machen kann, wenn man eine große Nutzerzahl hat.\"\n- \"Ein sehr großes Thema, insbesondere in der Psychologie.\"\n- \"Und der hat ein wahnsinnig inspirierendes Buch geschrieben, finde ich, wenn man das liest.\"\n- \"Ein Paper, das heißt A Day in the Life of Oscar the Cat.\""
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- \"Diese Katze das spüren kann, dass jemand bald sterben wird..\"\n- \"Dieses Paper ist veröffentlicht worden in einem guten Journal.\"\n- \"Daniel Kahneman, der der Nobelpreisträger ist, wahrscheinlich der berühmteste, einflussreichste, lebende Psychologe, hat Paper veröffentlicht, hat Paper in seinem sehr berühmten Buch zitiert\"\n- \"Andrew Gelman, der sich sehr stark dafür gemacht hat\"\n- \"Tryman's Law\"\n- \"Es gibt ja dieses bekannte Meme\"\n- \"AA-Tests\"\n- \"Universal Holdout Group\"\n- \"Meinem Online-Shop\"\n- \"Die Metrik\"\n- \"Peaking\"\n- \"Power Analysis\""
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "- Sample Size Calculator\n- Chat GPT\n- Engineering-Kiosk-Webseite\n- Shownotes\n- Statistik von Kopf bis Fuß (Buch)\n- Spotify (im Bezug auf Podcasts)\n- Joe Reagan (eventuell ein Podcast-Macher)\n- Wolfgang (Name einer Person in Bezug auf Diskussion über Titel)\n- Matthias (Host, der für die Audio-Technik zuständig ist)\n- Oskar (Name der Katze, die den Host begleitet)\n- Power-Analysis\n- Kontaktmöglichkeit für Philipp (im Bezug auf Fragen zu Power-Analysis)\n- Show Notes"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "prompt": "you will be provided a transcript of a podcast episode.\nthe transcript is in german.\nthe task is to find all sentences in the transcript where an external source is mentioned or cited, such as websites, books, URLs, tools.\nOften, when \"shownotes\" is mentioned, it is a reference to an external source.\nList all sections from the transcript where hosts mentioned, cited, or references a source or entity. output in german",
+  "results": [
+    {
+      "id": "chatcmpl-8JRyXWW5KKDjpRIu7v1odOnRPoUkN",
+      "object": "chat.completion",
+      "created": 1699646461,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "- \"Das habe ich ja eben noch mal reinkopiert\"\n- \"Das sind meine Notizen, die ich mir gemacht habe\"\n- \"Ich hab's in das Dokument ja auch reinkopiert\"\n- \"Ich habe überlegt, ob ich ein Intro habe\"\n- \"Die Konferenzen-Seuche quasi\"\n- \"Die erste In-Persona-Aufnahme\"\n- \"Liebe Philipp, du hast einen Doktor in angewandter Mathematik von der RWTH Aachen\"\n- \"Du hast 2015 mal ein Slide Deck, eine Präsentation mit dem Titel Street Fighting Mars gemacht\""
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2500,
+        "completion_tokens": 131,
+        "total_tokens": 2631
+      }
+    },
+    {
+      "id": "chatcmpl-8JRyX21binoKwzdKGjtoVWyudNoyt",
+      "object": "chat.completion",
+      "created": 1699646461,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "- Das war damals das Thema.. Okay, cool.. Da reißt du ja bei Andi die Türen ein, weil er ist ja ein Fan vom dreckigen Programmieren und alles schnell machen.. Sagte der, der ein eigenes Meetup-Anmeldesystem vor kurzem geschrieben hat und dann die typische Frage bekommen hat, hey, wieso registrieren sich eigentlich alle immer Bot-User hier?. Kann ich jetzt selbst meine Bot-Detection bauen?. Jeder normale Entwickler würde sagen, lieber Wolfgang, baue einfach mal einen Capture ein.. Nee, ich habe gelesen, man baut ein Hidden-Secret-Input-Feld ein und Bots füllen eh immer alle Felder aus und deswegen baue ich jetzt meine eigene Bot-Detection.. Ja, das war ein super Tipp von Frank hier aus unserer Community übrigens, den ich in Düsseldorf getroffen habe.. Also danke dafür.. Das funktioniert nämlich wirklich.. Die Bots sind jetzt ausgeschlossen vorerst.. \n- Aber was da eigentlich dann wirklich passiert und warum man das macht, da hat man entweder wenig Einblick oder man arbeitet halt weniger damit.. Da hat man dann irgendwelche Data Scientists oder Data Leute, die das aufsetzen.. Und da wollen wir mal ein bisschen Licht in das Ganze reinbringen, wie das denn so funktioniert grundsätzlich und warum man das überhaupt macht.. Und da bist du ja absoluter Spezialist.. Und ich kann mich nur erinnern an unsere Trivago-Zeit, wo man irgendwie hunderte Tests parallel am Laufen gehabt hat und irgendwo ist die Magic im Hintergrund passiert und dann ist irgendwo eine Zahl rausgeputzelt und man hat gewusst, die Änderung war gut.. Der rote Button war besser als der blaue Button.. Und man hat dann gewusst, wie man weitermacht.. Aber wenn man so ein Setup angeht, so ein Experiment, wo startet man denn da?. Wenn ich jetzt irgendwie auch mein kleines Produkt oder so am Start habe und ich möchte jetzt irgendwas ausprobieren, wo fange ich denn da überhaupt an grundsätzlich?"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2513,
+        "completion_tokens": 483,
+        "total_tokens": 2996
+      }
+    },
+    {
+      "id": "chatcmpl-8JRyWiuRYbnBvNxic2EQXppZA5UsR",
+      "object": "chat.completion",
+      "created": 1699646460,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "In diesem Abschnitt des Transkripts wird keine externe Quelle oder Entität erwähnt oder zitiert."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2460,
+        "completion_tokens": 26,
+        "total_tokens": 2486
+      }
+    },
+    {
+      "id": "chatcmpl-8JRyXfGhGxn2xaIFBPnQ3zBIl0Csj",
+      "object": "chat.completion",
+      "created": 1699646461,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "- Okay, das ist blöd, sich da auf so einen Standardwert zu verlassen, sondern man sollte immer, wenn man so einen Test designt, sich darüber unterhalten, okay, was für Unwahrscheinlichkeiten, was für Wahrscheinlichkeiten bin ich bereit in Kauf zu nehmen.. Und dann gibt es einfache Webseiten, wenn man mathematisch Bock hat, kann man es auch selber versuchen zu implementieren.. Gibt es eine Formel, die tippe ich ein und dann kommt raus, aha, ich brauche x User in der Testgruppe und x User in der Kontrollgruppe.. Und dann kann man, das ist deine ursprüngliche Frage, dann kann man die ursprüngliche Frage beantworten, wie lange muss so ein Test denn laufen?.\n- Das heißt, das musst du im Vorhinein dann auch alles mitdesignen und festlegen und sicherstellen, dass du das eben auch trackst auf der Support-Seite, dass die Kundennummern mit aufgenommen werden und, und, und, dass das also wirklich im Vorhinein alles schon gesammelt wird, die Daten..\n- Das ist ein Teil, den die, es gibt ja viele Plattformen, Experimentation-Plattforms, die dieses technische Problem lösen.. Und das ist ein Aspekt, den die eigentlich alle haben, den man meistens, glaube ich, Feature-Flagging nennt.. dass man eben genau diese Zuordnung macht..\n- Also wird wahrscheinlich eh immer der Fall sein, aber dass du das halt alles irgendwo aufzeichnest und das ja teilweise gar kein technisches Problem ist, sondern ein Prozessproblem oder ja, dass der Prozess halt so designed ist, damit du, dass du alle Daten auch wirklich mit aufzeichnest und danach verarbeiten kannst..\n- So kann ich keinen einprozentigen Effekt messen, weil je kleiner die Nutzerbasis, desto volatiler sind ja die Metriken E.. Das heißt, ich kann dann nicht mehr das Signal vom Rauschen unterscheiden..\n- Aber du hast gerade vom statistischen Rauschen gesprochen.. Und du hattest auch schon mal den Wert p50 vorher erwähnt.. Kannst du uns mal ganz kurz einen Mathe-Crash"
+          },
+          "finish_reason": "length"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2559,
+        "completion_tokens": 500,
+        "total_tokens": 3059
+      }
+    },
+    {
+      "id": "chatcmpl-8JRyXMfaWuHQzkJPDpfGPvR8vq3mt",
+      "object": "chat.completion",
+      "created": 1699646461,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Hier sind die Abschnitte im Transkript, in denen externe Quellen erwähnt oder zitiert werden:\n\n1. \"Und wie wahrscheinlich ist es, dass ich diesen Unterschied, den ich sehe zwischen Test- und Kontrollgruppe, dass der zurückzuführen ist auf die Varianz?\"\n2. \"Und daher auch umso größer die Gruppen, umso kleiner ist dann die Varianz, dass sich das dann ausgleicht.\"\n3. \"Der p-Wert, der, glaube ich, schon sehr vielen Mathematikern und Statistikern Albträume bereitet hat...\"\n4. \"Das ist der berühmte p-Wert, der, glaube ich, schon sehr vielen Mathematikern und Statistikern Albträume bereitet hat, weil ihn wirklich absolut jeder falsch versteht.\"\n5. \"Also der p-Wert\"\n6. \"Das gilt natürlich nicht nur für Audiosignal, sondern auch für Leser und als Leser auch als Tiefpunkt, ein bisschen..\"\n7. \"Und jetzt sehe ich ja auch durch das Rauschen, wenn ich mir das jetzt angucke, ich nutze jetzt irgendwas, wie oft die Kopfschmerzen haben, ich habe jetzt eine Metrik.\"\n8. \"Das nennt man statistisch die Nullhypothese.\"\n9. \"Dann sehe ich ja immer einen Unterschied zwischen Test- und Kontrollgruppe.\"\n10. \"Mal haben die einen zwei Prozent mehr Kopfschmerzen, die anderen drei Prozent weniger Kopfschmerzen.\"\n11. \"Und der p-Wert, die statistische Signifikanz, sagt, nehmen wir mal an, das ist ein Placebo.\"\n12. \"Wir wissen ja per Definition, dass die Kunden was anderes sehen.\"\n13. \"Das heißt, wir missbrauchen eine statistische, ein statistisches Modell, eine statistische Berechnung, die für diesen Fall total erschmarrn ist.\"\n14. \"Also es gibt auch keine sinnvolle Alternative, oder schon?\"\n15. \"Das ist dann, was man Bayesian Statistics nennt.\"\n16. \"Bayesian Statistics, habt ihr vielleicht schon mal gehört?\"\n17. \"Man kann der einfachen Antwort dann trauen, wenn man eben die statistischen Methoden auch so"
+          },
+          "finish_reason": "length"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2569,
+        "completion_tokens": 500,
+        "total_tokens": 3069
+      }
+    },
+    {
+      "id": "chatcmpl-8JRyXZwa3bRPZK2IeQiDJOqntkOGW",
+      "object": "chat.completion",
+      "created": 1699646461,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "- \"da stand dann Conversion Rate Impact plus 30 Prozent\"\n- \"der Ron Kohavi\", \"Vice President bei Microsoft, war Dire-, war Director bei Amazon, war bei Airbnb\"\n- \"Andrew Gelman\", \"Professor in Columbia\"\n- \"Marketing-Slogans von den Plattformen\"\n- \"das Experimentieren\"\n- \"Tesla und baue den Cybertruck\"\n- \"die NASA hat gerade einen Software-Patch auf irgendeinen Satelliten geschickt\"\n- \"die Studien für die Corona-Medikamente\""
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2459,
+        "completion_tokens": 111,
+        "total_tokens": 2570
+      }
+    },
+    {
+      "id": "chatcmpl-8JRyXojJpkeZ3ggfoXRp3sO1bUQCF",
+      "object": "chat.completion",
+      "created": 1699646461,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "- \"Wenn wir über Experimentieren sprechen und über Testing, dann hört man von zumindest von den sehr großen Firmen ja auch oft, dass sie nicht nur ein A-B-Test fahren, sondern vielleicht einen A-B-C-Test fahren oder zwei A-B-Tests auf der Plattform fahren.\"\n- \"Das ist jetzt allerdings wirklich ein Fall, den man in meinen Augen nur machen kann, wenn man eine große Nutzerzahl hat.\"\n- \"Ein sehr großes Thema, insbesondere in der Psychologie.\"\n- \"Und der hat ein wahnsinnig inspirierendes Buch geschrieben, finde ich, wenn man das liest.\"\n- \"Ein Paper, das heißt A Day in the Life of Oscar the Cat.\""
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2528,
+        "completion_tokens": 156,
+        "total_tokens": 2684
+      }
+    },
+    {
+      "id": "chatcmpl-8JRyXWyNoLSkyVtTkKUZHfY4WyKwR",
+      "object": "chat.completion",
+      "created": 1699646461,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "- \"Diese Katze das spüren kann, dass jemand bald sterben wird..\"\n- \"Dieses Paper ist veröffentlicht worden in einem guten Journal.\"\n- \"Daniel Kahneman, der der Nobelpreisträger ist, wahrscheinlich der berühmteste, einflussreichste, lebende Psychologe, hat Paper veröffentlicht, hat Paper in seinem sehr berühmten Buch zitiert\"\n- \"Andrew Gelman, der sich sehr stark dafür gemacht hat\"\n- \"Tryman's Law\"\n- \"Es gibt ja dieses bekannte Meme\"\n- \"AA-Tests\"\n- \"Universal Holdout Group\"\n- \"Meinem Online-Shop\"\n- \"Die Metrik\"\n- \"Peaking\"\n- \"Power Analysis\""
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2516,
+        "completion_tokens": 161,
+        "total_tokens": 2677
+      }
+    },
+    {
+      "id": "chatcmpl-8JRyWTUSxP7DEeHmcvp4dGPvOshbg",
+      "object": "chat.completion",
+      "created": 1699646460,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "- Sample Size Calculator\n- Chat GPT\n- Engineering-Kiosk-Webseite\n- Shownotes\n- Statistik von Kopf bis Fuß (Buch)\n- Spotify (im Bezug auf Podcasts)\n- Joe Reagan (eventuell ein Podcast-Macher)\n- Wolfgang (Name einer Person in Bezug auf Diskussion über Titel)\n- Matthias (Host, der für die Audio-Technik zuständig ist)\n- Oskar (Name der Katze, die den Host begleitet)\n- Power-Analysis\n- Kontaktmöglichkeit für Philipp (im Bezug auf Fragen zu Power-Analysis)\n- Show Notes"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2460,
+        "completion_tokens": 134,
+        "total_tokens": 2594
+      }
+    }
+  ]
+}

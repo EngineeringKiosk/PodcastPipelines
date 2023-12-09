@@ -1,0 +1,36 @@
+{
+  "prompt": "You will be provided a part of a transcript of a podcast episode. Every utterance has the format (hh:mm:ss - hh:mm:ss) Text.\nYour task is to split the transcript into chapters which represent the discussed topics.\nList the topic heading and when it starts. The topic can be phrased as a question which is discussed or a very short summary of the topic.\nThe topic should be less than 10 words.\nThe output should be in German.",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "(0:9:6 - 0:9:30) Genau, das ist einer der großen Vorteile von Rust. Der Rust-Compiler ist sehr streng und führt eine statische Analyse des Codes durch. Dadurch kann er potenziell unsichere Mustern und Fehler bereits zur Compile-Zeit erkennen und den Entwickler darauf hinweisen. Dadurch werden viele Probleme vermieden, die sonst zur Laufzeit auftreten könnten. Der Compiler ist also sozusagen ein intelligenter Assistent, der den Entwickler unterstützt, robusten und fehlerfreien Code zu schreiben."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "results": [
+    {
+      "id": "chatcmpl-8MNfA6DU098qJIhY1ChfG8ZTf9yGo",
+      "object": "chat.completion",
+      "created": 1700344868,
+      "model": "gpt-3.5-turbo-0613",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "(0:9:6 - 0:9:30) Genau, das ist einer der großen Vorteile von Rust. Der Rust-Compiler ist sehr streng und führt eine statische Analyse des Codes durch. Dadurch kann er potenziell unsichere Mustern und Fehler bereits zur Compile-Zeit erkennen und den Entwickler darauf hinweisen. Dadurch werden viele Probleme vermieden, die sonst zur Laufzeit auftreten könnten. Der Compiler ist also sozusagen ein intelligenter Assistent, der den Entwickler unterstützt, robusten und fehlerfreien Code zu schreiben."
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 3071,
+        "completion_tokens": 138,
+        "total_tokens": 3209
+      }
+    }
+  ]
+}
