@@ -87,6 +87,35 @@ function askQuestion(query) {
   });
 }
 
+function adaptTranscript(path, adStartTime, adEndTime) {
+  if (adStartTime < 1 || adEndTime < 1) {
+    return
+  }
+  //find transcript file *transcript-slim.json
+  const files = fs.readdirSync(path, { withFileTypes: true })
+    .filter(f => !f.isDirectory() && f.name.includes("transcript-slim.json"))
+
+  if (files.length) {
+    const transcriptFile = files[0].name
+    console.log("Found transcript file: " + transcriptFile)
+    const transcript = JSON.parse(fs.readFileSync(transcriptFile))
+    const start = adStartTime * 1000
+    const duration = adEndTime * 1000 - start
+
+    // move all utterances after the ad to the end of the ad
+    transcript.utterances.forEach(u => {
+      if (u.start >= start) {
+        u.start = start + duration
+        u.end = u.end + duration
+      }
+    })
+
+    // overwrite with the updated transcript
+    fs.writeFileSync(transcriptFile, JSON.stringify(transcript, null, 2))
+    console.log("Transcript adapted")
+  }
+}
+
 async function main() {
   const introDuration = await askQuestion('How long is the intro (seconds)? ');
 
@@ -126,6 +155,9 @@ async function main() {
     console.log("\n\n---- For Shownotes (updated) ----")
     console.log(timestamps.map(x => `${prettyPrintSeconds(x[0], true)}${x[1]}`).join('\n'))
     console.log("\n\n---- New timestamps written to " + filename)
+
+    adaptTranscript(".", adStartTime, adEndTime)
+
     rl.close();
   });
 }
