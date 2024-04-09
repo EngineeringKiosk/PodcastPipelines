@@ -105,7 +105,7 @@ function adaptTranscript(path, adStartTime, adEndTime) {
     // move all utterances after the ad to the end of the ad
     transcript.utterances.forEach(u => {
       if (u.start >= start) {
-        u.start = start + duration
+        u.start = u.start + duration
         u.end = u.end + duration
       }
     })
