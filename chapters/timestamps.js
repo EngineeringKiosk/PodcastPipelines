@@ -46,6 +46,17 @@ function injectAd(adStartTime, adEndTime, adText, timestamps) {
     timestamps.splice(adStartIndex, 0, [adStartTime, " " + adText])
     // copy the topic before the ad to the end to specify the ongoing topic again
     timestamps.splice(adStartIndex + 1, 0, [adEndTime, timestamps[adStartIndex - 1][1]])
+
+    // due to the splitting of the topic, one part might be too short
+    // make sure that the chapter before and after the ad have at least 5 seconds, otherwise delete it
+    const minChapterDuration = 5
+    if (timestamps[adStartIndex - 1][0] + minChapterDuration > adStartTime) {
+      timestamps.splice(adStartIndex - 1, 1)
+    }
+    if (timestamps[adStartIndex + 1][0] - minChapterDuration < adEndTime) {
+      timestamps.splice(adStartIndex + 2, 1)
+    }
+
   }
   return timestamps
 }
