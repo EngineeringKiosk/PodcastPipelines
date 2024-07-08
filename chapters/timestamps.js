@@ -98,8 +98,8 @@ function askQuestion(query) {
   });
 }
 
-function adaptTranscript(path, adStartTime, adEndTime) {
-  if (adStartTime < 1 || adEndTime < 1) {
+function adaptTranscript(path, adStartTime = 0, adEndTime = 0, introDuration = 0) {
+  if ((adStartTime < 1 || adEndTime < 1) && introDuration < 1) {
     return
   }
   //find transcript file *transcript-slim.json
@@ -110,12 +110,15 @@ function adaptTranscript(path, adStartTime, adEndTime) {
     const transcriptFile = files[0].name
     console.log("Found transcript file: " + transcriptFile)
     const transcript = JSON.parse(fs.readFileSync(transcriptFile))
+    const introDurationMs = introDuration * 1000
     const start = adStartTime * 1000
     const duration = adEndTime * 1000 - start
 
     // move all utterances after the ad to the end of the ad
     transcript.utterances.forEach(u => {
-      if (u.start >= start) {
+      u.start = u.start + introDurationMs
+      u.end = u.end + introDurationMs
+      if (start > 0 && duration > 0 && u.start >= start) {
         u.start = u.start + duration
         u.end = u.end + duration
       }
