@@ -1,0 +1,1060 @@
+{
+    "language_code": "de",
+    "audio_url": "https://cloud.inlupus.at/s/rfiTr6PjgFkG9FC/download/ep133_mitarbeiter_halten.mp3",
+    "punctuate": true,
+    "format_text": true,
+    "dual_channel": false,
+    "webhook_url": null,
+    "webhook_auth_header_name": null,
+    "webhook_auth_header_value": null,
+    "audio_start_from": null,
+    "audio_end_at": null,
+    "word_boost": [],
+    "boost_param": null,
+    "filter_profanity": false,
+    "redact_pii": false,
+    "redact_pii_audio": false,
+    "redact_pii_audio_quality": null,
+    "redact_pii_policies": null,
+    "redact_pii_sub": null,
+    "speaker_labels": true,
+    "speakers_expected": 2,
+    "content_safety": false,
+    "content_safety_confidence": null,
+    "iab_categories": false,
+    "custom_spelling": null,
+    "disfluencies": false,
+    "sentiment_analysis": false,
+    "auto_chapters": false,
+    "entity_detection": false,
+    "summarization": false,
+    "summary_model": null,
+    "summary_type": null,
+    "auto_highlights": false,
+    "language_detection": false,
+    "speech_threshold": null,
+    "speech_model": null,
+    "id": "73ed1797-8ff3-48dd-b4e7-4ebb73335a3a",
+    "status": "completed",
+    "error": null,
+    "utterances": [
+        {
+            "text": "Lieber Andy, du bist ja Engineering Manager, habe ich gehört, oder für dich bin.",
+            "start": 160,
+            "end": 4486,
+            "confidence": 0.8937499999999999,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ich alles, was du möchtest. Aber so lautet oder ein Teil meines Jobtitels ist korrekt.",
+            "start": 4518,
+            "end": 9718,
+            "confidence": 0.9082053333333334,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Jetzt meines Wissens hast du ja so eher ein kleineres Team, weil du jetzt super neues, innovatives, irgendwie ganz wichtiges Produkt und so weiter hast. Aber wie viele Leute seid ihr im SRI Bereich?",
+            "start": 9774,
+            "end": 19582,
+            "confidence": 0.9013385294117647,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "In Europa? Gar nicht so viele. Ich glaube 10 oder 12. Und weltweit sollten wir so fünf und dreiig, sechs und dreiig sein.",
+            "start": 19686,
+            "end": 27486,
+            "confidence": 0.9258491304347828,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Glaubst du, dass das mit fünf Leuten weniger auch beherrschbar wäre?",
+            "start": 27558,
+            "end": 31116,
+            "confidence": 0.9338227272727273,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Bei so einer Anzahl sind fünf Leute ja eh immer krank oder im Urlaub.",
+            "start": 31238,
+            "end": 34192,
+            "confidence": 0.9465450000000002,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Also wenn man ja nochmal fünf weniger meine. Auf jeden Fall musst du dich darauf einstellen, dass das bald so ist, weil ich weiß nicht, ob du zufällig dieses Buch kennst, die große Arbeiterlosigkeit vom Stepstone CEO.",
+            "start": 34296,
+            "end": 46776,
+            "confidence": 0.8811959459459462,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Das klingt wie so ein Freebie e Book, was ich runterlade, wenn ich meine E Mail Adresse wo angebe.",
+            "start": 46888,
+            "end": 51640,
+            "confidence": 0.9023342105263158,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, ist glaube ich ziemlich Bestsellerliste und so weiter und wird gerade hoch und runter getragen. Was auf jeden Fall interessant ist, dass der schreibt, dass es 2005 und dreiig 5 Millionen weniger Arbeitskräfte geben wird in Deutschland, also ungefähr 15 % oder so aktuell sind. Das heißt, in Zukunft wird man einfach mit weniger Leuten auskommen müssen, noch weniger Leuten. Also es wird in Zukunft scheinbar noch schwieriger, Leute für irgendwelche offenen Job Positions zu finden.",
+            "start": 51800,
+            "end": 78392,
+            "confidence": 0.9133766233766234,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Und der Grund ist, dass ein paar in Rente gehen und weniger nachkommen, oder.",
+            "start": 78456,
+            "end": 82792,
+            "confidence": 0.9630728571428574,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Was ist der Grund genau? Trotz Zuwanderung weniger Leute über Alterung, noch weniger Leute kommen nach. Wahrscheinlich auch das weniger arbeiten wollen. Wobei ich glaube in dem Fall, das ist vom deutschen Bundesamt oder so, diese Statistik ist wahrscheinlich das gar nicht eingerechnet, sondern rein wie sich die Gesellschaft entwickelt.",
+            "start": 82816,
+            "end": 100980,
+            "confidence": 0.9315817999999997,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Auf der anderen Seite habe ich vor kurzem einen Podcast von brand eins mit Carsten Maschmeyer gehört, da ging es um die vier Tage Woche und da hat er natürlich das Beispiel angeführt, dass wir auch mal eine sechs Tage Woche hatten und das auch nicht nur sechs Tage lang gearbeitet wurde, sondern auch Kinder sechs Tage lang zur Schule gegangen sind. Also auch am Samstag.",
+            "start": 101060,
+            "end": 118336,
+            "confidence": 0.893549696969697,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Hey, ich bin noch Samstag zur Schule gegangen, du nicht?",
+            "start": 118368,
+            "end": 120944,
+            "confidence": 0.8944529999999998,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Nein, ich war, ich hatte schon das ganze Wochenende frei Arbeit.",
+            "start": 121032,
+            "end": 123712,
+            "confidence": 0.8697445454545455,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Also meine Grundschule war noch samstags.",
+            "start": 123736,
+            "end": 125520,
+            "confidence": 0.7195616666666668,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Da hat er auf jeden Fall die ganze Sache auch mit Fakten belegt oder mit Daten. Ob die Daten jetzt Fakten sind, habe ich nicht nachgeguckt. Da wurde aber dann auch gesagt, dass wir über die Zeit pro Kopf immer das Bruttoinlandsprodukt gesteigert haben und dann natürlich auch eine von der sechs Tage auf die fünf Tage Woche. Das bedeutet, die Produktivität hat sich gesteigert und jetzt kommst du mit mir um die Ecke, ja aus was ist denn, wenn du so und so wenig Leute hast? Aber jetzt sind wir gerade auf dem Hype Train von Gen AI und das ist die Lösung ja all unserer Probleme, wie jeder CEO sagt. Und deswegen sehe ich da jetzt erstmal kein Problem, denn wir haben ja noch sechs Jahre den Use Case zu finden von Genai, der uns diesen Produktivitätsgain, der uns dann flöten geht, ja bekommt, oder?",
+            "start": 125600,
+            "end": 167020,
+            "confidence": 0.9121609523809524,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, das sollten wir auch möglichst schnell machen, weil die Produktivität, die sinkt auch in Deutschland, was auch ein ziemliches Problem ist. Und das eigentlich nur das viel größere Problem. Also dieses Wachstumszeug ist ja noch mal eine andere Sache, aber dass die Produktivität sinkt, ist schon ein großes Problem. Aber für Diese Recherche von dieser Episode ist mir auch im Kopf gelegen, dass ich mal vom Bitkom Verband, dieser deutsche. Was ist das eigentlich? Firmenverband der deutschen ITE.",
+            "start": 167180,
+            "end": 194344,
+            "confidence": 0.9388811392405068,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Er bezeichnet sich selbst als Branchenverband der deutschen Informations und Telekommunikationsbranche. Ich muss zugeben, ich habe mich bis heute gefragt, was solche Branchenverbände machen. Lobbyismus. Ja, wahrscheinlich.",
+            "start": 194432,
+            "end": 204760,
+            "confidence": 0.8795944444444445,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Aber auf jeden Fall hatte ich im Kopf, dass die mal erwähnt hatten, dass man im Durchschnitt in Deutschland, um eine IT Position zu besetzen, sechs Monate braucht. Und jetzt habe ich die Statistik noch mal nachgeschaut und es sind mittlerweile sieben Monate. Also innerhalb der letzten drei Jahre oder so, ist es um einen Monat schon hochgegangen. Also wenn du eine neue Stelle besetzen willst oder wieder besetzen willst, dann brauchst du alleine sieben Monate und hast keine Arbeitskraft die sieben Monate lang, bis du jemanden findest im Durchschnitt. Also umso spezieller die Position natürlich, umso schwieriger wird es wahrscheinlich auch nochmal.",
+            "start": 204800,
+            "end": 238140,
+            "confidence": 0.9319546601941743,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Bei guten Midlevel Engineers oder sogar Senior oder höher, würde ich da locker mitgehen. Sieben Monate ist dann schon eher am unteren Ende. Ich rechne immer mit neun circa. Bei Ausbildungsplätzen, also Azubis, Juniors, Leute, die umschulen, Bootcamp Absolventinnen würde ich fast sagen, geht es schneller.",
+            "start": 238220,
+            "end": 257268,
+            "confidence": 0.9023273913043479,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Und jetzt bist du auch Engineering Manager. Was würdest du sagen, kostet dich eine Wiederbesetzung einer Position? Es kündigt jetzt jemand in deinem Team, so ein SRI, und du musst die jetzt wieder besetzen. Was glaubst du, was die Gesamtkosten sind?",
+            "start": 257324,
+            "end": 270776,
+            "confidence": 0.9004439024390245,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Eine ganze Menge Nerven auf jeden Fall.",
+            "start": 270848,
+            "end": 272780,
+            "confidence": 0.9276099999999999,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, aber das sind ja nur deine Nerven, die sind gratis, für die bezahlt man nicht für deine Nerven.",
+            "start": 273120,
+            "end": 277848,
+            "confidence": 0.9291184210526318,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Naja, Naja, rechnen wir mal durch. Okay, sagen wir die Person kündigt und hat einen Kündigungsschutz von drei Monaten. Dann ist die Person noch drei Monate da. Ob die Performance von dieser Person für die letzten drei Monate noch so wirklich stark ist und die Motivation, weiß ich nicht. Wenn man professionell ist, bleibt ihr auf gleichem Level. Kenne aber auch den umgekehrten Fall, dass jemand schon innerlich gekündigt hat und dann größtenteils sich zurückgelehnt hat. In der Zeit fängt man schon an zu rekruten. Rechnen wir also sieben Monate, nehmen wir mal die Statistik drauf, drei Monate ist die Person noch da, also eigentlich fehlt die Arbeitskraft für vier Monate, somit haben wir einen Arbeitsausfall von vier Monaten. Dann je nachdem wie komplex die Infrastruktur und die Applikation ist, ich rechne immer so eine Einarbeitungszeit von vier bis sechs Monaten, bis die Person richtig produktiv ist. Und mit richtig produktiv meine ich, die Person kann sich frei im Unternehmen bewegen, weiß, wer anzusprechen ist und muss nicht mehr kontinuierlich in die Hand genommen werden und hat schon mal Meetings geleitet und all sowas. Und dann kommt oben drauf natürlich noch die Thematik, dass Neueinstellungen in der Regel ein höheres Einstiegsgehalt haben als die Leute, die gehen. Gründe sind unterschiedlich, der Markt ist gerade in einer anderen Saison, wenn man so möchte. Inflation, vielleicht bin ich eine Remote company und ersetze jemanden von Hamburg mit jemandem aus London. Also einfach nur die Location ist teurer. Und der letzte Punkt ist natürlich dann noch, wie kommt die Person zu uns? Interner Recruiter, externe Recruiter, Zufallshire. Ja, also ich würde mal sagen, die ganze Sache kostet mich zweitausendein mit Rekruter Bonus, Arbeitszeitausfall, ein gutes Jahresgehalt von einem Senior, wenn nicht sogar einen Tick mehr, würde ich fast sagen, weil du musst ja eigentlich auch noch den die Opportunitätskosten mitrechnen, die ein Software Engineer der Firma pro Monat bringt. Ja, nehmen wir mal beim SaaS Business dann das Annual Recovering Revenue pro Mitarbeiter durch 12. Also das ist schon, ich würde sagen, ein gutes Senior Gehalt, wenn nicht sogar einen Ticken mehr. Ÿousand und das kann auch gut sechsstellig sein. Also 100, 120 kann das schon werden.",
+            "start": 277944,
+            "end": 407180,
+            "confidence": 0.9099451648351643,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, würde ich eigentlich auch so sehen. Ein Jahresgehalt würde ich mal locker sagen, weil du hast ja auch dann Kosten für Interviews z.b. wenn du da mehrere Interviewrunden hast, da sitzen ja immer deine wirklich Senior Leute drinnen, die dann das auch beurteilen müssen. Dann hast du noch in der Personalabteilung Kosten, administrative Arbeit, Recruiter, die du schon genannt hast, mit den 20 % von von so einem brutto Jahresgehalt, die die gerne nehmen oder irgendwelche anderen Plattformen, Werbung, was es auch immer sei. Also da kommt schon einiges zusammen. Und ich habe auch gelesen, dass z.B. in Deutschland 40 % aller Firmen und ich spreche jetzt nicht von IT Firmen, sondern allen Firmen Aufträge ablehnt, weil sie es einfach nicht schaffen und nicht nachkommen. Also auch da sieht man eigentlich, dass es meiner Meinung nach immer, immer wichtiger wird, Leute zu halten und dass man da eigentlich viel mehr Zeit darauf setzen muss, dass man Leute weniger schnell verliert oder denen gute Bedingungen bietet, anstatt den irgendwie, keine Ahnung, neue Leute anwerben oder andere Sachen. Also dass man, dass man die Leute, die man hat und dieses Wissen, dass man auch hat in der eigenen Belegschaft, dass man das möglichst lange behält, solange es natürlich Sinn macht. Klar gibt es immer andere Ausnahmen auch. Und ich bin ja auch der Meinung, dass man hin und wieder einfach wechseln sollte, ganz im Sinne der Mitarbeiterinnen. Also keine Ahnung, wie üblich das noch sein wird, dass man irgendwie dreiig Jahre bei einer Firma bleibt, zweitausendein. Ich glaube, das wird immer seltener und meiner Meinung nach ist es auch wichtig zu wechseln. Aber in dem Rahmen würde ich mal sagen, für Firmen und von der Firmensicht ist es einfach viel, viel wichtiger, Leute zu halten und eine gute Umgebung zu bieten.",
+            "start": 407220,
+            "end": 498302,
+            "confidence": 0.9180812999999989,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Viel trauriger als die Story sowieso schon ist, was nämlich eine Nachbesetzung kostet, ist eigentlich der Fall, warum die entsprechende Person gegangen ist. Weil wenn es nämlich eine Differenz von 5000 wäre, dann rechnet man ja eigentlich das Jahresgehalt versus 5000 und hätte einfach gar keinen Arbeitsverlust. Und das ist ja eigentlich so traurig, aber ist ja schon mehrmals so passiert. Und die zweite Geschichte, die du erzählt hast, mit dem, dass du Fan von mehrfachem Wechsel bist, ja, da trittst du bei mir natürlich gerade so in so eine Wunde. Ich war neun Jahre bei meinem vorherigen Arbeitgeber, darum habe ich ja extra dreiig.",
+            "start": 498366,
+            "end": 534314,
+            "confidence": 0.9297824761904758,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Jahre gesagt, Anne, damit du nicht so schlecht fühlst.",
+            "start": 534362,
+            "end": 537490,
+            "confidence": 0.9296011111111109,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Nee, aber inzwischen stimme ich dir ja zu. Ich war die neun Jahre bei einem Arbeitgeber, du sitzt da fest im Sattel, hast einen tollen Impact, kennst eigentlich jeden, ja, von der Geschäftsführung bis zur Rezeption. PS ist es ganz wichtig, die Leute von der Rezeption und vom Housekeeping, falls sie sowas habt, zu kennen, weil das sind nämlich deine besten Freunde, weil die machen ihnen nämlich aber alles möglich. Tipp Ende. Aber als ich dann gewechselt habe, jetzt bin ich so zwei, zweieinhalb Jahre bei meiner neuen Firma, ich bin in so eine andere Welt gegangen, so wow, man löst ja Probleme ganz anders und ganz neue Einsichten und Perspektiven und so weiter. Und dann habe ich mir auch relativ schnell gedacht, Ÿousand, der Wechsel war sehr positiv, zumindest für meine persönliche Weiterentwicklung, neues Umfeld und Co. Wird das jetzt leichter zu wechseln? Sollte ich jetzt noch wieder nach einem Jahr wechseln? Weil es kommt natürlich dann wieder, weil du möchtest dieses tolle Lerngefühl ja wieder haben. So ähnlich wie du warst einmal auf LSD oder auf Koks. Hey, das möchtest du wieder.",
+            "start": 537530,
+            "end": 586722,
+            "confidence": 0.9131577717391307,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Aber jetzt rückblickend gesehen hättest du, würdest du sagen, dass du früher gehen hättest sollen?",
+            "start": 586866,
+            "end": 593050,
+            "confidence": 0.8444106666666666,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Sehr gute Frage. Ab und zu würde ich sagen ja, obwohl ich natürlich auch sagen muss, weil ich so lange ÿousand da war, habe ich natürlich auch an den großen Projekten mitwirken dürfen und habe natürlich dadurch Chancen bekommen, die ich beim neuen Stieg in einer Firma, wenn du nicht direkt sehr hoch einsteigst, natürlich nicht so schnell bekommst, weil du hattest eine gewisse Art von credibility von können hast du schon auf den Tisch gelegt und deswegen also ja und nein. Ich denke, ich denke, wenn man schnell lernen möchte, neue Perspektiven zu sehen, dann sollte man öfters wechseln. Und ich denke, wenn man größere Projekte machen möchte, vielleicht auch mit einem vergrößerten Impact auf die Firma selbst, wo man arbeitet, dann macht es gegebenenfalls Sinn, ein bisschen länger zu bleiben. Ich empfehle jetzt nicht neun Jahre zu bleiben, weil neun Jahre sind wie viele Dekaden in der schnellen IT Entwicklung? Sehr viele auf jeden Fall. Und natürlich muss gegeben sein, dass die Firma jetzt gerade nicht am sterben ist. Also wenn du neun Jahre bei einer sterbenden Firma bist, dann macht es auch keinen Sinn. Die muss natürlich schon gesundes Wachstum haben.",
+            "start": 593170,
+            "end": 653268,
+            "confidence": 0.9316959278350508,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Wobei man natürlich jetzt dazu sagen muss, gerade zur Erklärung, wenn du in der Firma wechselst, was du ja sehr oft hast in den in den vielen acht, neun Jahren und ich glaube in Episode 112, wo wir was Pendulum sprechen mit Tom Bartel, da haben wir das ja auch besprochen. Also wenn du natürlich neue Challenges innerhalb der Firma hast und dich veränderst, dann ist es ja sowas ähnliches wie ein Wechsel, nicht genau dasselbe, aber ist natürlich schon auch gut, sowas dann intern in der Firma zu machen. Aber wie du richtig sagst, wenn das nur vom Gehalt ist, ist es natürlich ein großes Problem. Vor allem wenn es dann wirklich um keine Ahnung irgendwas gegangen, weil er irgendwo €1000 mehr bekommt oder so. Das ist natürlich das schlechteste, was passieren kann und was hoffentlich nicht passiert, aber immer öfters passiert. Und ich habe jetzt auch so in letzter Zeit gemerkt, dass durchaus so ein bisschen Angst teilweise sogar in der Industrie immer noch herrscht, dass das die Leute gehen, dass man nicht das bieten kann, was andere Firmen bieten. Also gerade bei bei meinen Diskussionen für unser Meetup z.B. wo wir unser Meetup veranstalten und wir gehen da ja von Firma zu Firma, haben da manche Firmen schon so ein bisschen die Angst geäußert. Ja, aber wenn, wenn dann da andere Vorträge von anderen Firmen sind und dann sehen ja meine Leute vielleicht, wo es besser wäre oder so in der Richtung. Also da ist schon eine gewisse Angst da und Mitarbeiter zu verlieren und glaube darum ist es umso wichtiger zu versuchen, ein gutes Umfeld zu bieten, damit die Leute eben auch dementsprechend bleiben und glücklich sind in dem Umfeld.",
+            "start": 653444,
+            "end": 744644,
+            "confidence": 0.9223272183098596,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ja, aber die Story, die du erzählt hast, die verstehe ich nicht ganz, weil im Endeffekt kann ja z.b. wenn ja.",
+            "start": 744732,
+            "end": 749228,
+            "confidence": 0.9238280952380952,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Über Nik gesagt, dass es Sinn macht, aber die Angst habe ich schon öfters gehört oder die Sorge, dass so was passieren könnte.",
+            "start": 749244,
+            "end": 756500,
+            "confidence": 0.8353665217391305,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ich weiß ja nicht, wenn man sich darüber sorgt, dann bin ich mir gar nicht sicher, ob man sich überhaupt noch auf seine Arbeit konzentrieren kann, weil diese Thematik, ob ein Mitarbeiter von mir geht oder nicht, die ist im Endeffekt zu einem sehr großen Teil außerhalb meiner Kontrolle, weil die Person kann auf eine Konferenz gehen und sich da genau mit Leuten unterhalten. Du hast jetzt gerade Meetup als Beispiel genannt. Ich sage sogar das Weihnachtsessen bei den Schwiegereltern gefühlt irgendwie, wenn der Bruder meiner Frau eine neue Freundin hat und die ist Software Engineering bei Google und wir sprechen darüber. Verstehst du dann? Also das sind Elemente, die kannst du einfach gar nicht beeinflussen. Und wenn man sich darüber Sorgen macht, dann würde ich sagen, weiß ich nicht. Schwierig.",
+            "start": 756620,
+            "end": 800352,
+            "confidence": 0.9339250381679385,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, also ich glaube auch, dass es keinen Sinn macht, sondern du solltest dich eher darum kümmern, dass die Leute eben glücklich sind bei dir und sagen hey, bei den anderen ist es schlechter, bei uns ist eigentlich viel cooler und vielleicht kommen dann von der anderen Seite Leute her oder es gibt ja auch einen gewissen Austausch zwischen den Firmen, einfach natürlichen. Keine Ahnung, das war ja auch immer so das Argument. Kannst du dich erinnern, wie wir noch zusammengearbeitet haben? Wir bilden da die Leute aus und dann gehen alle zu Google Ÿousand. Aber eigentlich ist das ein Kompliment. Erstens, dass du die Leute so weit hinbekommst, dass sie dann interessant sind für Google. Und es ist ja dann auch passiert, dass das umgekehrt gewesen ist, dass dann Leute von Google zu uns sind. Und es kann natürlich in beide Richtungen passieren. Also ich glaube da ein gesunder Austausch macht absolut Sinn und man kann ja auch voneinander lernen und die Leute kommen dann vielleicht auch wieder mal zurück, haben neue Einsichten gewonnen. Also da gibt es ja alle Möglichkeiten. Also ich persönlich finde das super positiv und man darf das natürlich auch nicht so negativ sehen, wenn Leute gehen. Aber das ist bei manchen vielleicht auch noch nicht angekommen, muss man sagen.",
+            "start": 800456,
+            "end": 856062,
+            "confidence": 0.9439464186046517,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Mal ein Seitenkommentar, bevor ich zur eigentlichen Frage komme. Ich finde es faszinierend, dass man immer sagt man war bei Google oder Leute kommen von Google. Ich meine, Big tech ist ja so groß, Microsoft, Apple, Netflix, Nvidia, AWS und so weiter. Aber wieso? Wieso ist Google das Tempo der Taschentücher für die IT Industrie, dass das finde ich faszinierend, dass die eine Baustelle und was hebt Google Mitarbeiter und Mitarbeiterinnen eigentlich auf ein solches Plateau, das eigentlich unterschwellig sagt, die sind besser als alle anderen, weil umso größer die Firma, desto mehr arbeiten diese Leute natürlich an einem Nischenprodukt. Und also das finde ich nur sehr faszinierend und als Denksport Hausaufgabe an alle Hörerinnen und Hörer.",
+            "start": 856126,
+            "end": 896490,
+            "confidence": 0.9062677777777778,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Aber und vielleicht auch noch dazu gesagt, dass Google Leute ja sehr oft in der anderen Welt als in der anderen Welt außerhalb von Google Probleme haben, weil sie die Google Tools nicht mehr haben und teilweise keine Erfahrung haben mit Open Source Tools, sondern immer nur mit den internen Tools und so weiter. Also auch da gibt es Probleme. Nichts. Alles ist Gold, was glänzt.",
+            "start": 896530,
+            "end": 914902,
+            "confidence": 0.94508,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Und wer mehr über diese Thematik hören möchte, kann natürlich gerne in die prometheus Folge reinhören, denn da wird genau das Problem beschrieben. Aber Wolfgang, du hast gerade schon den Punkt angesprochen, wenn man nichts dafür tut, die Mitarbeiter zu halten. Und jetzt möchte ich mal von dir, dem jahrelangen Manager, hören, was du aktiv gemacht hast, um Mitarbeiter zu halten.",
+            "start": 914926,
+            "end": 937090,
+            "confidence": 0.949580655737705,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Mein ProTipp Nr. Eins wäre zuhören.",
+            "start": 937130,
+            "end": 939154,
+            "confidence": 0.8474933333333333,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Also setzt du dich mit jemandem in einen Raum, es ist awkward stille und du fragst dich, wer als erstes das schweigen bricht, oder?",
+            "start": 939242,
+            "end": 948670,
+            "confidence": 0.9305325,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, wenn ich da an manche one on ones denke, dann kommt es fast so hin. Also man muss auch die Stille teilweise akzeptieren und warten, bis eine Antwort kommt, weil das klassische Problem in One on ones, was man ganz gerne hat, man fragt so ist eigentlich alles okay? Und die andere Seite sagt so ja, eigentlich ist alles okay. Okay, passt, dann gehen wir weiter mit unserem normalen Arbeitsplan und und ist schon alles vergessen. Also das ist nicht zuhören.",
+            "start": 949050,
+            "end": 975850,
+            "confidence": 0.8783103658536584,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Du meinst also diese Floskeln von wie geht's dir heute?",
+            "start": 975930,
+            "end": 978394,
+            "confidence": 0.947541,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, ja gut, sowas genau kann auch in einem one on one Setting stattfinden. Aber es ist auch nicht besser, wenn man so schnell fragt wie geht es denn so? Oder ist alles okay? Weil wer sagt dann ja na, es ist alles, alles schlecht und da und dort ist das Problem. Es ist macht ja fast niemand, vor allem, wenn es dann one on one ist mit dem Chef oder Chefin.",
+            "start": 978442,
+            "end": 997074,
+            "confidence": 0.8975472222222223,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ich habe mal einen schönen verbalen Trick gehört, und zwar diese Frage mit wie geht es dir heute? Das ist ja so eine Floskel, die kennt jeder und da hat jeder schon so eine, so eine Schnellschussantwort, so ach komm, lass mich in Ruhe. Wenn du diese Frage aber ein bisschen anders stellst, dann fängt das Gehirn an zu rattern, so nach dem Motto wie war denn dein Tag bisher? Oder wie ist denn deine Stimmung heute? Oder wie bist du drauf? Bist du gut drauf? Ist eigentlich unterm Strich fast dieselbe Frage, die bist du aber so in der Art nicht gewohnt. Und da kriegt man natürlich dann oft eine vielleicht nicht immer detailliertere Antwort, aber eine Antwort, auf der du aufbauen kannst und dann mehr Fragen stellen kannst. Aber um jetzt mal die eigenen Wörter, die du erwähnst, gegen dich zu verwenden, kannst du mir mal ganz kurz erklären, was du unter one on ones verstehst? Denn ich habe da auch ein Verständnis für. Ich bin mir aber nicht sicher, ob dieses Synonym und diese Abkürzung für jeden geläufig ist. Also sind das jour fixes?",
+            "start": 997122,
+            "end": 1050248,
+            "confidence": 0.9260659893048127,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, es ist super, dass du es fragst. Danke. Es ist nämlich nicht so, dass One on one so weit verbreitet sind. Ein Freund von mir hat mir gerade erzählt, er hat ein Team jetzt übernommen oder hat ein Team bekommen und ist ein braver Hörer von von unseren Episoden. Und wir haben ja z.B. in Episode 10 über Ones gesprochen und er hat gemeint, er hat jetzt one on ones in der Firma eingeführt, weil es hat es davor noch nicht gegeben. Also ist mal sehr cool, dass wir da Leute wirklich animieren können, sowas einzuführen. Ich habe öfters schon gehört, wo ich dann irgendwie den Begriff verwendet habe, das ist eins Doppelpunkt eins, dass Leute dann irgendwie, wenn sie mit mir telefoniert haben, dieses eins Doppelpunkt eins gesagt haben. Also es ist verenglicht natürlich alles. Und im Prinzip geht es darum, dass man regelmäßige Meetings hat zwischen einem Lead und dem Teammitglied und zwar wirklich eins zu eins und das sind sehr regelmäßigen Abständen und ganz, ganz wichtig, dass man in diesem Meeting nicht über oder nicht primär zumindestens über die klassische Arbeit spricht, also über irgendwelche Projekte oder technische, inhaltliche technische Dinge. Kann man natürlich, aber das primäre Ziel sollte eigentlich sein, dass man dort alles andere bespricht, alles rundherum um die klassische Arbeit. Also wie geht es im Team? Was hat man persönlich für Ziele? Gibt es irgendwo Probleme? Also diese, diese ganze, ganzen Dinge rundherum, da bespricht man jetzt nicht, ob irgendwie keine Ahnung, wie man die beste neue Technologie jetzt irgendwo einsetzen kann und diskutiert dann irgendwelche technischen Dinge. Kann man natürlich, aber sollte jetzt nicht im Zentrum stehen und man sollte eben den ganzen anderen Bereichen mehr Zeit widmen, weil was die neueste Technologie ist, und was man wo einsetzen kann, das bespricht man vielleicht eh in normalen Meetings, in klassischen Planungsmeetings, bei der Kaffeemaschine, wo auch immer. Und für die tiefer gehenden Themen eben, was vielleicht nicht stimmt, was man verbessern kann, wo es Probleme gibt, wie es mit dem Team geht, ob man sich persönlich weiterentwickelt. Für diese Dinge ist oft kein Platz, keine Zeit gewidmet. Und genau für diese Dinge gibt es ein one on one, was regelmäßig stattfindet. Und das ist nicht einmal im Jahr. Es ist kein Mitarbeitergespräch oder ein Performance Review, sondern es sind wirklich regelmäßige Meetings.",
+            "start": 1050344,
+            "end": 1182794,
+            "confidence": 0.9057443846153851,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ob man jetzt gar nicht über die Projektarbeit sprechen sollte, da bin ich mir nicht sicher, ob ich da mitgehe. Zweitausendein, wo ich mitgehe wäre man soll in diesem Meeting kein Status Update fragen. Wie weit bist du denn? Wann ist das Ticket 4711 fertig? Über das laufende Projekt zu sprechen, finde ich aber höchst sinnvoll, um unter anderem so zu fragen wie siehst du denn den Projektverlauf? Läuft alles super oder wie kommst du mit dem Product Owner klar? Oder wird alles in Zeit geliefert mit dem mit dem anderen Team oder weißt du, warum wir das eigentlich alles machen?",
+            "start": 1182882,
+            "end": 1210992,
+            "confidence": 0.9231638613861386,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Oder natürlich auch Prozesse sind sind auch wichtig natürlich. Also wie ist jetzt z.B. der Prozess, um ein Bull Request zu machen? Solche Dinge, wenn es da natürlich irgendwo Probleme gibt oder das mal zu analysieren, ist dieser Prozess noch okay? Gibt es da Code Reviews? Sind die Code Reviews sinnvoll? Solche Sachen. Natürlich sollte man da auch abklären. Die privaten Dinge, wenn ich sie mal so nennen darf, da für die gibt es halt oft keinen Platz in solchen Firmen. Und dann, was ich halt auch ganz oft höre, ist so ja, meine Tür als als Manager, die steht ja eh immer offen. Wenn jemand Probleme hat, kann halt jederzeit.",
+            "start": 1211136,
+            "end": 1245014,
+            "confidence": 0.902145135135135,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Durch die Tür reinkommen und was ist daran falsch? Du sagst das so negativ.",
+            "start": 1245062,
+            "end": 1250630,
+            "confidence": 0.970612857142857,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, also grundsätzlich ist es ja eine gute Einstellung, aber da sind wir wieder bei der Stille, die man aushalten muss, weil ganz oft kommen die Leute natürlich nicht automatisch zu einem. Und gerade im IT Sektor hast du unter Umständen viele introvertierte Leute. Keine Ahnung, ob es wäre mal eine interessante Statistik, ob es wirklich mehr gibt, aber erfahrungsgemäß gibt es sehr viele Leute und die gehen dann am Ende vielleicht, weil sie einfach unzufrieden sind mit dem Gehalt oder irgendwas nicht mögen, einfach zu einer anderen Firma, weil dort schaut es netter aus, weil sie sind ja nie gefragt worden, was ihre Probleme sind und dann sind sie weg. Und genau in diese Lücke oder in diese Kerbe sollten so one on one schlagen, dass man diese Dinge möglichst früh abfängt.",
+            "start": 1250710,
+            "end": 1291586,
+            "confidence": 0.9271415789473687,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Also ich habe natürlich gerade ketzerisch gefragt, was daran lag.",
+            "start": 1291658,
+            "end": 1294626,
+            "confidence": 0.8607719999999999,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Das war mir natürlich klar. Du fragst nur ketzerisch.",
+            "start": 1294658,
+            "end": 1297818,
+            "confidence": 0.9072855555555557,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ketcherisch.",
+            "start": 1297954,
+            "end": 1298990,
+            "confidence": 0.12412,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, du wolltest catchen. Ja.",
+            "start": 1299770,
+            "end": 1301434,
+            "confidence": 0.744552,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Warum habe ich ketzerisch gefragt? Relativ einfach und zwar hat man, wenn man sowas sagt, sagt das in der Regel ein Manager oder jemand der über einem in der Hierarchie ist zu Leuten, die unter einem im Organigramm sitzen und meine Tür ist immer offen, ihr könnt gerne kommen. Obwohl der Satz gegebenenfalls nicht gemeint ist, wie Wolfgang schon sagte. Die Realität ist jedoch, dass du als Mitarbeiter, wenn du nicht ein sehr hohes Selbstbewusstsein oder ein sehr gutes Standing bereits im im Umfeld der Firma hast, musst du sehr viel Mut zusammenfassen zu deiner Chefin oder vielleicht sogar zu dem Chef deiner Chefin zu gehen, um dann Probleme anzusprechen. Weil in der Regel gehst du nicht ins Geschäftsführerbüro oder ähnliches, um mit dem Kaffee zu trinken, weil du möchtest ihm seine Zeit ja nicht verschwenden oder ihre Zeit. Und in der Regel gehst du dahin, um etwas Kritisches anzusprechen oder einen Verbesserungsvorschlag zu bringen oder oder oder. Und das bedarf sehr sehr großen Mut und das ist was anderes, wenn dir gesagt wird die Tür steht immer offen. Das mag vielleicht wahr sein oder wenn die Person einfach mal zu dir kommt und mit dir einen Kaffee trinken möchte, weil dann ist das so wie ich vergleiche das immer mit älteren, die dir das du anbieten, so nach dem Motto. Aber es ist dann, ich sag mal die Power Position wird dann so ein bisschen umgedreht, weil die Person mit in anführungszeichen Power und das meine ich höher im Organigramm bietet dir ja ihre Zeit an versus wenn du in die offene Tür gehst, nimmst du ja Zeit. Also so habe ich mir das oft gedacht und deswegen funktioniert es in der Praxis nicht und ich glaube das ist auch ein Management anti Pattern inzwischen sowas zu sagen, genauso wie das Feedback Sandwich und so weiter. Ich glaube das steht schon halb auf einer Ebene.",
+            "start": 1301522,
+            "end": 1402090,
+            "confidence": 0.9376647784810129,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, du hast schon richtig gesagt, wahrscheinlich hat es auch gar nichts mit mit introvertiert zu tun. Wie gesagt habe, ich glaube es gibt auch sehr extrovertierte Leute, die trotzdem nicht negative Dinge ansprechen, also in one on ones. Und wenn du natürlich fragst, was man z.b. verbessern könnte bei irgendeinem Prozess und dann vielleicht ist Teammitglied sagt ja war gerade bei einem Meetup und habe bei dieser anderen Firma gesehen, die machen diese coole Sache in ihrem Prozess oder die haben einen Obstkorb, um diesen dummen Obstkorb wieder mal zu erwähnen. Die haben einen Obstkorb, im Office, dann kannst du natürlich sofort sagen, ja, wenn dir Obst wichtig ist, klar organisieren wir Obst, das ist, die paar Euro sind egal. Aber wenn sich das natürlich aufstaut und Leute immer sehen, was es woanders gibt und einfach nicht die Chance haben, irgendwo Input zu liefern, weil sie vielleicht nicht so outgoing sind und direkt ÿousand auf dich loslaufen und sagen hey, die da drüben haben den Obstkorb, ich will auch einen Ops Cop. Wie gesagt, Obstkorb ist jetzt nur eine Variable. Obstkorb ist kein sinnvoller Perk meiner Meinung nach oder zumindest kein Herausstellungsmerkmal. Aber egal was es ist, es kann auch eine bessere Metrik sein in irgendeinem Prozess drinnen oder in irgendeinem Code Review oder was es dann auch immer ist.",
+            "start": 1402250,
+            "end": 1465684,
+            "confidence": 0.9048985520361991,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Aber jetzt mal neugierig gefragt.",
+            "start": 1465732,
+            "end": 1467308,
+            "confidence": 0.8439459999999999,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, ich mag Obst. Ja. Ja.",
+            "start": 1467404,
+            "end": 1469000,
+            "confidence": 0.8737233333333334,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ach so, ja, Nee, der Obstkorb, für mich ist das kein Perk, für mich gehört er dazu, weil du möchtest ja auch gesundes Essen fördern und so. Wie dem auch sei, du fragst da jetzt nach Problemen oder nach Verbesserungssachen und Verbesserungsvorschläge sind ja oft Sachen, die vielleicht ein Problem sind. Heißt das dann, du nimmst das Problem und läufst los oder was machst du damit? Ich schmeiß dir jetzt fünf Probleme, die ich sehe an den Kopf. Was passiert dann im One on? Du hast mich ja gefragt.",
+            "start": 1469420,
+            "end": 1496238,
+            "confidence": 0.910484157303371,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Also dann wäre mal schon ganz glücklich, weil du mir einfach Probleme heranträgst und und mich darauf aufmerksam machst. Das finde ich schon einmal sehr gut, weil dann heißt es auch, ich habe eine gewisse Atmosphäre geschaffen als Lead, als Manager, dass du dich traust, überhaupt Probleme bei mir einzukippen. Das Problem mit dem Einkippen ist natürlich, wenn jeder Probleme bei dir einkippt, dann wirst du als Manager bald ein Problem haben, weil dann bist du nur mehr oder schwimmst du eigentlich nur mehr in Problemen zweitausendein, wenn die eingekippt werden bei dir. Also was natürlich schon dann auch ganz wichtig ist, dass du mit dieser Person, die bei dir jetzt im One on One sitzt, dass du probierst, eine Lösung vielleicht zu finden. Erste Schritte, um in Richtung eine Lösung zu gehen. Und da musst du natürlich auch aufpassen, dass nicht bei dir die ganze Arbeit hängen bleibt, sondern dass das vielleicht von der Person selbst gemacht werden kann oder dass du die Person enablest, z.B. durch einen richtigen Kontakt, wohin sich die Person wenden kann, um dann eine Problemlösung zu erreichen oder die richtigen Infos zu bekommen oder vielleicht Hilfe, um das Problem zu lösen. Also dass du da halt ein Sparring Partner bist, um eine Problemlösung möglichst einfach zu erreichen. Aber nicht, dass du einfach sagst, ja, ich habe dieses Problem gesehen, danke fürs sagen, ich werde mich darum kümmern, weil dann gehst du einfach irgendwann unter.",
+            "start": 1496374,
+            "end": 1578772,
+            "confidence": 0.9149520833333332,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Also versuchst du mich irgendwie zu coachen.",
+            "start": 1578876,
+            "end": 1580996,
+            "confidence": 0.9495214285714285,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Coachen ist vielleicht in dem Fall schon ein bisschen viel gesagt. Unter Umständen reicht es einfach, gewisse Hilfe oder die richtigen Infos bereitzustellen. Aber es kann natürlich wirklich Coaching sein, auch wenn es ein langfristiges Ziel ist, dass du wirklich dich zusammensetzt und einen Plan machst, dass du sagst, okay, wie kommen wir zu diesem Ziel? Wie lösen wir das Problem? Brauchen wir die und die Schritte? Jetzt frag mal die Person, dann schreiben wir das auf die Agenda. Zwei Wochen treffen wir uns ja wieder zum nächsten One on one, dann machen wir ein Catch up, wie es denn geht mit diesem Problem, ob es da schon eine Lösung gibt und so weiter. Dann kannst du natürlich auch wirklich coachend, begleitend da mitwirken. Wobei ich würde es jetzt vielleicht nicht Coaching nennen, aber du kannst natürlich helfen, enablen und auch Accountability einfordern, dass die Leute also wirklich, wenn sie sagen, ja, ich kümmere mich drum und in zwei Wochen habe ich schon die ersten Ergebnisse oder habe mit der und der Person gesprochen, dass du dann eben auch als Lead sagst, okay, zwei Wochen später, hey, wir haben ja vereinbart, du wolltest dieses Problem angehen, da eine Lösung finden, steht ja auf unserer Liste. Wie schaut es aus? Hast du dich schon drum gekümmert? Also das ist dann die Aufgabe von dem Lied, glaube ich, da möglichst auch die die Sachen aufzuschreiben, einzufordern und schauen, dass da was weitergeht.",
+            "start": 1581148,
+            "end": 1653672,
+            "confidence": 0.9245353749999993,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Wenn ich dich jetzt richtig verstehe, möchte ich die ganze Sache einmal an einem Praxisbeispiel durchspielen. Und zwar hat mir mal ein sehr weiser Mann, ein sehr kluger Mann gesagt, stelle nie eine Frage, auf der du nicht bereit bist, auf Basis der Antwort zu agieren. Was bedeutet das?",
+            "start": 1653736,
+            "end": 1669176,
+            "confidence": 0.9365367346938778,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Klingt jetzt sehr philosophisch, sehr schön philosophisch, gefällt mir an die kenne ich von dir gar nicht, die philosophische Seite.",
+            "start": 1669208,
+            "end": 1676320,
+            "confidence": 0.863833,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Frag nie nach der Essensqualität in der Kantine, wenn du nicht bereit bist, mehr Geld für die Essensqualität zu investieren im Einkauf. Und hast du jetzt eigentlich gefragt, wie schmeckt dir das Essen in der Kantine? Ich als dein Mitarbeiter sag, scheiße, du bist ja eigentlich gerade nicht bereit, in die Essensqualität zu investieren, sondern sagst zu mir, nimm doch das nächste Mal einen Salat. So habe ich dich gerade verstanden. Ist das richtig? Du hast mich versucht zu enablen, das Problem zu umgehen. Ich habe dir aber das Problem gesagt, Essen schmeckt scheiße.",
+            "start": 1676440,
+            "end": 1703532,
+            "confidence": 0.9160951063829785,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, es ist immer die Frage, ob du in dieser Position bist, eine Problemlösung zu finden. Wenn das natürlich in meinem Scope als Lead ist, dann klar, dann muss fast ich mich darum kümmern. Also ich kann jetzt natürlich nicht irgendwas bei dieser Person einkippen, wenn die nicht die Befugnis hat, irgendwas zu ändern. Das ist logisch. Also wenn ich sagt, ich hätte gerne einen Obst Cop, dann kann ich sagen okay, sprich vielleicht mit der mit der HR Abteilung oder sonst irgendwas unter Umständen. Aber die Person kann nicht selber über Budget entscheiden. Also das muss dann natürlich unter Umständen ich irgendwie anleiten. Aber ich kann natürlich auch sagen okay, ist eine gute Idee, schlag du es mal da hr vor z.B. und dann schauen wir, wie der Outcome ist. Also es kann ja jeder grundsätzlich Ideen vorschlagen. Also es muss ja dann ich nicht unbedingt weitertragen. Und wenn es nicht funktioniert, kann immer noch ich mich darum kümmern und mich dafür einsetzen. Aber im ersten Moment ist es mal wichtig, dass die Person vielleicht auch lernt, selbstständig zu sein und vielleicht selbstständig irgendwo anders Ideen einzukippen. Also ich habe das ganz oft gehabt, dass Leute sich nicht getraut haben, mit irgendwelchen anderen Leuten zu sprechen und die wollten unbedingt, dass ich das mache, weil ihr habt schon gehört, es ist so ein Guru und der keine Ahnung, traue mich nicht mit dem zu sprechen. Und da muss mal die die Person wirklich vielleicht sogar ein bisschen pushen, dass sie wirklich zu dieser anderen Person hingeht und die Frage stellt. Und wenn das gut funktioniert, dann hat die Person natürlich auch was gelernt und ist vielleicht happy, weil sie sich weiterentwickelt hat. Und das ist ja auch das Ziel, was man eben durch so ein und durchs Enabling erreichen kann. Und was du natürlich als Lied noch hintenrum machen kannst, was ich auch immer gerne gemacht habe, ist, dass ich hintenrum sichergestellt habe, dass das eine gute Experience wird. Wenn jetzt eine Person aus meinem Team zu diesem Guru hingeht und eine Frage stellt, damit der Guru eben nicht negativ antwortet oder nicht ungut ist, habe ich dem noch eine Message geschrieben. Hey, von meinem Team kommt jemand, sei bitte nicht oder so in die Richtung, wenn das nötig war, wenn ich das geklappt habe. Das ist wichtig. Also auch solche Dinge kann man hintenrum vielleicht noch machen als als Lead. Und im Gesamten ist dann die Experience gut. Selbstvertrauen steigt von dieser Person und das nächste Mal handelt die Person wahrscheinlich selbstständig und fragt einfach direkt die Leute und du hast ein erhöhtes Selbstwertgefühl im Team, was ja hoffentlich in deinem Interesse ist.",
+            "start": 1703596,
+            "end": 1837638,
+            "confidence": 0.91426804494382,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Aber da das Thema dieser Episode ja ist, wie man unter anderem mit One on ones Leute halten kann und du als Beispiel angeführt hast, den Leuten zuzuhören, sind wir jetzt irgendwie abgedriftet ist, nennen wir mal, was falsch läuft. Und jetzt schmeißt du die Probleme eigentlich so wie so ein Baseball, wie so ein Tischtennisschläger wieder zurück zu mir. Und da frage ich mich, wenn du die ganzen Probleme, wenn du mich versuchst zu enablen, du lädst eigentlich meinen Tisch voll mit neuer Arbeit und wie, wie kontributet das denn jetzt eigentlich zu meiner Happiness, dass ich beim Unternehmen bleibe? Weil im Endeffekt neben meiner Programmierung, neben meiner Softwareentwicklung, weil ich habe ja noch die fünf Gira Tickets und den Sprint, den muss ich auch noch abschließen. Gibst du mir jetzt auch noch den Task, dass ich mit der HR über den Obstkorb reden möchte oder muss? Weil das ist ja jetzt, du hältst mich ja jetzt schon accountable hier. Du hast mir eigentlich schon ein neues Jira Ticket zugewiesen, wenn du so möchtest, nämlich ein sechstes.",
+            "start": 1837774,
+            "end": 1888434,
+            "confidence": 0.9115495505617978,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Das stimmt, aber im Idealfall funktioniert es ja. Und die Person ist dann super happy und fühlt sich gut und fühlt sich gehört, hat was weitergetragen und ist dann happy in der Firma. Das schlechteste, was hier passiert, du regst dich auf, da gibt es keinen Obstkorb. Dein Lied sagt ja, ja, ich kümmere mich drum. Und dann passiert halt genau nichts, weil du als Lied nicht alle Probleme lösen kannst. Und irgendwann sagt die Person ja, aber jetzt bin ich schon beim dritten Meetup und da gibt es schon wieder einen Obstkorb. Ich glaube, ich schaue mir jetzt wirklich um, ob es da nicht irgendwo anders besser ist. Also ich glaube schon, dass dieses Erreichen von Ziele und diese selbst ÿousand Selbstständigkeit, die du damit auch erreichst, gerade wenn, wenn Leute vielleicht frischer sind und weniger Erfahrung haben und dann das Ziel erreichen und auch glücklich sind und was erreicht haben, dass das dann zum gesamten Wohlbefinden schon beiträgt. Und wenn Leute glücklich sind in ihrem Umfeld, dann wechseln sie auch im Normalfall die Firmen weniger oder suchen sich überhaupt was anderes.",
+            "start": 1888522,
+            "end": 1943600,
+            "confidence": 0.8957309836065582,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Aber das ist der Happy Pass.",
+            "start": 1943720,
+            "end": 1945096,
+            "confidence": 0.8204416666666668,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Das ist der Happy Path. Ja, genau. Und im Idealfall erreichst du den ja.",
+            "start": 1945208,
+            "end": 1948836,
+            "confidence": 0.9014414285714285,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Nordest du die Leute dann auch ab und zu mal ein, wenn die einfach mit einer Idee um die Ecke kommen? Hey, pass mal auf, ich habe von einer Firma nebenan bei Meetup erfahren, die sind mit dem ganzen Team eine Woche nach Mallorca geflogen, haben von da gearbeitet. So mach mal bitte möglich. Also nur, dass du dir dann irgendwann mal einsatz. Das wird hier nicht passieren. Und blockst du die Ideen?",
+            "start": 1948928,
+            "end": 1967724,
+            "confidence": 0.9096630136986299,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Du musst natürlich in irgendeinem realistischen Rahmen bleiben, das ist klar. Aber was ich schon auch oft eigentlich gemacht habe, und da habe ich auch viel diskutiert mit anderen und ich weiß, dass da viele andere auch anderer Meinung sind, aber ich habe meinen Leuten im Team auch ganz oft gesagt, Okay, dann startet mal in ein Interview mit einer anderen Firma und hört euch das mal an und versucht, versucht es mal. Ich würde sagen, 50 % der Leute haben es nicht gemacht, weil sie gedacht haben, es ist eh mühsam. Die anderen 50 % haben mal probiert, irgendwo reinzukommen, haben dann aber auch gemerkt, dass es zweitausendeinundzwanzig schwierig ist, dass es gar nicht so leicht ist, dass die Firma womöglich, die da in den Urlaub fährt, aber auf der anderen Seite sehr viel verlangt auch, dass das vielleicht gar nicht so ein tolles Umfeld ist. Vielleicht hat man da auch ein Interview oder gar nicht so nett ist. Und wie gesagt, nicht alles was glänzt, ist Gold. Und man hat diese Erfahrung dann und kann gut abwägen, okay, sind die anderen Firmen wirklich so viel besser als die eigene? Und meiner Meinung nach, wenn die Person dann sagt, okay, die andere Firma ist viel besser und ich kann mich da besser entfalten und ich habe in der Firma nichts mehr verloren, dann finde ich, habe ich meinen Job als Manager auch in einer gewissen Weise gut gemacht, weil die Person ist dann glücklicher bei der anderen Firma und sieht mich wahrscheinlich auch positiv an und hat eine gute Beziehung zur alten Firma und kommt vielleicht irgendwann wieder zurück. Oder was mir eben auch ganz oft passiert ist, dass die Leute dann gesehen haben, okay, es ist doch nicht so gut bei den anderen Firmen oder es ist eben nicht so einfach und dann gemerkt haben, was sie eigentlich haben und wie gut das eigene Umfeld ist. Und ich glaube, manchmal braucht man auch diese Einladung. Klar ist das ein Risiko, aber das ist dasselbe Risiko wie ich schicke meine Leute zu irgendeinem Meetup, das bei einer anderen Firma stattfindet, weil klar haben die vielleicht gutes essen oder so, aber ich muss halt mir so sicher sein, dass ich ein gutes Umfeld schaffe, dass sie safe bin. Und im Idealfall bringen die mir ja Feedback zurück und sagen, okay, die haben gutes Essen, könnte man nicht auch was in die Richtung machen? Und dann kann man versuchen, das zu ermöglichen. Wobei ich möchte jetzt dazu sagen, wir haben jetzt da immer Obstkorb und Essen und so weiter. Es geht nicht Ÿousand primär um diese Dinge, es geht natürlich um ganz viele andere Dinge, aber deshalb, was man von außen auch oft sieht und ein gutes Essen kann auch sehr viel wert sein, muss man ja auch dazu sagen.",
+            "start": 1967812,
+            "end": 2099644,
+            "confidence": 0.9306474413646052,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Also Devils Advocate jetzt mal, du empfiehlst also anderen Leuten, deinen Mitarbeitern, die dir Probleme bereiten im One on One. Die sagen nämlich, das läuft doof, das läuft doof, das läuft doof. Die versuchen also, dir Arbeit auf deinen Tisch zu setzen. Dann sagst du, dann interviewt doch mal woanders. Dann merken die da, oh, das ist ja wirklich besser. Und dann versuchst du dir das jetzt gerade noch schön zu reden, dass du die Leute enabled hast. Denn im Endeffekt, ich weiß ja nicht, ob du es vergessen hast, aber deine Mission als Engineering Manager ist es, die Firma First and Foremost zu vertreten. Ja, und nicht dein Vertrauen mit Leuten aufzubauen und dir ganz offen Problemfälle vom Hals zu schaffen.",
+            "start": 2099692,
+            "end": 2142550,
+            "confidence": 0.9159458196721313,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Zweitausendein, Herr Gassler, hast du natürlich irgendwo recht, wenn du das so framest. Aber im Endeffekt, wenn du dir nicht sicher bist, dass du der beste Arbeitgeber bist, dann hast du ein Problem und da musst du dich darum kümmern. Also du solltest eigentlich auf diesem Standpunkt sein, dass du der beste Arbeitgeber bist und dass die anderen gerne interviewen lassen können, zu Meetups gehen können, irgendwo anders sich umschauen können. Wenn du ein ideales Umfeld geschaffen hast, dann sagen sie dir auch, wenn wenn Probleme bestehen und kannst Probleme probieren gemeinsam zu lösen, je nachdem, was es für ein Bereich ist. Aber du musst die Sachen natürlich probieren zu lösen. Und das geht natürlich entweder, dass die Leute das selber machen oder du machst es oder du wendest dich an deinen Chef, Chefin. Also da gibt es natürlich alle Möglichkeiten. Du musst dich darum kümmern. Aber meiner Meinung nach muss das Ziel sein, dass du dir so sicher bist, du bist der beste Arbeitgeber. Und der beste Arbeitgeber heißt nicht, dass da ein Obstkorb steht, aber dass das Umfeld stimmig ist und richtig ist. Und das kannst du eigentlich nur optimieren, indem deine Leute dir sagen, was du besser machen kannst. Weil die sehen ja ganz viel. Die sehen bei anderen Firmen, wie es läuft. Die wissen, wo die Probleme sind. Die arbeiten an der Pipeline, an der CI Pipeline und wissen, was ein Problem ist und wo der Prozess verbessert werden kann, weil du selbst weißt es ja nicht. Du programmierst nicht mehr als Team Lead wahrscheinlich.",
+            "start": 2142590,
+            "end": 2222876,
+            "confidence": 0.9197954826254822,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Also ich habe das jetzt hier gerade so böse geframed. Ja, das habe ich natürlich absichtlich gemacht, aber ich bin auch nicht ganz deiner Meinung, gebe ich zu. Wo ich aber in dieselbe Richtung gehe.",
+            "start": 2222968,
+            "end": 2232796,
+            "confidence": 0.941310857142857,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ist wo bist du denn nicht meiner Meinung nach? Das ist ja viel interessanter.",
+            "start": 2232908,
+            "end": 2236836,
+            "confidence": 0.9525349999999999,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ja, ja, da komme ich ja jetzt drauf. Also als erstes denke ich, deine Mitarbeiter sollten dir konstant Trouble machen. Du, die sollten dir konstant positiv auf die Nerven gehen.",
+            "start": 2236908,
+            "end": 2248634,
+            "confidence": 0.9038993333333332,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Die Frage ist, wie ermöglichst du das, dass die sich trauen dir Troubles zu machen. Also wie machst du das konkret?",
+            "start": 2248772,
+            "end": 2254534,
+            "confidence": 0.9627347619047617,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Das ist ja alles aufbauend auf all das, was du gesagt hast. Fragen stellen, zuhören, vertrauen aufbauen etc. Etc. Aber der Punkt ist folgender und zwar die Leute sollen die Trouble machen, weil das ist für mich als Manager oder als Teamleiter, als Teamleiterin das Signal, dass die Leute ihren Job noch lieben bzw. Da, dass sie sich darum kümmern, dass sie den nicht lieblos machen, dass denen das daran liegt. Die haben dann eine Art Commitment zu diesem Ding, zu diesem Projekt, zu diesem Prozess, zu diesem Team, zu dieser Abteilung. Und die haben eine intrinsische Motivation, das zu verbessern, weil die konstant durch irgendeinen Prozess geblockt werden. Das ist die eine Baustelle und sie.",
+            "start": 2254622,
+            "end": 2293696,
+            "confidence": 0.9083302586206896,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Die Möglichkeit sehen, dass sie noch was verbessern können, weil die Leute, die schon aufgegeben haben, die hast du wahrscheinlich schon verloren.",
+            "start": 2293728,
+            "end": 2299464,
+            "confidence": 0.9697722727272727,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Hundertprozentig. Ja, deswegen sage ich okay, die sollen dir Trouble machen und zwar alle konstant. Die zweite Geschichte ist mit dem ein Norden, weil ab und zu ich hatte auch schon den einen oder anderen Fall, schießen manche Leute ein bisschen übers Ziel hinaus, was sie so wollen, was sie so fordern, was wir machen müssen.",
+            "start": 2299512,
+            "end": 2316540,
+            "confidence": 0.9006253571428574,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, soll es geben.",
+            "start": 2316620,
+            "end": 2317940,
+            "confidence": 0.6771125,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ja, ja, und hier ist das Wording wichtig, was wir machen müssen. Da ist man nämlich schon sehr stur auf einer, auf einem Lösungsweg hin. Wenn sich das natürlich jetzt nicht im ersten one on one, auch nicht im zweiten oder nicht im dritten. Aber wenn sich das über Zeit herauskristallisiert, dass man einfach nicht mehr zusammenpasst, dann supporte ich die Leute auch Grenzen zu setzen und sagen hey, unser aktueller Arbeitgeber, ja, company a, wir werden das hier nicht tun. Und der Grund ist Budgetierung, ein saisonales Geschäftsmodell, irgendwas ist ja völlig egal. Ja, da muss man schon auch sagen warum und nicht einfach nur nein, weil ich der Chef bin. Das funktioniert natürlich nicht. Du musst schon Verständnis schaffen, aber dass man am Ende sagt Ÿousand, so funktioniert das nicht. Hier ist Stopp, das sind die, das ist der Rahmen, wo wir operieren können. Und dann, das muss dir dann eine andere Firma bieten. Z.B. ich hatte mal eine Mitarbeiterin im Mentoring, nicht direkt in meinem Team, aber und da ging es darum, dass ihr größter Wunsch war, ein Haus zu kaufen und das konnte sie mit ihrem aktuellen Gehalt bei dem Arbeitgeber nicht. Dann habe ich sie erst natürlich versucht, eine Gehaltserhöhung zu fragen, Breakdokument zu erstellen, so all die ganzen klassischen Themen, die wir schon mal auch hier im Podcast mal besprochen haben in den letzten 100, dreiig 140 Episoden und nach so ein paar Monaten haben uns wieder getroffen, kam raus okay, das wird nichts. Ja, da kommt einfach nicht mehr Geld rum, um ihren Traum zu erfüllen. Dann habe ich leider nicht leider, eigentlich zum Glück genau das getan, was, was du gesagt hast, die dame enabled mal andere Interviews zu machen. Und siehe da, sie hat den Job gewechselt, ein höheres Gehalt bekommen und inzwischen hat die ihren Traum erfüllt. Also im Endeffekt offen gesprochen, da war ich kein Engineering Manager, war ich in der Mentorship Position und von der Firma wurde das auch so supportet, einfach eine neutrale Stimme neben dem Engineering Manager zu haben. Auch das kann es geben.",
+            "start": 2317980,
+            "end": 2421670,
+            "confidence": 0.9116520402298852,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ich glaube, dass das ganz allgemein super wichtig ist, Ziele festzulegen. Und dafür sind One on One auch super geeignet. Bzw. Ich würde fast sagen, das ist der Hauptpunkt von One on one, sich kurzfristige Ziele natürlich, aber vor allem auch langfristige Ziele zu setzen. Und da muss man einfach aktiv fragen, weil niemand kommt zu dir und sagt Hey Andy, du bist mein Lead Ÿousand, ich habe jetzt dieses langfristige Ziel, hilf mir, das zu erreichen. Ich meine, es ist cool, wenn du so Leute hast, aber im Normalfall passiert das nicht. Das heißt, du musst wirklich als Lead nachfragen, wo willst du hin? Was sind deine Ziele? Und wenn Gehalt das top Ziel ist, Geld verdienen, dann kann es natürlich sein, dass du bei einem irgendeinen großen Konzern, wo du wesentlich mehr verdienst, je nachdem, ist heutzutage eh nicht mehr so, aber früher war es klassisch so Startup hast du viel weniger verdient und bei einem großen Konzern mehr, dass du vielleicht in dem Setting besser aufgehoben bist oder je nachdem, wie risikoavers du bist. Mit mit Pip haben wir in der Episode ja gesprochen über Mitarbeiterbeteiligungen. Da kannst du vielleicht dann auch viel machen, je nachdem, in was für einem Setting du arbeitest.",
+            "start": 2422050,
+            "end": 2482156,
+            "confidence": 0.9049100970873779,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Jetzt bist du schon mit den langfristigen Zielen angekommen. Ich hatte schon so oft den Fall, dass die Leute mir gesagt haben ach du, jetzt komm mir doch nicht mit dieser wo siehst du dich in fünf Jahren Frage. Das weiß ich doch jetzt noch nicht. Ich weiß noch niemals, was ich morgen zu Mittag esse. Kann dann auf Antwort, kann ihn fühlen. Und jetzt redest du hier von Mitarbeiter halten durch one on ones. Frag, was die Ziele sind. Da sage ich dir auch mal ganz ehrlich, Herr Manager, was geht dich das eigentlich an? Ich mache hier den Job, um die Miete zu zahlen, damit meine Familie was zu essen hat. Was gehen nicht meine Ziele an? Job ist Job.",
+            "start": 2482268,
+            "end": 2512660,
+            "confidence": 0.8963568852459013,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, wenn das dein Ziel ist, ist ja auch okay. Aber das ist ja dann schon ein Ziel. Ich glaube, es gibt auch ganz viele Leute und ich war ja auch in vielen Coaching, Rollen, wo ich so gemerkt habe, manche Leute sind da viel strukturierter und die wollen Ziele und die brauchen Ziele und die setzen sich selbst Ziele. Und dann gibt es die Leute, die zählen mich selber dazu, die viel weniger mit zu zielen anfangen können. Und es macht absolut keinen Sinn, solche Leute zu Zielen zu zwingen. Also die können damit nichts anfangen und dann hast du nur alibi halber irgendwas aufgeschrieben und irgendwas aus den Fingern gesogen. Das macht macht keinen Sinn. Also klar, man sollte nachfragen und zweitausendein und überlegen, wo, was sind Ziele? Aber es gibt einfach Leute, die haben weniger Ziele oder viel mehr kurzfristige Ziele und nicht langfristige Ziele. Oder es sind vielleicht für die gar keine Ziele, aber im Endeffekt wollen sie sich auch irgendwo weiterentwickeln. Also dann vielleicht nennst du es einfach nicht Ziele, sondern probierst einfach so paar Dinge abzuklopfen. Wie schaut es mit Weiterentwicklung aus? Willst du mal einen anderen Job Position haben? Willst du ein Team leiten? Willst du kein Team leiten? Du kannst ja auch so Sachen mal einfach erfragen und und versuchen zu verstehen, was den Leuten Spaß macht, wo sie hinwollen. Aber es gibt natürlich einfach Leute, die sagen, dieser Job ist super und ich möchte in den nächsten 10 Jahren einfach genau so weitermachen. Und in diesem Moment ist es vielleicht einfach so, ist absolut in Ordnung. Es kann sich ja auch drei Jahre später wieder ändern und private Dinge ändern sich auch ständig und Familie und dann hast du vielleicht andere Ziele, andere Ansprüche. Und darum ist es ja auch wichtig, das ständig zu hinterfragen und fragen und ob sich was geändert hat und einfach, dass du deine Leute kennst. Es klingt ja so banal und einfach kenne deine Leute und denk drüber nach, was deine Leute brauchen. Aber du musst halt einfach mit denen sprechen, offen zuhören, damit du einfach das besser einschätzen kannst. Und nach einer gewissen Zeit hast du das ganz gut heraus, meiner Meinung nach. Wo wollen die Leute hin? Was wollen sie erreichen und was sind es für Typen und Charaktere? Und da muss man halt ein bisschen Gespür haben und und das braucht auch Zeit. Es erfragt man sicher nicht im ersten One on one, also Vertrauensbasis.",
+            "start": 2512740,
+            "end": 2634750,
+            "confidence": 0.9135604126213586,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Aber du hast gerade wieder die Essensqualitätsfrage gestellt und zwar willst du mal ein Team leiten? Und jetzt ist es so, jetzt hast du oder deine Vorgesetzte oder deine Abteilung aber gar keine Teamleiterstelle offen. Und mit der Frage suggestierst du ja schon irgendwie so eine Art da kommt jetzt was bad oder vielleicht sogar erwächst den Anschein hey, ich als Manager sehe dich in einer Teamleiterposition. So kann das nämlich auch aufgenommen werden. Und dann kommt es nämlich auch so nächsten Monat außerhalb deiner Kontrolle kommt auf jeden Fall die teamleiter Position. Drei Teams den Flur runter und die Person bewirbt sich da und du sitzt im Hiring Komitee. Und dann bist du nämlich in dieser in dieser Zwickposition, dass du ja mit der Frage Hey, möchtest du mein Team leiten? Könnte ja verstehen, hey, ich sehe dich in einer Teamleiterposition zu oh, der war ja im Teamleiter Interview, was auch Firmen intern passiert, gar nicht so geeignet. Und dann, ich will nicht sagen, bist du in der Bredouille? Ich will auch nicht sagen, man sollte sich nur aus diesen Bredouillen rausziehen. Ganz so gar nicht, denn es ist ja alles logisch und faktentechnisch abgelaufen. Doch ich will nur sagen, mit diesen simplen Fragen kannst du auch sehr viel Kopfkino starten, nenne ich es mal.",
+            "start": 2634930,
+            "end": 2708460,
+            "confidence": 0.9162260185185185,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, aber das muss mir bewusst sein und ich glaube, mit dem muss man auch umgehen lernen. Und wenn, wenn ich jetzt das aufs Tapet bringe, okay, irgendwer möchte oder nachfrage, ob du gerne mal ein Team übernehmen willst, war ja auch ein Beispiel. Nur wenn du kein keinen Input bekommst, dass du mal probierst, gewisse Sachen abzuklopfen, ist ja auch schwer. Haben wir ja auch schon sehr oft in vielen Episoden darüber gesprochen, über die Teamlead Rolle und wie man da reinkommt oder auch nicht reinkommt oder reinkommen will und nicht reinkommen will eigentlich. Aber wenn es so wäre, dass jetzt jemand unbedingt eine Teamleadrolle haben will und du keine hast, ja, dann musst du glaube ich helfen, demjenigen sein Ziel zu erreichen. Und das kann dann entweder bei einer anderen Firma sein oder du probierst es intern. Und wenn du jemanden sagst, du bist gut geeignet für eine Team Lead Rolle, die Person ist es aber gar nicht, dann ist es natürlich dein Problem. Also du sollst ja nicht was dahin lügen. Und ich glaube, du kannst die Leute unterstützen und kannst sagen, okay, wenn du eine Team Lead Rolle haben willst, da brauchst du noch einiges an Skills oder vielleicht an Erfahrung oder in welche Richtung du dich entwickeln sollst. Aktuell ist vielleicht noch zu früh. Du solltest natürlich da auch coachend und unterstützend zur Seite stehen und nicht nur irgendwas vorlügen oder die heile Welt vortäuschen. Also Ehrlichkeit ist, glaube ich sehr, sehr wichtig. Und vielleicht solltest du auch sagen okay, aktuell da wo du stehst, sehe ich dich jetzt nicht als Teamlead aus dem und den Gründen. Du kannst dich aber natürlich dorthin entwickeln. Aber aktuell ist natürlich XYZ ein Problem, weil das macht ein guter Coach.",
+            "start": 2708620,
+            "end": 2797728,
+            "confidence": 0.9123338013698629,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Nochmal Devils Advocate. Wie würdest du die ganze Sache angehen? Du fragst jetzt nach den Zielen, wo siehst du dich in drei Jahren? Und so weiter und holst dann aus.",
+            "start": 2797824,
+            "end": 2804648,
+            "confidence": 0.9024736666666666,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Diese Frage würde ich natürlich nie stellen. Wo siehst du dich in drei Jahren und, und, und.",
+            "start": 2804704,
+            "end": 2808508,
+            "confidence": 0.8638411764705882,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "So wie du in dem Podcast immer ausholst, ja du, du verzwirbelst dich ja in deinen Fragen und irgendwann rutscht der raus oder willst du mal ein Team leiten? Und dann sagst du ja, das könnte ich mir vorstellen und so weiter. Haust du dann sofort.",
+            "start": 2808634,
+            "end": 2819460,
+            "confidence": 0.877846956521739,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, das war, hast du, hast du um, ja, haust.",
+            "start": 2823120,
+            "end": 2826376,
+            "confidence": 0.8715910000000001,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Du dann, das war eine Flasche, haust du dann sofort raus ah ja, dich sehe ich aber noch nicht als Teamlead und zerstörst dann sofort diesen kleinen Danny krüger Effekt, dass jemand sich komplett überschätzt, oder?",
+            "start": 2826408,
+            "end": 2838700,
+            "confidence": 0.8722719444444446,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ja, als erstes würde ich mal in dem konkreten Fall fragen, einfach warum die Person das machen will. Weil da gibt es ja auch verschiedene Motivationen dahinter, warum man eigentlich sowas erreichen will. Und dementsprechend würde ich dann halt probieren, eben je nachdem was meine Erfahrung mit dieser Person ist, zu helfen, auch gewisse Sachen, Problemfelder aufzuzeigen. Manche verstehen auch was ganz was anderes darunter. Da haben wir ja wirklich schon oft drüber gesprochen. Aber ich glaube, das ist eben das Wichtige in dem One on One, dass man halt wirklich ein offenes Gespräch führt und auch versucht zu coachen, zu erklären, was eine Team Lead Rolle bedeutet, was was man vielleicht so macht alltäglich, dass man das einfach mal vorzeigt, weil vielleicht stellen sich die Leute was ganz anderes darunter vor und man spielt ja den großen Boss, der nur irgendwie Sachen abzeichnet den ganzen Tag und und befiehlt, was gemacht wird, was es ja sicher nicht ist in unserem Umfeld. Also da muss man einfach immer ein sehr offenes Gespräch führen, da quasi der Coach, der Trainer sein, wie wie in einem Sport, in einem Team und zur Seite stehen.",
+            "start": 2839240,
+            "end": 2903136,
+            "confidence": 0.9140302083333336,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Jetzt sagst du das alles so einfach, aber Ÿousand, nur weil du in der Managementposition bist, heißt das ja nicht, dass du der beste Manager von Welt bist. Und besonders wenn du mit so Wörtern um dich schmeißt wie Coaching. Ich meine Coaching selbst ist ja auch eine knallharte Disziplin, die man lernen muss und so weiter. Nicht jeder sollte Coach werden, genauso wenig wie Leute ohne psychologische Ausbildung sagen sollen, ah, der hat Burnout oder der hat ja kein Burnout. Und jetzt ist es ja so, vielleicht hast, überschätzt du dich ja gerade auch, dass du einen Rat verteilst, der vielleicht entweder nicht angemessen ist oder vielleicht auch ganz anders ankommt. Wir kennen das vier Seiten einer Nachricht und jetzt geht es darum, dich als Manager mal wieder zu erden, weil du möchtest dich ja auch verbessern. Du möchtest ja auch ein Vertrauen aufbauen mit deinen Mitarbeitern und Mitarbeiterinnen. Du möchtest ja auch wissen, besprechen wir hier eigentlich die wichtigen Themen, die du für wichtig hältst? Zweitausendein du Mitarbeiter, wie fragst du denn nach negativem Feedback? Weil sorry, positives Feedback, Wolfgang, du machst das so toll, du bist der beste Team, den ich je hatte. Aber was tust du denn, um die Wahrheit über deine Arbeit aus deinen Direct Reports rauszukriegen? Weil das ist ja ähnlich so wie meine Tür steht immer offen.",
+            "start": 2903288,
+            "end": 2978508,
+            "confidence": 0.9221103125000002,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Also super wichtiger Punkt, den du da erwähnst, dass man Feedback über sich selbst einholt. Und da spielen natürlich viele Punkte eine Rolle. Die gute offene Umgebung ist, glaube ich, ganz wichtig, dass sich Leute mal grundsätzlich wohlfühlen, wenn sie dir in irgendeiner Form etwas sagen. Von selber werden die nie rausrücken und sagen hey, bei diesem Meeting, da hast du aber echt beschissen gehandelt als als Lied. Das macht natürlich niemand, aber du brauchst natürlich eine Grundstimmung, die schon mal offener ist, dass wenn du was fragst, dass die sich trauen, vielleicht überhaupt was zu sagen und nicht zu befürchten haben, dass am nächsten Tag gekündigt wird. Also da muss schon eine gewisse Atmosphäre überhaupt herrschen, die du natürlich im Vorfeld durch sinnvolle Reaktionen, eben nicht durchs kündigen, sondern durchs Aufnehmen vom Feedback überhaupt schaffst. Das kommt natürlich auch erst mit der Zeit. Aber ganz allgemein ist es super wichtig, meiner Meinung nach, dass du ganz gezielte Fragen stellst. Das heißt, umso konkreter du Fragen stellst und da geht es nicht nur um Feedback in allen Bereichen, umso eher bekommst du eine Antwort, wenn du sagst okay, wir waren in diesem Meeting mit den und den Personen und da hatten wir ein Streitgespräch, wie hast du denn das empfunden in diesem Meeting, wie die Personen gehandelt haben, unter anderem auch ich. Vielleicht kommt man so dann schrittweise zu einem Feedback, also dass man wirklich konkrete Szenarien herausnimmt und dann wirklich konkret um Feedback fragt. Weil wenn du nur fragst, wie findest du mich? Das ist ein bisschen schwierig. Was natürlich schon machen kannst mit dem wie findest du mich? Was sie super gerne immer mache, sind einfach Feedback Formulare, anonyme Feedback Formulare, wo du auch möglichst konkrete Fragen natürlich stellst und das z.B. einfach vierteljährlich oder je nachdem, wie lange das Formular ist, aber dass du da eine Möglichkeit zur Verfügung stellst, auch Feedback zu geben zu konkreten Fragen. Wie ist mein Leadership Style? Wie wie fühlst du dich? Gehört? Solche Dinge. Also da kannst du ja einige Dinge abfragen. Und wenn du ein größeres Team hast, natürlich, wenn du nur zwei Leute hast, ist schwierig mit der Anonymität, aber wenn du ein bisschen größeres Team hast, kannst du einfach ein simples Google Form raussenden und sagen, gib mir mal bitte Feedback und da bekommst du vielleicht dann auch Informationen. Und sonst einfach möglichst konkret, in einem guten Setting, in einer guten Atmosphäre, in One Once auch danach fragen. Und das ist auch ein wichtiger Teil von One Once, dass du als Manager Feedback bekommst und nicht nur Feedback gibst.",
+            "start": 2978644,
+            "end": 3113212,
+            "confidence": 0.9282775406032483,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ich finde, das ist wirklich essentiell, dass deine Mitarbeiter und Mitarbeiterinnen dir Feedback geben, weil das bedeutet auch, du arbeitest auch an dir und du bist auch, ich sag mal, in dieser Sache ein Role Model. Ÿousand, du gehst mit gutem Beispiel voran, sagt der, sagt der Klassiker. Es ist aber auch so, dass die Größe des Teams nicht nur wichtig, sondern essentiell ist. Die meisten Feedback Forms und Mitarbeiter Befragungstools geben erst Teamstatistiken raus, wenn mehr als sechs Leute innerhalb deines Teams geantwortet haben. Einfach nur auf Basis der Anonymität. Weil wenn du nämlich auch vier Leute hast, die kannst du so einfach am Schreibstil erkennen, wenn du den einfach immer im Slack beobachtest und dann siehst du irgendwie so eine Commentbox in deinem Feedbackform. Deswegen ist das auch ein bisschen schwierig. Und auf der anderen Seite muss man natürlich auch sagen, als Mitarbeiter habe ich auch immer Angst, das Vertrauen gegenüber oder beziehungsweise das Ansehen meines Managers auf mir zu zerstören, wenn ich ein bisschen kritisches Feedback gebe. Und offen gesprochen ist mir auch schon super oft passiert, denn ich habe, wie nennt man das so toll, ein loses Mundwerk. Ja, ich sage, das ist scheiße und ich sage nicht, dass es optimiert ist.",
+            "start": 3113316,
+            "end": 3178190,
+            "confidence": 0.9013274757281557,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Zweitausendein, aber sehr aktiv.",
+            "start": 3179330,
+            "end": 3181888,
+            "confidence": 0.8198775,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ja, ein sehr aktives und schnelles Mundwerk. Also ich komme aus dem Pott und deswegen sage ich, das ist nicht optimiert, das ist optimierungsgebürtig. Nee, ist einfach scheiße, fertig, aus. So, und das ist halt jetzt nicht, wie nennt man es so schön, corporate speech. Man packt da nicht Watte drumherum. Und jetzt das Riesenproblem, obwohl ich das nicht persönlich meine, kommt es durch eine eine saloppe Aussprache, aber sehr persönlich rüber, anstatt sachlich. Und das kann natürlich dann das Ansehen des [SOS/eos], Managers auf dem Mitarbeiter zerstören. Und im Endeffekt ist dann meine Karriere in der Firma eigentlich beschädigt, denn bei jeder Gehaltsverhandlung, die wenigsten Menschen können das auseinanderhalten. Die bringen das dann zusammen und dann ah, der hat was doofes gesagt, der hat was kritisiert, was ich gar nicht sehe und deswegen kriegt er jetzt 1 % weniger Gehalt.",
+            "start": 3182024,
+            "end": 3226222,
+            "confidence": 0.8936693617021277,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Ich glaube, das ist genau diese Atmosphäre, die ich auch angesprochen habe. Man muss da wirklich diese Atmosphäre schaffen, dass Leute sich gehört fühlen und nicht irgendwie hintergangen dann oder befürchten, dass da ein Problem entsteht, wenn sie irgendwas auf irgendwas hinweisen. Und das baut man natürlich, das ist Vertrauen mit der Zeit auf und es ist glaube ich ganz wichtig, dass man da immer dahinter steckt und darum ist es ganz wichtig, dass man auch nicht cholerisch reagiert. Ich glaube, die Zeit von cholerischen Chefs und die Gender jetzt bewusst nicht, ist hoffentlich langsam vorbei, aber soll es natürlich immer noch geben. Aber ich glaube, da fühlt sich niemand wohl und da wird niemand groß irgendwie sich beschweren in so einer Atmosphäre, wenn man weiß, okay, da der Chef explodiert, sobald man irgendwas Negatives sagt. Also dieses, dieses Vertrauen muss man aufbauen. Und weil du die Forms genannt hast, was natürlich auch eine Möglichkeit ist, du könntest ja sogar jetzt z.b. nur irgendwelche Schulnoten vergeben und wenn du siehst, in einem gewissen Bereich hast du irgendwie niedrigere Noten, dass du dann in Follow ups in den One Once wirklich darauf eingehst, dass du sagst okay, ich habe jetzt diese Umfrage gemacht und irgendwie bei der technischen Vision scheint irgendwie Unklarheit zu sein, ich scheine die technische Vision irgendwie nicht klar zu kommunizieren oder irgendwie gibt es keine technische Vision als Beispiel. Was glaubst du, könnte ich da verbessern? Dass du die Leute dann einfach so fragst und das ist natürlich dann eine ganz andere Herangehensweise, weil die nicht von sich aus rausrücken müssen mit irgendwas, sondern du sagst hey, keine Ahnung, wer da die schlechten Noten vergeben hat, aber scheinbar sind die allgemein ein bisschen schlechter. Hast du eine Möglichkeit? Hast du eine Idee, wie ich das verbessern kann? Und dann dreht sich diese ganze Coachingrolle um und die Leute trauen sich vielleicht dann eher zu sagen ja, irgendwie diese Information fehlt oder die können dann auch sagen ich habe gehört, dass andere, dass denen die Information fehlt zur technischen Vision oder sowas z.B. also auch da durch das Umdrehen der Fragestellung erreicht man vielleicht auch mehr Feedback und mehr Informationen.",
+            "start": 3226286,
+            "end": 3347834,
+            "confidence": 0.8998351657458568,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Was ich mal gemacht habe, ich habe mir mal so einen kleinen Fragenkatalog zusammengestellt und das hat er so Fragen wie auch Hey, hast du einen Fünfjahresplan? Und wenn ja, spricht man darüber, ja, ich weiß, Stereotypen Frage und ja, wie Wolfgang auch schon sagte, manche Leute haben es, manche Leute nicht. Was aber eine Keyfrage für mich war, weißt du, was von dir hier auf der Arbeit erwartet wird? Und ich habe diesen Fragenkatalog, da waren noch ein paar mehr drauf, kann ich irgendwann mal scheren, bei Bedarf, den habe ich mit jedem Mitarbeiter gemacht. Damals hatte ich glaube ich 12 Mitarbeiter zweitausendein und die Antworten waren durchwachsen. Auf jeden Fall haben die Antworten mir so viel Arbeit erzeugt später, denn manche Leute wussten nicht, was von denen erwartet wurde oder sie hatten eine falsche Vorstellung von dem, was ich eigentlich erwartet habe und was, was sie dachten, von ihnen erwartet wird. Und was ich dann später gemerkt habe. Ich habe das dann über die nächsten paar Wochen und Monate behoben. Ich habe dieselben Erwartungen an den Tag gelegt, aber und jetzt ist das tolle immer im Hinblick, wohin die sich auch entwickeln wollen. Also ich habe jetzt nicht alle waren Software Engineers und ich habe jetzt nicht fünf verschiedene Job Descriptions gemacht, das jetzt nicht, sondern die Erwartungen immer mit so einem, mit so einem kleinen Twist dabei. Ja, schreibt man mehr Design Dokuments oder und so weiter. Und das war schon sehr faszinierend, weil die Leute haben auf einmal gemerkt, dass ich mich in Anführungszeichen um die kümmer und sie auf englisch sagt man immer setup for success, also dass ich, dass ich sie bei ihrem in der Firma Erfolg auf den richtigen Pfad bringe, weil im Endeffekt habe ich mehr Kontext als alle anderen im Team. Ich rede mit meinem Chef oder meiner Chefin, ich bin in sehr viel Strategie Meetings involviert und so weiter. Das bedeutet, du weißt, wann die salary Runde kommt, du weißt, wie sich das Performance Modell geändert hat und so weiter und so fort. Und wenn die Leute wirklich merken, du nimmst sie an die Hand, du stellst sie eine Frage, dann nimmst du die an die Hand, versuchst deren Traum zu verwirklichen, Teamleiter zu werden, Architekt zu werden, ein Haus zu bauen und die dann sogar noch Wind bekommen. Der richtet sogar meine Rolle danach aus oder stopft mich mal für sechs Monate in ein anderes Team, weil das Projekt da spannender ist und weil das mit React zu tun hat und wir machen hier nur jQuery oder oder. Das hatte eine, das hatte einen enormen Impact auf das Vertrauensverhältnis. Offen gesprochen hat Monate gedauert. Und ich sage auch immer im Management oder im Leadership, wenn du heute etwas tust, Ÿousand, dann siehst du den Feedback Cycle davon, also den Effekt drei Monate später. Die riesen Herausforderung ist drei Monate später herauszufinden, dass dieser Impact war, weil du die Aktion von vor drei Monaten gemacht hast. Und das ist ein nicht tolles Gefühl für Manager. Jeder hasst das, dass man da nicht so ein oh, ich komme mit jetzt was deploy das und sehe das in Production hat, sondern dass das alles drei Monate Lade ist. Aber das sind so Sachen, die zweitausendein, wo ich auch Leute, ich sag mal mit ihrem Vertrauen gekriegt habe, die auch von sich selbst gesagt haben Job ist Job. Ich möchte hier keine persönliche Beziehung, was völlig okay ist, aber wenn es daran geht, wo möchtest du denn hin? Spannende Projekte. Ja und dass du deren, wie soll ich sagen, Feuer mal wieder in den Augen siehst, dass die, dass sie, dass die Damen und Herren richtig Bock haben und wirklich wissen was sie da tun und wofür. Ÿousand, start with why, Simon Sinek, was Wolfgang wie die Pest hasst, aber wie.",
+            "start": 3348002,
+            "end": 3541818,
+            "confidence": 0.9095491222570541,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Die Pest hast, ist nicht. Ich bin ja auch ein großer Fan.",
+            "start": 3541834,
+            "end": 3544466,
+            "confidence": 0.7988516666666667,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Vom Start with why, aber denen den Kontext geben und sagen okay wir machen den Button jetzt grün, nicht weil der Designer das gesagt hat, sondern warum. Ja, die Story dahinter. Und so kriegt man wirklich alle Leute, weil dauert ein paar Monate, aber im Endeffekt hilfst du denen wirklich erfolgreich zu sein und da wer wehrt sich dagegen?",
+            "start": 3544498,
+            "end": 3560970,
+            "confidence": 0.8975745762711865,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Und wenn man jetzt in der Position ist von Managern und vielleicht one on ones macht oder auch nicht macht, ist egal, aber wenn man jetzt mal nachdenkt und dann irgendwie zu dem Schluss kommt bei meinem Team alles ist gut, es gibt keine Probleme, dann läuft glaube ich was ordentlich falsch, weil deine Aufgabe ist eigentlich diese ganzen Probleme zu identifizieren und zu verbessern und ihr habt es noch nie erlebt, dass es keine Probleme gibt oder irgendwo Verbesserungsbedarf. Es gibt immer was und ich habe zweitausendein wahnsinnig oft schon erlebt, wenn ich mit Leute gesprochen habe, die gekündigt haben, warum sie gekündigt haben und sie haben mir dann erklärt warum sie gekündigt haben und haben haben gesagt ja die habe das eh schon fünf mal erwähnt irgendwo und eigentlich haben das alle gewusst und dann sprichst du mit den Managern und die sagen alle keine Ahnung warum der gekündigt hat, alles war ja gut und in Ordnung und ich habe nie irgendwie was negatives von dem gehört. Also irgendwo scheint da ein Problem zu sein in der Kommunikation und ich glaube One on ones bieten sich eben an, wenn man sie regelmäßig macht und genau diese Vertrauensbasis aufbaut, die du jetzt erwähnt hast Andy, dass man eben diese Sachen frühzeitig erkennt, Frühwarnzeichen bekommt und dadurch schlussendlich die Leute länger hält und die Kosten von Neueinstellungen sich sparen kann und einfach effizienter dann arbeitet.",
+            "start": 3561050,
+            "end": 3633392,
+            "confidence": 0.9169793617021275,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Jetzt haben wir 1 Stunde über das ganze Thema gesprochen und das hört sich auch immer so einfach an, aber ich möchte jetzt mal einen ganz großen Disclaimer auspacken. Das ist alles nicht einfach, auch wenn man ein Team leitet.",
+            "start": 3633456,
+            "end": 3644008,
+            "confidence": 0.9393905000000002,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Wie sagst du immer, Menschen sind nicht einfach oder Menschen sind die Probleme, oder wie sagst du immer?",
+            "start": 3644104,
+            "end": 3648112,
+            "confidence": 0.9659527777777777,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ich sage immer, Technologie ist zwar kompliziert, aber in der Regel das gelöste Problem. Die wahre Herausforderung sind Menschen, Teams und alle einordnen. Und mit einordnen meine ich nicht zurechtbiegen, sondern auf eine Spur bringen, auf einen Weg.",
+            "start": 3648216,
+            "end": 3660080,
+            "confidence": 0.915050789473684,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Aber alignment.",
+            "start": 3660120,
+            "end": 3661504,
+            "confidence": 0.50021,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Alignment, ja genau. Buzzword bingo. Ich hoffe, ihr habt die Karte voll. Aber das, was ich euch sagen möchte und mitgeben möchte, zweitausendein, das kostet alles Energie. Und nein, ich habe auch nicht immer Lust auf ein one on one. Und besonders, wenn es das zweite, dritte oder vielleicht sogar vierte am Tag ist. Und People Management im Generellen ist einfach unglaublich hart, unglaublich energieraubend. Und ab und zu habt ihr auch einfach mal nicht so einen guten Tag als Managerin oder als Manager. Und ihr müsst euch bitte immer vor Augen halten, dass das One on One Ÿousand das Meeting der Mitarbeiterinnen und des Mitarbeiters ist. Und auch wenn ihr schon drei Meetings oder vier oder fünf am Tag hattet, deine Mitarbeiterinnen und deine Mitarbeiter hatten das Meeting heute nicht mit dir. Sie warten da drauf, um mit dir zu sprechen. Also Handy weg, präsent sein, noch mal kurz die Popobacken zusammenkneifen und fokussiert sein und ein bisschen Energie da reinbringen. Danach könnt ihr auf der Couch einschlafen oder in einem Meetingraum. Bucht den Meetingraum einfach für 2 Stunden, wo das Sofa drin ist.",
+            "start": 3661672,
+            "end": 3722044,
+            "confidence": 0.9225835135135123,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Zweitausendein.",
+            "start": 3722172,
+            "end": 3722486,
+            "confidence": 0.71764,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Aber ich möchte, ich möchte, bitte vermeidet, vielleicht ist das meine Warnung, bitte vermeidet, in einem One zu gehen und so, das war wieder alles so scheiße, der Tag ist so stressig und das letzte Meeting sind wir schon wieder alle auf den Sack gegangen. So startet man keine one on one, weil so hat das one on one direkt einen negativen Touch. Und auf einmal fallt ihr in so eine wir meckern hier über alle und wir sind die Besten. Lasst das sein. Das funktioniert nicht. Deswegen ist alles anstrengend. Und falls ihr das One on One doch verschieben wollt, weil ihr wisst, ihr seid gerade nicht in der mentalen oder energetischen Verfassung dieses Meetings zu machen, bitte move das nicht einfach nur im Kalender, sondern schreibt dieser Person ganz hey, ich würde unser one on one auf morgen 10 Uhr verschieben. Energietechnisch bin ich gerade nicht ganz auf der Höhe. Wäre das okay für dich? Wenn du es einfach verschiebst, kommt es oft so rüber, dass du, also die Mitarbeiterin nicht so wichtig ist, weil du was anderes wichtiger gemacht hast. Aber wenn du kurz schreibst warum? Was ist der Kontext? Dann sollte das gut sein. Deswegen one on one sind einer der höchst priorisiertesten Meetings in meinem Kalender und.",
+            "start": 3722548,
+            "end": 3788552,
+            "confidence": 0.8868748584905658,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Die sind auch super mächtig. Also man kann dadurch wirklich viel erreichen und hat einen ordentlichen Hebel und zwar auf beiden Seiten. Also ihr könnt euch gerne mal die Episode 10 noch anhören, da sprechen wir auch darüber, wie man von der Individual Contribute, also von der Team Memberseite des One Hundred eins auch besser nutzen kann. Und was sonst noch wichtig ist, wir haben den Tag Karriere, wo man alle Episoden zu Karrierethemen findet, also genau wie man sich weiterentwickelt, wie man unter anderem auch das One on One nutzen kann, aber auch andere Hebel in Bewegung setzen kann. Als Manager haben wir den Leadership Tag, da haben wir sehr viele Episoden, wo es auch eben über One of Ones geht und wie man die Leute weiterentwickelt, also einfach von der anderen Seite. Wir probieren immer beide Seiten zu beleuchten. Zweitausendein. Also schaut da gerne mal rein. Wir haben viele Episoden zu den Themen, jeweils von der einen oder anderen Seite.",
+            "start": 3788696,
+            "end": 3839016,
+            "confidence": 0.9114682716049386,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "In dieser Podcast Episode habe ich mich so ein bisschen in so einem Rollenspiel gesehen. Ab und zu musste man den Wolfgang mal so ein bisschen ins Straucheln bringen. Und das lustige ich bin ja froh.",
+            "start": 3839088,
+            "end": 3848872,
+            "confidence": 0.8692716666666667,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Dass nicht immer ich der Devil's Advocate sein muss, sondern dass du das jetzt auch mal sein darfst.",
+            "start": 3848896,
+            "end": 3853408,
+            "confidence": 0.9388294444444446,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Und liebe Hörerinnen und Hörer, ihr seht das gar nicht. Ab und zu, als ich geredet habe, haben sich die Augen gerollt. Er hat tief durchgeatmet, weil du wusstest, jetzt kommt er schon wieder mit sowas um die Ecke.",
+            "start": 3853504,
+            "end": 3864688,
+            "confidence": 0.8970641025641027,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Gut, dass bei uns die Pausen auch automatisch rausgeschnitten werden, weil diese langen Denkpausen für eine Antwort, die, die hört man dann Gott sei Dank. Vielleicht machen wir mal für so ein spezielles Abo Modell, dass wenn Leute zahlen, können sie denn den Raw Cut anhören ohne mit allen Pausen und allen Vor und Nachgesprächen. Eben mal gehört, dass es jetzt Podcasts macht, dass man mal hört, wie oft du nachdenkst, Andi. Und jetzt so wie jetzt gerade sprachlos bist, ÿousand.",
+            "start": 3864784,
+            "end": 3887738,
+            "confidence": 0.8823374074074074,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ja, ich überlege gerade, nennt man das dann noch Directors Cut? War das jetzt ein dead joke? Ich weiß es nicht. Naja, wir verstehen, dass das Thema one on ones meta ist und wir verstehen auch, dass man, wenn man mit dem Thema anfängt, teilweise lost ist. Was bespreche ich jetzt jede Woche mit dieser Person in einer halben h? Das ist einfach jahrelange Übung.",
+            "start": 3887824,
+            "end": 3907550,
+            "confidence": 0.9206763076923077,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Oder man hört in Episode 10, da haben wir ganz viele Links auch zu fragen, alles, was man so an Sourcen lesen kann, da gibt es wirklich viel Material dazu. Unter dem Stichwort One of Ones.",
+            "start": 3907630,
+            "end": 3917880,
+            "confidence": 0.8938272222222223,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Setzt euch nicht so viel unter Druck, dass ihr jetzt alles in drei Wochen lernen müsst oder einführen müsst, sondern teilweise lerne ich immer noch nach über 1214 Jahren Engineering Management Leadership. Also von daher macht euch da.",
+            "start": 3917960,
+            "end": 3929040,
+            "confidence": 0.9157099999999998,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Es wäre schlimm, wenn es anders wäre. Und ich habe auch sehr oft erlebt, wo ich mir im Nachhinein gedacht habe, damit hätte ich doch nicht sagen sollen, hätte anders reagieren sollen. Hat man immer und ständig. Und genau so lernt man ja.",
+            "start": 3929080,
+            "end": 3939580,
+            "confidence": 0.8698339534883719,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Das Schlimmste, was ich immer gesagt habe, ist ich bin am Freitag Nachmittag raus, der Mitarbeiter saß dann noch, hat was noch was programmiert. Ich sag so, wir müssen Montag mal reden. Und da war es einfach nur so schlaflose Nächte für den was bedanken wollte oder sowas. Aber mit wir müssen Montag mal reden ist die Person ins Wochenende gegangen, hat nicht geschlafen, weil die dachte, die wird gefeuert oder ähnliches. Also passt ein bisschen auf, was ihr sagt. Vielleicht zweimal darüber nachdenken.",
+            "start": 3939720,
+            "end": 3963520,
+            "confidence": 0.9246689285714286,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Das ist der große Hebel. Er kann natürlich auch in die falsche Richtung verwendet werden, wenn man nicht sinnvoll einsetzt.",
+            "start": 3964020,
+            "end": 3969406,
+            "confidence": 0.9485394999999999,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Ja, sonst macht ihr so Boomer Anfängerfehler wie ich.",
+            "start": 3969518,
+            "end": 3972294,
+            "confidence": 0.7639888888888889,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "So, genug gesprochen.",
+            "start": 3972382,
+            "end": 3973838,
+            "confidence": 0.9675766666666666,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Boomer, falls ihr doch mal ein konkreteres Beispiel habt, was ihr mit uns besprechen wollt, ihr findet uns und noch ganz viele andere tolle, talentierte Engineering Manager, Engineering Managerinnen und Software Engineers in unserer Discord Community. Einfach auf Engineering Kiosk Dev oben auf dem Menüpunkt Community klicken und die ist natürlich gratis, aber nicht umsonst. Von daher, da könnt ihr gerne eure Fragen stellen und mal diskutieren. Und da kriegt ihr nicht nur Wolfgangs Meinung oder meine Meinung, sondern auch von ganz vielen anderen Teilen Leuten.",
+            "start": 3973894,
+            "end": 4010352,
+            "confidence": 0.9154920930232562,
+            "speaker": "B",
+            "channel": null
+        },
+        {
+            "text": "Also die besseren Meinungen.",
+            "start": 4010416,
+            "end": 4011624,
+            "confidence": 0.99496,
+            "speaker": "A",
+            "channel": null
+        },
+        {
+            "text": "Die besseren Meinungen, genau. Das war's von uns. Bis zur nächsten Woche und tschüss. Ciao.",
+            "start": 4011712,
+            "end": 4016720,
+            "confidence": 0.878398,
+            "speaker": "B",
+            "channel": null
+        }
+    ],
+    "confidence": 0.913821313264203,
+    "audio_duration": 4017.0,
+    "webhook_status_code": null,
+    "webhook_auth": false,
+    "summary": null,
+    "auto_highlights_result": null,
+    "content_safety_labels": null,
+    "chapters": null,
+    "sentiment_analysis_results": null,
+    "entities": null
+}
