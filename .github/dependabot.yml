@@ -7,3 +7,13 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+
+  - package-ecosystem: 'npm'
+    directory: '/ai/'
+    schedule:
+      interval: 'monthly'
+
+  - package-ecosystem: 'npm'
+    directory: '/redcircle/'
+    schedule:
+      interval: 'monthly'
