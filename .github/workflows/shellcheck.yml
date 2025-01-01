@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-24.04
 
     steps:
-    - uses: actions/checkout@v4.2.0
+    - uses: actions/checkout@v4.2.2
 
     - name: Run ShellCheck
       uses: ludeeus/action-shellcheck@2.0.0
