@@ -3,6 +3,6 @@
     "dev": ". ./.env && node index.js"
   },
   "dependencies": {
-    "openai": "^4.77.0"
+    "openai": "^4.82.0"
   }
 }
