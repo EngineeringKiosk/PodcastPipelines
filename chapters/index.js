@@ -59,7 +59,7 @@ async function main() {
     console.log(timestamps.map(x => `${prettyPrintSeconds(x[0], true)}${x[1]}`).join('\n'))
     console.log("\n\n---- New timestamps written to " + filename)
 
-    adaptTranscript(".", adStartTime, adEndTime)
+    adaptTranscript(".", adStartTime, adEndTime, introDuration)
 
     rl.close();
   });
