@@ -1,0 +1,24 @@
+{
+  "name": "podcast-email-sender",
+  "version": "1.0.0",
+  "description": "Send emails to podcast authors from JSON data",
+  "main": "send_emails.js",
+  "scripts": {
+    "start": "node send_emails.js",
+    "dry-run": "node send_emails.js",
+    "test": "node send_emails.js --file test_emails.csv",
+    "send": "node send_emails.js --send",
+    "send-test": "node send_emails.js --send --file test_emails.csv"
+  },
+  "keywords": [
+    "email",
+    "smtp",
+    "podcast",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.0"
+  }
+}
