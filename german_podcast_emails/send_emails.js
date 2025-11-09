@@ -194,7 +194,8 @@ async function main() {
     let failCount = 0;
     let duplicateCount = 0;
     const processedEmails = new Set(); // Track emails we've already processed
-    
+    const duplicateEmails = new Set(); // Track duplicate emails
+
     for (const podcast of data) {
       // Skip podcasts with no emails
       if (!podcast.Emails || podcast.Emails.trim() === '') {
@@ -212,6 +213,7 @@ async function main() {
         if (processedEmails.has(emailAddress)) {
           console.log(`⚠️ Skipping duplicate email ${email.trim()} (${podcast['Podcast Name']})`);
           duplicateCount++;
+          duplicateEmails.add(emailAddress);
           continue;
         }
         
@@ -242,7 +244,8 @@ async function main() {
     console.log(`   � Duplicates skipped: ${duplicateCount}`);
     console.log(`   �📋 Total processed: ${successCount + failCount}`);
     console.log(`   📧 Unique emails: ${processedEmails.size}`);
-    
+    console.log(`   📧 Duplicate emails: ${Array.from(duplicateEmails).join(", ")}`);
+
   } catch (error) {
     console.error("❌ Error:", error);
   }
