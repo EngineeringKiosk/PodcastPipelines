@@ -193,9 +193,7 @@ async function main() {
     let successCount = 0;
     let failCount = 0;
     
-    // Process each podcast (limit to first 5 for dry run testing)
-    const podcastsToProcess = DRY_RUN ? data.slice(0, 5) : data;
-    for (const podcast of podcastsToProcess) {
+    for (const podcast of data) {
       // Skip podcasts with no emails
       if (!podcast.Emails || podcast.Emails.trim() === '') {
         console.log(`⚠️ Skipping ${podcast['Podcast Name']} - no emails`);
@@ -220,7 +218,7 @@ async function main() {
         }
         
         // Add delay between emails to avoid rate limiting
-        await new Promise(resolve => setTimeout(resolve, 1000)); // 1 second delay
+        await new Promise(resolve => setTimeout(resolve, 200)); // 200ms delay
       }
     }
     
