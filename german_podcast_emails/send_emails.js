@@ -192,6 +192,8 @@ async function main() {
     
     let successCount = 0;
     let failCount = 0;
+    let duplicateCount = 0;
+    const processedEmails = new Set(); // Track emails we've already processed
     
     for (const podcast of data) {
       // Skip podcasts with no emails
@@ -204,6 +206,18 @@ async function main() {
       const emails = podcast.Emails.split(' ').filter(email => email.trim() !== '');
       
       for (const email of emails) {
+        const emailAddress = email.trim().toLowerCase(); // Normalize for comparison
+        
+        // Check if we've already processed this email
+        if (processedEmails.has(emailAddress)) {
+          console.log(`⚠️ Skipping duplicate email ${email.trim()} (${podcast['Podcast Name']})`);
+          duplicateCount++;
+          continue;
+        }
+        
+        // Add to processed set
+        processedEmails.add(emailAddress);
+        
         const success = await sendEmail(
           email.trim(), 
           podcast['Podcast Name'], 
@@ -225,7 +239,9 @@ async function main() {
     console.log(`\n📊 Email sending completed:`);
     console.log(`   ✅ Successful: ${successCount}`);
     console.log(`   ❌ Failed: ${failCount}`);
-    console.log(`   📋 Total: ${successCount + failCount}`);
+    console.log(`   � Duplicates skipped: ${duplicateCount}`);
+    console.log(`   �📋 Total processed: ${successCount + failCount}`);
+    console.log(`   📧 Unique emails: ${processedEmails.size}`);
     
   } catch (error) {
     console.error("❌ Error:", error);
