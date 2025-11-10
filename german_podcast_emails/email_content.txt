@@ -1,22 +1,25 @@
 {{welcome}}
 
-wir haben eine Idee, die uns schon länger im Kopf herumspukt .. und jetzt wollen wir sie endlich gemeinsam mit euch Wirklichkeit werden lassen:
+eine Eine Idee, die schon länger in uns schlummert, soll endlich Wirklichkeit werden ... gemeinsam mit euch!
 
 ** Die erste große Tech-Podcast-Umfrage im deutschsprachigen Raum. **
 
-Ziel ist es, herauszufinden, wie, wann und warum Menschen Tech-Podcasts hören ... also, was unsere Hörer:innen wirklich bewegt, motiviert und interessiert. Damit wir alle daraus lernen, bessere Formate entwickeln und die Tech-Podcast-Szene insgesamt sichtbarer machen.
+Wir wollen herausfinden, wie, wann und warum Menschen Tech-Podcasts hören; was unsere Hörer:innen wirklich bewegt, motiviert und interessiert. Damit wir alle daraus lernen, unsere Formate weiterentwickeln, die Szene stärken und Tech-Podcasts sichtbarer machen.
 
-Bevor wir offiziell starten, möchten wir euch als Teil der Szene mit ins Boot holen. Gebt uns kurz Bescheid, ob ihr dabei seid und die Umfrage mit euren Hörer:innen teilen wollt. Der nächste Schritt wäre der Feinschliff des Fragebogens, bei dem wir auch eure Unterstützung brauchen.
+Bevor wir offiziell starten, möchten wir euch als Teil der Szene mit ins Boot holen. Sagt uns einfach kurz Bescheid, ob ihr dabei seid und die Umfrage mit eurer Community teilen wollt. Im nächsten Schritt feilen wir gemeinsam am Fragebogen und freuen uns auf euer Feedback.
 
 Wir haben den aktuellen Entwurf des Fragebogens in einem Google Docs gesammelt und freuen uns, wenn ihr dort direkt Kommentare oder Ideen einträgt:
 
 - Feedback-Dokument: https://docs.google.com/document/d/11dEu1h7d8iLFO-tyvtmrqPyh2pOvxd5PBqsCk6Ign4o 
 - Deadline für Rückmeldungen: 23. November 2025
 
-Wenn ihr mitmacht, kommt euer Podcast natürlich auch in die Umfrage und ihr bekommt später alle Ergebnisse inklusive anonymisierter Auswertungen eurer eigenen Hörerschaft. Alles Open Data, transparent und von der Community für die Community.
+Wenn ihr mitmacht, wird euer Podcast Teil der Umfrage. Ihr erhaltet später alle Ergebnisse, inklusive anonymisierter Auswertungen eurer eigenen Hörerschaft. Alles Open Data, transparent und von der Community für die Community.
 
-Wir würden uns riesig freuen, wenn ihr dabei seid. Je mehr von uns mitmachen, desto aussagekräftiger und spannender werden die Insights für alle Tech-Podcasts da draußen.
+Wir würden uns riesig freuen, wenn ihr dabei seid. Je mehr mitmachen, desto spannender die Insights für uns alle.
+Ein kurzes "Ja, wir sind dabei!" per E-Mail reicht schon ;)
 
 Viele Grüße
 Wolfi, Andy & Sarah
 für das Team der Tech-Podcast-Umfrage
+
+P.S. Ihr bekommt diese Email als Teil der deutschsprachigen Tech-Podcast-Szene unter https://engineeringkiosk.dev/deutsche-tech-podcasts/

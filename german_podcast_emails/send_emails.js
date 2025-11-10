@@ -11,7 +11,7 @@ const FROM_NAME = "Wolfgang Gassler";
 
 // CC email addresses - add emails here to CC on all outgoing emails
 const CC_EMAILS = [
-    // "sarah.wagner@inwt-statistics.de",
+    "sarah.wagner@inwt-statistics.de",
     "andygrunwald@gmail.com",
 ];
 
@@ -41,7 +41,7 @@ if (!EMAIL_FILE) {
 let SMTP_PASS = "";
 
 // Email template
-const EMAIL_SUBJECT = "Gemeinsam bringen wir die Tech-Podcast-Community voran";
+const EMAIL_SUBJECT = "{{podcast-name}} in der ersten großen deutschsprachigen Tech-Podcast-Umfrage";
 const EMAIL_TEMPLATE = readFileSync("email_content.txt", "utf-8");
 
 // Create SMTP transporter (will be initialized in main if needed)
@@ -62,8 +62,12 @@ async function sendEmail(to, podcastName, authorName, welcome) {
     .replace("{{email}}", to)
     .replace("{{podcast_name}}", podcastName);
 
+  const personalizedSubject = EMAIL_SUBJECT
+    .replace("{{podcast-name}}", podcastName);
+
   if (DRY_RUN) {
     console.log(`🧪 DRY RUN - Would send email to ${to} (${podcastName})`);
+    console.log(`   Subject: ${personalizedSubject}`);
     console.log(`   Welcome: ${welcome}`);
     if (CC_EMAILS.length > 0) {
       console.log(`   CC: ${CC_EMAILS.join(', ')}`);
@@ -74,7 +78,7 @@ async function sendEmail(to, podcastName, authorName, welcome) {
   const mailOptions = {
     from: `"${FROM_NAME}" <${FROM_EMAIL}>`,
     to: to,
-    subject: EMAIL_SUBJECT,
+    subject: personalizedSubject,
     text: personalizedText,
   };
 
