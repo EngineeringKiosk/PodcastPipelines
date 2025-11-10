@@ -82,16 +82,25 @@ function guessChapterFileName(dirpath) {
   return null
 }
 
-function adaptTranscript(path, adStartTime = 0, adEndTime = 0, introDuration = 0) {
-  if ((adStartTime < 1 || adEndTime < 1) && introDuration < 1) {
-    return
-  }
+function findTranscriptFile(path) {
   //find transcript file *transcript-slim.json
   const files = fs.readdirSync(path, { withFileTypes: true })
     .filter(f => !f.isDirectory() && f.name.includes("transcript-slim.json"))
 
   if (files.length) {
-    const transcriptFile = files[0].name
+    return files[0].name
+  }
+  return null
+}
+
+function adaptTranscript(path, adStartTime = 0, adEndTime = 0, introDuration = 0) {
+  if ((adStartTime < 1 || adEndTime < 1) && introDuration < 1) {
+    return
+  }
+  //find transcript file *transcript-slim.json
+  const transcriptFile = findTranscriptFile(path)
+
+  if (transcriptFile) {
     console.log("Found transcript file: " + transcriptFile)
     const transcript = JSON.parse(fs.readFileSync(transcriptFile))
     const introDurationMs = introDuration * 1000
@@ -115,4 +124,4 @@ function adaptTranscript(path, adStartTime = 0, adEndTime = 0, introDuration = 0
   }
 }
 
-module.exports = { parseTimeStamps, injectIntro, injectAd, prettyPrintSeconds, writeFile, guessChapterFileName, adaptTranscript }
+module.exports = { parseTimeStamps, injectIntro, injectAd, prettyPrintSeconds, writeFile, guessChapterFileName, adaptTranscript, findTranscriptFile }
