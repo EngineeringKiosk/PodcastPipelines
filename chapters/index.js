@@ -47,12 +47,6 @@ async function main() {
     adText = "Info/Werbung" // await askQuestion('What is the ad text? ');
   }
 
-  // check if *trasnscript* file exists otherwise exit
-  if (findTranscriptFile(".") == null) {
-    console.log("No transcript file found in current directory. Please make sure a transcript-slim.json file is present.")
-    process.exit(1)
-  }
-
   console.log("Paste skip navigation/timestamps and send an end file (CTRL-D):");
 
   const lines = [];
