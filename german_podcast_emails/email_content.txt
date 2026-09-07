@@ -1,25 +1,24 @@
 {{welcome}}
 
-eine Eine Idee, die schon länger in uns schlummert, soll endlich Wirklichkeit werden ... gemeinsam mit euch!
+Die erste große Tech-Podcast-Umfrage im deutschsprachigen Raum ist fertig und bereit für die letzte Testphase!
 
-** Die erste große Tech-Podcast-Umfrage im deutschsprachigen Raum. **
+Vielen Dank für eure Rückmeldungen zu unserem ersten Entwurf. Euer Feedback hat uns sehr geholfen, den Fragebogen weiterzuentwickeln und die Umfrage startklar zu machen.
 
-Wir wollen herausfinden, wie, wann und warum Menschen Tech-Podcasts hören; was unsere Hörer:innen wirklich bewegt, motiviert und interessiert. Damit wir alle daraus lernen, unsere Formate weiterentwickeln, die Szene stärken und Tech-Podcasts sichtbarer machen.
+Wie in unserer ursprünglichen E-Mail angekündigt, möchten wir euch vor dem offiziellen Start noch einmal mit ins Boot holen.
 
-Bevor wir offiziell starten, möchten wir euch als Teil der Szene mit ins Boot holen. Sagt uns einfach kurz Bescheid, ob ihr dabei seid und die Umfrage mit eurer Community teilen wollt. Im nächsten Schritt feilen wir gemeinsam am Fragebogen und freuen uns auf euer Feedback.
+Ihr könnt die Umfrage ab sofort hier ausprobieren:
+https://engineeringkiosk.github.io/german-tech-podcast-survey/
 
-Wir haben den aktuellen Entwurf des Fragebogens in einem Google Docs gesammelt und freuen uns, wenn ihr dort direkt Kommentare oder Ideen einträgt:
+Bitte klickt euch einmal durch die Umfrage und prüft insbesondere, ob {{podcast_name}} korrekt aufgeführt ist. Falls euch noch gröbere Probleme, Fehler oder Unklarheiten auffallen, gebt uns bitte möglichst bald Bescheid. Kleinere sprachliche Details können wir natürlich ebenfalls noch korrigieren.
 
-- Feedback-Dokument: https://docs.google.com/document/d/11dEu1h7d8iLFO-tyvtmrqPyh2pOvxd5PBqsCk6Ign4o 
-- Deadline für Rückmeldungen: 23. November 2025
+Die Antworten aus der Testphase werden vor dem offiziellen Start gelöscht. Bitte teilt den Link daher noch nicht mit eurer Community.
 
-Wenn ihr mitmacht, wird euer Podcast Teil der Umfrage. Ihr erhaltet später alle Ergebnisse, inklusive anonymisierter Auswertungen eurer eigenen Hörerschaft. Alles Open Data, transparent und von der Community für die Community.
+Der offizielle Start ist für den 1. Oktober geplant. Die Umfrage läuft anschließend bis zum 24. Dezember. Rechtzeitig vor dem Start schicken wir euch noch einmal alle Informationen und Textvorschläge zum Teilen.
 
-Wir würden uns riesig freuen, wenn ihr dabei seid. Je mehr mitmachen, desto spannender die Insights für uns alle.
-Ein kurzes "Ja, wir sind dabei!" per E-Mail reicht schon ;)
+Vielen Dank fürs Testen und für eure Unterstützung!
 
 Viele Grüße
 Wolfi, Andy & Sarah
 für das Team der Tech-Podcast-Umfrage
 
-P.S. Ihr bekommt diese Email als Teil der deutschsprachigen Tech-Podcast-Szene unter https://engineeringkiosk.dev/deutsche-tech-podcasts/
+P.S. Ihr bekommt diese E-Mail als Teil der deutschsprachigen Tech-Podcast-Szene, die wir hier gesammelt haben: https://engineeringkiosk.dev/deutsche-tech-podcasts/
