@@ -1,0 +1,29 @@
+{{welcome}}
+
+es ist so weit: Die erste große Tech-Podcast-Umfrage im deutschsprachigen Raum ist ab 1. Oktober live!
+
+{{joined_line}}
+
+Sorry, dass es jetzt etwas knapp geworden ist. Dafür läuft die Umfrage bis zum 24. Dezember, also genug Zeit, um sie gemeinsam groß zu machen.
+
+Unsere Bitte an euch: Macht Werbung für die Umfrage!
+Je mehr Hörer:innen mitmachen, desto aussagekräftiger wird das Bild unserer Szene, und davon profitieren wir alle. Alle Ergebnisse veröffentlichen wir natürlich offen.
+
+Am meisten bringt eine kurze Erwähnung in eurer nächsten Folge. Ein Link in Shownotes, Newsletter oder auf Social Media hilft zusätzlich.
+
+Links zum Teilen:
+https://engineeringkiosk.github.io/german-tech-podcast-survey/
+https://engineeringkiosk.dev/survey
+
+Gerne könnt ihr auch einen eigenen Weiterleitungs-Link über eure Podcast-Domain anlegen. Das klingt in einer Folge oft am natürlichsten.
+
+Textvorschlag zum Kopieren:
+"Wie hört die deutschsprachige Tech-Community Podcasts? Das will die erste große Tech-Podcast-Umfrage herausfinden, und wir sind mit dabei. Macht bis 24. Dezember mit, dauert nur ein paar Minuten...“
+
+Danke, dass ihr mit an Board seid!
+
+Viele Grüße
+Wolfi, Andy & Sarah
+für das Team der Tech-Podcast-Umfrage
+
+P.S. Ihr bekommt diese E-Mail als Teil der deutschsprachigen Tech-Podcast-Szene, die wir hier gesammelt haben: https://engineeringkiosk.dev/deutsche-tech-podcasts/

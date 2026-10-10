@@ -10,7 +10,9 @@ const FROM_EMAIL = "wolfi@engineeringkiosk.dev";
 const FROM_NAME = "Wolfgang Gassler";
 
 // CC email addresses - add emails here to CC on all outgoing emails
-const CC_EMAILS = ["sarah.wagner@inwt-statistics.de", "andygrunwald@gmail.com"];
+const CC_EMAILS = [
+  "sarah.wagner@inwt-statistics.de" /*, "andygrunwald@gmail.com*/,
+];
 
 // Parse command line arguments
 const args = process.argv.slice(2);
@@ -42,6 +44,11 @@ let SMTP_PASS = "";
 // Email template
 const EMAIL_SUBJECT =
   "{{podcast-name}} in der ersten großen deutschsprachigen Tech-Podcast-Umfrage";
+// Variant line depending on whether the podcast agreed to take part (CSV column "Joined")
+const JOINED_LINE =
+  "Vielen Dank, dass ihr euch bereit erklärt habt, mitzumachen!";
+const NOT_JOINED_LINE =
+  "{{podcast_name}} ist natürlich mit dabei, und wir würden uns riesig freuen, wenn ihr die Umfrage unterstützt.";
 const EMAIL_TEMPLATE = readFileSync("email_content.txt", "utf-8");
 
 // Create SMTP transporter (will be initialized in main if needed)
@@ -57,13 +64,14 @@ console.log(
 
 console.log(`Email Template Preview: ${EMAIL_TEMPLATE.substring(0, 300)}...`);
 
-async function sendEmail(to, podcastName, authorName, welcome) {
+async function sendEmail(to, podcastName, authorName, welcome, joined) {
   const personalizedText = EMAIL_TEMPLATE.replace(
     "{{welcome}}",
     welcome || "Hallo,",
   )
-    .replace("{{email}}", to)
-    .replace("{{podcast_name}}", podcastName);
+    .replace("{{joined_line}}", joined ? JOINED_LINE : NOT_JOINED_LINE)
+    .replaceAll("{{email}}", to)
+    .replaceAll("{{podcast_name}}", podcastName);
 
   const personalizedSubject = EMAIL_SUBJECT.replace(
     "{{podcast-name}}",
@@ -74,6 +82,7 @@ async function sendEmail(to, podcastName, authorName, welcome) {
     console.log(`🧪 DRY RUN - Would send email to ${to} (${podcastName})`);
     console.log(`   Subject: ${personalizedSubject}`);
     console.log(`   Welcome: ${welcome}`);
+    console.log(`   Joined: ${joined}`);
     if (CC_EMAILS.length > 0) {
       console.log(`   CC: ${CC_EMAILS.join(", ")}`);
     }
@@ -239,6 +248,7 @@ async function main() {
           podcast["Podcast Name"],
           podcast["Author Names"],
           podcast.Welcome,
+          podcast.Joined === "1",
         );
 
         if (success) {

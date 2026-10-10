@@ -1,21 +1,30 @@
 {{welcome}}
 
-Die erste große Tech-Podcast-Umfrage im deutschsprachigen Raum ist fertig und bereit für die letzte Testphase!
+wir haben etwas Spannendes für die deutschsprachige Tech-Podcast-Szene gestartet, und {{podcast_name}} ist mit dabei:
 
-Vielen Dank für eure Rückmeldungen zu unserem ersten Entwurf. Euer Feedback hat uns sehr geholfen, den Fragebogen weiterzuentwickeln und die Umfrage startklar zu machen.
+** Die erste große Tech-Podcast-Umfrage im deutschsprachigen Raum ist live! **
 
-Wie in unserer ursprünglichen E-Mail angekündigt, möchten wir euch vor dem offiziellen Start noch einmal mit ins Boot holen.
+Wir wollen herausfinden, wie, wann und warum Menschen Tech-Podcasts hören und was unsere Hörer:innen wirklich bewegt. Damit wir alle daraus lernen, unsere Formate weiterentwickeln und Tech-Podcasts sichtbarer machen.
 
-Ihr könnt die Umfrage ab sofort hier ausprobieren:
+Ehrlicherweise: Diese E-Mail hätte euch schon viel früher erreichen sollen. Euer Podcast ist aber irgendwie durchgerutscht. Sorry dafür! Umso mehr freuen wir uns, wenn ihr jetzt noch mit an Bord kommt.
+
+Die Umfrage läuft noch bis zum 24. Dezember. Alle Ergebnisse veröffentlichen wir offen, inklusive anonymisierter Auswertungen zur Hörerschaft der einzelnen Podcasts. Von der Community, für die Community.
+
+Unsere Bitte an euch: Macht Werbung für die Umfrage!
+Je mehr Hörer:innen mitmachen, desto aussagekräftiger wird das Bild unserer Szene, und davon profitieren wir alle. Am meisten bringt eine kurze Erwähnung in eurer nächsten Folge. Ein Link in Shownotes, Newsletter oder auf Social Media hilft zusätzlich.
+
+Links zum Teilen:
 https://engineeringkiosk.github.io/german-tech-podcast-survey/
+https://engineeringkiosk.dev/survey
 
-Bitte klickt euch einmal durch die Umfrage und prüft insbesondere, ob {{podcast_name}} korrekt aufgeführt ist. Falls euch noch gröbere Probleme, Fehler oder Unklarheiten auffallen, gebt uns bitte möglichst bald Bescheid. Kleinere sprachliche Details können wir natürlich ebenfalls noch korrigieren.
+Gerne könnt ihr auch einen eigenen Weiterleitungs-Link über eure Podcast-Domain anlegen. Das klingt in einer Folge oft am natürlichsten.
 
-Die Antworten aus der Testphase werden vor dem offiziellen Start gelöscht. Bitte teilt den Link daher noch nicht mit eurer Community.
+Textvorschlag zum Kopieren:
+"Wie hört die deutschsprachige Tech-Community Podcasts? Das will die erste große Tech-Podcast-Umfrage herausfinden, und wir sind mit dabei. Macht bis 24. Dezember mit, dauert nur ein paar Minuten..."
 
-Der offizielle Start ist für den 1. Oktober geplant. Die Umfrage läuft anschließend bis zum 24. Dezember. Rechtzeitig vor dem Start schicken wir euch noch einmal alle Informationen und Textvorschläge zum Teilen.
+Falls bei {{podcast_name}} in der Umfrage etwas nicht passt, etwa der Name, oder ihr Fragen habt, antwortet einfach auf diese E-Mail.
 
-Vielen Dank fürs Testen und für eure Unterstützung!
+Wir würden uns riesig freuen, wenn ihr dabei seid!
 
 Viele Grüße
 Wolfi, Andy & Sarah

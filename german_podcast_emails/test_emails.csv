@@ -1,2 +1,3 @@
-Podcast Name,RSS Feed,Emails,Author Names,Welcome
+Podcast Name,RSS Feed,Emails,Author Names,Welcome,Joined,Failed,
 Test Podcast,https://test-podcast.example.com/feed.xml,wolfgang@gassler.org,Test Author,"Lieber Wolfi,",1,,
+Test Podcast,https://test-podcast.example.com/feed.xml,wolfgang+test@gassler.org,Test Author,"Lieber Wolfi2,",,,
